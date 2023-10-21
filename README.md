@@ -1,4 +1,6 @@
 # Projeto Master
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fteogabrielofc%2Fprojetomaster.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fteogabrielofc%2Fprojetomaster?ref=badge_shield)
+
 
 ## Descrição
 
@@ -33,3 +35,7 @@ O projeto foi criado por:
 - Teo Gabriel: Desenvolvedor e idealizador do projeto
 - MCPE MASTER: pelo Multiplayer Master
 - Mojang: pelo Minecraft
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fteogabrielofc%2Fprojetomaster.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fteogabrielofc%2Fprojetomaster?ref=badge_large)
