@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/mm_select_language_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/mapbackup_title_txt" android:background="@drawable/mm_header_bg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <Button android:textSize="16.0sp" android:textColor="#ffdedede" android:id="@id/mm_mapBackup_recovery_cancel_btn" android:background="@drawable/back_btn_select" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="5.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/mm_select_language_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/mm_backup_recovery_title" android:layout_toRightOf="@id/mm_mapBackup_recovery_cancel_btn" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/mm_mapBack_listview" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@color/transparent" android:dividerHeight="5.0dip" android:layout_below="@id/mapbackup_title_txt" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mapbackup_empty_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/mapbackup_title_txt">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/no_recovery_ic" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff606068" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/mm_backup_recovery_nobackup" />
+    </LinearLayout>
+</RelativeLayout>

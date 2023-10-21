@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:hexagon="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/open_vip_level_bg1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/open_vip_level_bg1" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/open_vip_level_bg2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/open_vip_level_bg2" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/open_vip_level_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/open_vip_level_icon" android:layout_centerInParent="true" />
+        <com.groundhog.multiplayermaster.view.HexagonIconView android:id="@id/open_vip_level_default_head_icon" android:visibility="gone" android:layout_width="52.0dip" android:layout_height="59.0dip" android:layout_centerInParent="true" hexagon:hexagonLineWith="2.0dip" hexagon:hexagonLineColor="@color/white" />
+    </RelativeLayout>
+</LinearLayout>

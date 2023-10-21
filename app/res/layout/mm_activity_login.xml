@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ripple="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/mm_header_bg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <Button android:id="@id/slimenu_btn" android:background="@drawable/back_btn_select" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="5.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/title_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/login_tip_txt" android:layout_toRightOf="@id/slimenu_btn" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/mm_login_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/mm_login_stamp_tip" android:background="@drawable/mm_login_stamp_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_centerHorizontal="true" />
+        <com.master.framework.view.RippleView android:id="@id/mm_login_fb_rl" android:background="@color/mm_login_fb_button" android:layout_width="220.0dip" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" android:layout_below="@id/mm_login_stamp_tip" android:layout_centerHorizontal="true" ripple:rv_type="rectangle">
+            <ImageView android:id="@id/mm_login_fb_img" android:background="@drawable/mm_login_fb_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/mm_login_fb" android:layout_toRightOf="@id/mm_login_fb_img" android:layout_centerVertical="true" />
+        </com.master.framework.view.RippleView>
+        <com.master.framework.view.RippleView android:id="@id/mm_login_tw_rl" android:background="@color/mm_login_twitter_button" android:layout_width="220.0dip" android:layout_height="50.0dip" android:layout_marginTop="50.0dip" android:layout_below="@id/mm_login_fb_rl" android:layout_centerHorizontal="true" ripple:rv_type="rectangle">
+            <ImageView android:id="@id/mm_login_tw_img" android:background="@drawable/mm_login_twitter_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/mm_login_twitter" android:layout_toRightOf="@id/mm_login_tw_img" android:layout_centerVertical="true" />
+        </com.master.framework.view.RippleView>
+        <com.master.framework.view.RippleView android:id="@id/mm_login_google_rl" android:background="@color/mm_login_google_button" android:layout_width="220.0dip" android:layout_height="50.0dip" android:layout_marginTop="50.0dip" android:layout_below="@id/mm_login_tw_rl" android:layout_centerHorizontal="true" ripple:rv_color="#ff000000" ripple:rv_type="rectangle">
+            <ImageView android:id="@id/mm_login_google_img" android:background="@drawable/mm_login_google_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/mm_login_google_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/mm_login_google" android:layout_toRightOf="@id/mm_login_google_img" android:layout_centerVertical="true" />
+        </com.master.framework.view.RippleView>
+    </RelativeLayout>
+</LinearLayout>

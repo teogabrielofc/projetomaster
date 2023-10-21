@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_bg" android:background="@drawable/wf_hero_choose_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/wf_hero_choose_border" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/all_team_rect" android:background="@drawable/wf_all_team_bg" android:layout_width="fill_parent" android:layout_height="68.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/choose_hero_title_rect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true">
+            <TextView android:textSize="12.0sp" android:textColor="#fff1e5cf" android:layout_gravity="center_horizontal" android:id="@id/choose_hero_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/watch_fort_layout_select" />
+            <TextView android:textSize="14.0sp" android:textColor="#fff1e5cf" android:layout_gravity="center_horizontal" android:id="@id/choose_countdown_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="剩余16秒" />
+        </LinearLayout>
+        <View android:id="@id/wf_team_segment" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="27.0dip" android:layout_marginRight="46.0dip" android:layout_toLeftOf="@id/wf_team_segment">
+            <GridView android:gravity="center" android:id="@id/wf_stone_gv" android:layout_width="wrap_content" android:layout_height="54.0dip" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:numColumns="5" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="46.0dip" android:layout_marginRight="27.0dip" android:layout_toRightOf="@id/wf_team_segment">
+            <GridView android:gravity="center" android:id="@id/wf_wither_gv" android:layout_width="fill_parent" android:layout_height="54.0dip" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:numColumns="5" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/wf_stone_label_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wf_stone_label" android:layout_alignParentLeft="true" />
+    <ImageView android:id="@id/wf_wither_label_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wf_wither_label" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginTop="60.0dip" android:layout_marginRight="22.0dip" android:layout_marginBottom="12.0dip" android:weightSum="8.0">
+        <RelativeLayout android:background="@drawable/wf_all_hero_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0">
+            <GridView android:gravity="center" android:id="@id/all_hero_gv" android:paddingBottom="4.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginTop="36.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="36.0dip" android:cacheColorHint="@color/transparent" android:verticalSpacing="2.0dip" android:numColumns="4" />
+            <View android:background="@drawable/wf_scroll_bottom_bg" android:layout_width="fill_parent" android:layout_height="22.0dip" android:layout_marginBottom="36.0dip" android:layout_alignLeft="@id/all_hero_gv" android:layout_alignRight="@id/all_hero_gv" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <include android:id="@id/watch_fort_hero_detail_rect" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" layout="@layout/view_watch_fort_hero_detail" />
+    </LinearLayout>
+</RelativeLayout>

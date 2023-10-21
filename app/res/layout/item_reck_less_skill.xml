@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="78.0dip" android:layout_height="90.0dip">
+        <ImageView android:id="@id/main_layer" android:clickable="true" android:layout_width="78.0dip" android:layout_height="90.0dip" android:layout_centerInParent="true" />
+        <RelativeLayout android:id="@id/cd_layer" android:visibility="gone" android:layout_width="78.0dip" android:layout_height="90.0dip" android:layout_centerInParent="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cd_icon" />
+            <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/cd_time_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="47.0dip" android:text="" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

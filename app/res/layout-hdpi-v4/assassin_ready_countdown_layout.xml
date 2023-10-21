@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ff11161d" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Countdown" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="60.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="33.0sp" android:textColor="#ffefd51c" android:layout_gravity="center" android:id="@id/txt_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="s" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.groundhog.multiplayermaster" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <permission android:name="com.groundhog.multiplayermaster.permission.JPUSH_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.groundhog.multiplayermaster.permission.JPUSH_MESSAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_PERMISSIONS"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <meta-data android:name="android.support.VERSION" android:value="25.3.1"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.groundhog.multiplayermaster.MyApplication" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <meta-data android:name="UMENG_APPKEY" android:value="@string/umeng_key"/>
+        <meta-data android:name="UMENG_CHANNEL" android:value="@string/channelname"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:label="@string/app_name" android:name="com.groundhog.multiplayermaster.ui.StartActivity" android:screenOrientation="portrait" android:theme="@style/StartTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:scheme="com.groundhog.multiplayermaster"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.groundhog.multiplayermaster.ui.CreateGameActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.WebViewActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:exported="true" android:name="com.groundhog.multiplayermaster.ui.AccelerateActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.SearchGameRoomActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.slideMenu.SpeedShareActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:launchMode="singleTask" android:name="com.groundhog.multiplayermaster.MainActivity" android:screenOrientation="portrait" android:theme="@style/ContentOverlay_Anim"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.slideMenu.AboutActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.slideMenu.SelectServerAvtivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.slideMenu.TestNetworkActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_login" android:name="com.groundhog.multiplayermaster.ui.user.LoginActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.slideMenu.HistoryRoomActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.slideMenu.SpeedResultActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_game_crashed_dialog" android:name="com.groundhog.multiplayermaster.ui.GameCrashedDialogActivity" android:screenOrientation="portrait" android:theme="@style/TransparentTheme"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.slideMenu.MapRecoveryActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.slideMenu.aboutMenu.QuestionAnswerActivity" android:screenOrientation="portrait"/>
+        <meta-data android:name="io.fabric.ApiKey" android:value="eaf46da88691a497afa778d4fa5b7ef04d93ce82"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.slideMenu.LanguageActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Battle.BedWarGame.PrivateServerDetailActivity" android:screenOrientation="portrait" android:theme="@style/ActivityTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <receiver android:exported="true" android:name="com.adjust.sdk.AdjustReferrerReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.groundhog.multiplayermaster.ui.slideMenu.FeedBackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.slideMenu.FriendsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.slideMenu.friend.NewFriendActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.slideMenu.friend.MyAddFriendActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.RedBlue.RedBlueRuleActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.RedBlue.RedBlueCreateGameActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.view.JpushWebView" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Battle.BedWarGame.PrivateServerIntroduction" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.slideMenu.friend.MyPrivateChatActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="com.groundhog.multiplayermaster" android:pathPrefix="/conversation/" android:scheme="rong"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="JPUSH_CHANNEL" android:value="@string/channelname"/>
+        <meta-data android:name="JPUSH_APPKEY" android:value="f0c0853a9ce94e6b90e07869"/>
+        <service android:enabled="true" android:exported="false" android:name="cn.jpush.android.service.PushService" android:process=":Jpush">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER"/>
+                <action android:name="cn.jpush.android.intent.REPORT"/>
+                <action android:name="cn.jpush.android.intent.PushService"/>
+                <action android:name="cn.jpush.android.intent.PUSH_TIME"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:name="cn.jpush.android.service.PushReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"/>
+                <category android:name="com.groundhog.multiplayermaster"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="cn.jpush.android.ui.PushActivity">
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.groundhog.multiplayermaster"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:exported="false" android:name="cn.jpush.android.service.DownloadService"/>
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver"/>
+        <receiver android:enabled="true" android:name="com.groundhog.multiplayermaster.jpush.JPushReceiver">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION"/>
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED"/>
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED"/>
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED"/>
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK"/>
+                <action android:name="cn.jpush.android.intent.CONNECTION"/>
+                <category android:name="com.groundhog.multiplayermaster"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="FYBVideoPlayerOptionCloseButtonDelay" android:value="-1"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Battle.BedWarGame.PrivateServerImgActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Battle.BedWarGame.BattleAllCommentActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Pay.PayActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.tinyGame.TinyGameActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.tinyGame.CreateWarOfVocationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.tinyGame.CreateWatchFortActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.tinyGame.WarOfVocationRuleActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.tinyGame.TinyHelpActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.GoogleSMSPayWebView" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Vip.ReChargeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Vip.WalletRecordActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Vip.ConsumptionHistoryActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Vip.WalletActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.tinyGame.FortressDefenderRuleActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.slideMenu.tools.ToolsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Vip.OpenVIPActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Vip.VipPowerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.tinyGame.CreateParkourActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.tinyGame.ParkourRuleActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.tinyGame.TinyGameMapDownloadActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Battle.SurvivorGame.SurvivorGameActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Battle.SurvivorGame.SurvivorPriviegeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Battle.SurvivorGame.SurviviorDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.tinyGame.AssassinRuleActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.tinyGame.CreateAssassinActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Shop.ShopActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Shop.PackageActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.groundhog.multiplayermaster.ui.MiniGameVideoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.tinyGame.CreateEndlessActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.tinyGame.EndlessRuleActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.skinpre.SkinPreviewActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.groundhog.multiplayermaster.ui.StampActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.StampRuleActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Battle.BattleGame.BattleRuleActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.ui.Battle.BattleGame.BattleRuleDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.groundhog.multiplayermaster.core.skinpreview.pre3d.core.RendererActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.mojang.minecraftpe.MainActivity" android:process="com.groundhog.multiplayermaster.minecraftpe" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <meta-data android:name="android.app.lib_name" android:value="minecraftpe"/>
+        </activity>
+        <uses-library android:name="xperiaplaycertified" android:required="false"/>
+        <activity android:name="io.rong.imkit.activity.PictureSelectorActivity" android:screenOrientation="portrait"/>
+        <activity android:name="io.rong.imkit.activity.PicturePreviewActivity" android:screenOrientation="portrait"/>
+        <activity android:name="io.rong.imkit.tools.RongWebviewActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="io.rong.imkit.widget.provider.TakingPicturesActivity" android:screenOrientation="portrait"/>
+        <activity android:name="io.rong.imkit.activity.PicturePagerActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="io.rong.imkit.mention.MemberMentionedActivity" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="io.rong.imkit.activity.FileManagerActivity"/>
+        <activity android:name="io.rong.imkit.activity.FileListActivity"/>
+        <activity android:name="io.rong.imkit.activity.FilePreviewActivity"/>
+        <service android:exported="false" android:name="io.rong.push.core.PushRegistrationService"/>
+        <service android:exported="true" android:name="io.rong.push.core.MessageHandleService"/>
+        <service android:exported="false" android:name="io.rong.push.PushService" android:process="io.rong.push"/>
+        <receiver android:name="io.rong.push.PushReceiver" android:process="io.rong.push">
+            <intent-filter>
+                <action android:name="io.rong.push.intent.action.HEART_BEAT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="RONG_CLOUD_APP_KEY" android:value="pkfcgjstfpu88"/>
+        <service android:exported="true" android:name="io.rong.imlib.ipc.RongService" android:process=":ipc"/>
+        <service android:name="io.rong.imlib.ReConnectService"/>
+        <receiver android:name="io.rong.imlib.ConnectChangeReceiver"/>
+        <receiver android:name="io.rong.imlib.HeartbeatReceiver" android:process=":ipc"/>
+        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService"/>
+        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService" android:process=":filedownloader"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twitter.sdk.android.tweetui.PlayerActivity" android:theme="@style/MediaTheme"/>
+        <activity android:name="com.twitter.sdk.android.tweetui.GalleryActivity" android:theme="@style/MediaTheme"/>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.twitter.sdk.android.core.identity.OAuthActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:icon="@drawable/tw__transparent" android:label="@string/kit_name" android:name="com.twitter.sdk.android.core.identity.ShareEmailActivity"/>
+        <activity android:exported="false" android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <service android:enabled="true" android:exported="false" android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.PhoneNumberActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.ConfirmationCodeActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.LoginCodeActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.PinCodeActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.FailureActivity" android:taskAffinity="com.digits.sdk.android"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.ContactsActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.EmailRequestActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.PhoneNumberActionBarActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.ConfirmationCodeActionBarActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.LoginCodeActionBarActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.FailureActionBarActivity" android:taskAffinity="com.digits.sdk.android"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.ContactsActionBarActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.PinCodeActionBarActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.EmailRequestActionBarActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <service android:enabled="true" android:exported="false" android:name="com.digits.sdk.android.ContactsUploadService"/>
+        <activity android:name="com.umeng.fb.ConversationActivity" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:excludeFromRecents="false" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="com.groundhog.multiplayermaster.floatwindow.McOnlineFloatActivity" android:process="com.groundhog.multiplayermaster.minecraftpe" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.groundhog.multiplayermaster.floatwindow.McOnlineFloatActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="android.app.lib_name" android:value="minecraftpe"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.groundhog.multiplayermaster.floatwindow.MemoryOptimiseActivity" android:process="com.groundhog.multiplayermaster.minecraftpe" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider119538831783547" android:exported="true" android:name="com.facebook.FacebookContentProvider" android:process="com.groundhog.multiplayermaster.minecraftpe"/>
+        <service android:enabled="true" android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService" android:process="com.groundhog.multiplayermaster.minecraftpe"/>
+        <service android:name="com.groundhog.multiplayermaster.aidllibrary.aidlservice.McOnlineFloatService">
+            <intent-filter>
+                <action android:name="com.groundhog.multiplayermaster.aidllibrary.aidlservice"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.fyber.ads.ofw.OfferWallActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:name="com.fyber.ads.videos.RewardedVideoActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.fyber.ads.interstitials.InterstitialActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:label="Integration Test Suite" android:name="com.fyber.utils.testsuite.TestSuiteActivity"/>
+        <service android:exported="false" android:name="com.fyber.cache.CacheVideoDownloadService"/>
+    </application>
+</manifest>

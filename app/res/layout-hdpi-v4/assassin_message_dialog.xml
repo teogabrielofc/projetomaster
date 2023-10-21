@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/assassin_message_dialog_bg" android:layout_width="209.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#ff151515" android:layout_gravity="center_horizontal" android:id="@id/txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff151515" android:layout_gravity="center_horizontal" android:id="@id/txt_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:lineSpacingMultiplier="1.5" />
+    <Button android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/btn" android:background="@drawable/assassin_message_dialog_btn_bg" android:layout_width="85.0dip" android:layout_height="32.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="10.0dip" android:text="@string/assassin_store_ok" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="105.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="9.0sp" android:gravity="center" android:id="@id/txt_rank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/assassin_point_rank" />
+    <TextView android:textSize="9.0sp" android:id="@id/txt_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:text="@string/assassin_point_player" android:layout_weight="1.0" />
+    <TextView android:textSize="9.0sp" android:gravity="center" android:id="@id/txt_killed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/assassin_point_kill" />
+</LinearLayout>

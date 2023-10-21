@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="70.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/wf_hero_icon_rect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/wf_hero_icon_iv" android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/wf_hero_bg_iv" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/wf_hero_default_bg" />
+        <ImageView android:id="@id/wf_hero_lock_label_iv" android:layout_width="58.0dip" android:layout_height="58.0dip" android:src="@drawable/wf_hero_need_buy_label" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="10.0sp" android:textColor="#ff333333" android:id="@id/wf_hero_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/wf_hero_icon_rect" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10.0sp" android:textColor="#ff8a1b2b" android:id="@id/wf_hero_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="杰父" android:layout_below="@id/wf_hero_title_tv" android:layout_centerHorizontal="true" />
+</RelativeLayout>

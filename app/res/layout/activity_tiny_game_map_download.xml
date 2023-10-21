@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/mm_default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mm_tiny_map_title_ll" android:background="@drawable/mm_header_bg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <Button android:id="@id/mm_tiny_map_title_backBt" android:background="@drawable/back_btn_select" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="5.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/mm_tiny_map_title_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="" android:layout_toRightOf="@id/mm_tiny_map_title_backBt" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/mm_tiny_map_title_ll">
+        <com.groundhog.multiplayermaster.view.XListView android:id="@id/mm_tiny_map_listview" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+        <ProgressBar android:id="@id/mm_tiny_map_progress_bar" android:layout_width="80.0dip" android:layout_height="115.0dip" android:indeterminateDrawable="@drawable/loading_amination" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/friend_request_layer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="#ff888685" android:gravity="center_vertical" android:id="@id/rebirth_title" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="54.0dip" android:text="@string/friend_req_text" />
+    <View android:id="@id/line1" android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/rebirth_title" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip" android:layout_below="@id/rebirth_title">
+        <ListView android:id="@id/request_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:divider="@null" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffb39f44" android:gravity="center" android:id="@id/no_friend_req_tip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/no_friend_req_tip" />
+    </FrameLayout>
+</RelativeLayout>

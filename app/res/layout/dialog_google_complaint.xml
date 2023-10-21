@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/mm_google_complaint_bg" android:layout_width="300.0dip" android:layout_height="400.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/mm_google_complaint_ll1" android:layout_width="fill_parent" android:layout_height="150.0dip">
+        <ImageView android:id="@id/mm_google_complaint_iv" android:background="@drawable/mm_google_complaint_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/mm_google_complaint_ll2" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/mm_google_complaint_ll1">
+        <TextView android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/mm_google_complaint_tv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/mm_google_complaint" />
+    </LinearLayout>
+    <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/mm_google_complaint_sure" android:background="@drawable/mm_create_game_button" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:text="@string/mm_google_complaint_sure" android:layout_below="@id/mm_google_complaint_ll2" android:textAllCaps="false" />
+    <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/mm_google_complaint_had" android:background="@drawable/mm_create_game_button" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/mm_google_complaint_had" android:layout_below="@id/mm_google_complaint_sure" android:textAllCaps="false" />
+    <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/mm_google_complaint_cruelly" android:background="@color/mm_sliding_exit_cancel_button" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/mm_google_complaint_cruelly" android:layout_below="@id/mm_google_complaint_had" android:textAllCaps="false" />
+</RelativeLayout>

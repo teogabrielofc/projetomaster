@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@color/mm_sliding_exit_bg" android:layout_width="290.0dip" android:layout_height="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/mm_sliding_exit_title_bg" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/title_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/invited_game_dialog" android:singleLine="true" android:drawablePadding="10.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:paddingTop="22.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="14.0sp" android:textColor="@color/invited_join_game_content1" android:id="@id/invite_join_dialog_content1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:text="@string/invited_game_dialog_content1" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/invite_join_dialog_type_rl" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="15.0dip" android:layout_below="@id/invite_join_dialog_content1">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textColor="@color/invited_join_game_content2" android:id="@id/invite_join_dialog_type1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/invited_game_dialog_type1" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textColor="@color/invited_join_game_content3" android:id="@id/invite_join_dialog_type2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/invited_game_dialog_type2" android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/invite_join_dialog_mode_rl" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_below="@id/invite_join_dialog_type_rl">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textColor="@color/invited_join_game_content2" android:id="@id/invite_join_dialog_mode1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/invited_game_dialog_mode1" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textColor="@color/invited_join_game_content3" android:id="@id/invite_join_dialog_mode2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/invited_game_dialog_mode2" android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/invite_join_dialog_capacity_rl" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_below="@id/invite_join_dialog_mode_rl">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textColor="@color/invited_join_game_content2" android:id="@id/invite_join_dialog_capacity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/invited_game_dialog_capacity" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textColor="@color/invited_join_game_content3" android:id="@id/invite_join_dialog_capacity2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/invited_game_dialog_capacity2" android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/invite_join_dialog_speed_rl" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_below="@id/invite_join_dialog_capacity_rl">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textColor="@color/invited_join_game_content2" android:id="@id/invite_join_dialog_speed1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/invited_game_dialog_speed1" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textColor="@color/invited_join_game_content3" android:id="@id/invite_join_dialog_speed2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/invited_game_dialog_speed2" android:drawableLeft="@drawable/mm_delay_state_fine" android:drawablePadding="2.0dip" android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/invited_join_game_content1" android:id="@id/invite_join_dialog_content2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="25.0dip" android:text="@string/invited_game_dialog_content2" android:layout_below="@id/invite_join_dialog_speed_rl" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.5">
+        <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/invite_join_dialog_refuse" android:background="@color/mm_sliding_exit_cancel_button" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="8.0dip" android:text="@string/mm_sliding_exit_cancel_button" android:layout_weight="1.0" android:textAllCaps="false" />
+        <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/invite_join_dialog_confirm" android:background="@color/mm_sliding_exit_yes_button" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="20.0dip" android:text="@string/mm_sliding_exit_yes_button" android:layout_weight="1.0" android:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>

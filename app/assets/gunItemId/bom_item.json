@@ -1,0 +1,42 @@
+[
+    {
+        "id": 3300,
+        "name": "grenade",
+        "grenadeSpeed": 2.1,
+        "grenadesExplosionRadius": 4,
+        "count": 1,
+        "tag": "手榴弹",
+        "damage": 5,
+        "texture": "grenade"
+    },
+    {
+        "id": 3301,
+        "name": "grenadefragment",
+        "grenadeSpeed": 2.1,
+        "grenadesExplosionRadius": 4,
+        "count": 1,
+        "tag": "高爆手雷",
+        "damage": 5,
+        "texture": "grenadefragment"
+    },
+    {
+        "id": 3302,
+        "name": "molotov",
+        "grenadeSpeed": 2.1,
+        "grenadesExplosionRadius": 4,
+        "count": 1,
+        "tag": "燃烧弹",
+        "damage": 5,
+        "texture": "molotov"
+    },
+    {
+        "id": 3303,
+        "name": "grenadesmoke",
+        "grenadeSpeed": 2.1,
+        "grenadesExplosionRadius": 4,
+        "count": 1,
+        "tag": "烟雾弹",
+        "damage": 5,
+        "texture": "grenadesmoke"
+    }
+]

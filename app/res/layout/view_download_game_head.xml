@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/uninstall_layout" android:background="#ffeee0c9" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="15.0dip" android:textColor="#ffb28860" android:id="@id/mc_version" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:textColor="#ffffffff" android:gravity="center" android:id="@id/uninstall_btn" android:background="@drawable/mc_detail_view_uninstall_bg" android:padding="0.0dip" android:layout_width="150.0dip" android:layout_height="36.0dip" android:layout_marginBottom="10.0dip" android:text="@string/btn_unistall" android:layout_alignParentRight="true" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/red" android:id="@id/mc_version_warning" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mc_version_warning_txt" android:layout_below="@id/uninstall_btn" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="#ffddc4a2" android:id="@id/uninstall_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/ver_tip1" android:layout_below="@id/uninstall_layout" />
+</LinearLayout>

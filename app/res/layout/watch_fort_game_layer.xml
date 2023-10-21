@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/score_view" android:background="@drawable/wf_score" android:visibility="gone" android:layout_width="165.0dip" android:layout_height="45.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="20.0sp" android:textColor="#ffffd500" android:gravity="right" android:id="@id/wither_team_score_tv" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="18.0dip" android:text="00" android:layout_alignParentRight="true" />
+            <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="20.0sp" android:textColor="#ffffd500" android:gravity="left" android:id="@id/stone_team_score_tv" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginLeft="18.0dip" android:layout_marginTop="16.0dip" android:text="00" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@id/myself_team_tag_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wf_left_myself_team" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/room_waiting_view" android:background="@drawable/wf_waiting_bg" android:visibility="gone" android:layout_width="185.0dip" android:layout_height="60.0dip">
+        <RelativeLayout android:id="@id/title_layer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="9.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/room_id_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="38.5dip" android:text="守望堡垒" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

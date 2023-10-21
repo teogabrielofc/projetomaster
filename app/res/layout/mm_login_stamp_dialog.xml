@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:background="@color/mm_sliding_exit_bg" android:layout_width="270.0dip" android:layout_height="220.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/mm_sliding_exit_title_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/mm_login_stamp_title_view" android:background="@drawable/mm_recharge_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mm_first_login_success" android:singleLine="true" android:drawablePadding="10.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="13.0sp" android:textColor="@color/mm_login_stamp_balance" android:gravity="center" android:id="@id/mm_login_stamp_content1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/mm_login_stamp_result_icon" android:drawablePadding="5.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/mm_login_stamp_content2" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/mm_login_stamp_content1" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/mm_login_stamp_result_menu" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginBottom="22.0dip" android:weightSum="2.0" android:layout_alignParentBottom="true">
+        <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/mm_login_stamp_result_cancel" android:background="@color/mm_sliding_exit_cancel_button" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="8.0dip" android:text="@string/i_know_text" android:layout_weight="1.0" android:textAllCaps="false" />
+        <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/mm_login_stamp_result_stamp" android:background="@color/mm_login_stamp_balance" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="20.0dip" android:text="@string/mm_into_stamp" android:layout_weight="1.0" android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>

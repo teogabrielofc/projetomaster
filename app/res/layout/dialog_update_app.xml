@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:background="@color/mm_sliding_exit_bg" android:layout_width="270.0dip" android:layout_height="220.0dip">
+        <RelativeLayout android:background="@color/mm_sliding_exit_title_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/title_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mm_update_Upgrade" android:singleLine="true" android:drawablePadding="10.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:gravity="left" android:id="@id/msg_textview" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/ok_button" android:background="@color/mm_sliding_exit_yes_button" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="20.0dip" android:text="@string/mm_update_ok" android:layout_alignParentBottom="true" android:textAllCaps="false" />
+    </RelativeLayout>
+</RelativeLayout>

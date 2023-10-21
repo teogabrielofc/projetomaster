@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/main_bg" android:layout_width="fill_parent" android:layout_height="35.0dip">
+        <View android:id="@id/rank_color_view" android:background="#ffd73046" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/host_icon" android:background="@drawable/game_host" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_marginLeft="5.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/nick_name_tv" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" android:layout_toRightOf="@id/host_icon" android:layout_centerVertical="true" />
+        <Button android:id="@id/menu_btn" android:background="@drawable/game_item_more" android:visibility="visible" android:layout_width="10.0dip" android:layout_height="6.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:id="@id/game_msg_layer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/manslaughter_text_view" android:layout_width="18.0dip" android:layout_height="fill_parent" android:layout_marginRight="8.0dip" android:text="0" android:layout_alignParentRight="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/dead_text_view" android:layout_width="18.0dip" android:layout_height="fill_parent" android:layout_marginRight="13.0dip" android:text="0" android:layout_toLeftOf="@id/manslaughter_text_view" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/killed_text_view" android:layout_width="18.0dip" android:layout_height="fill_parent" android:layout_marginRight="13.0dip" android:text="0" android:layout_toLeftOf="@id/dead_text_view" />
+        </RelativeLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/base_green" android:gravity="center" android:id="@id/float_redblue_invite_acceptBtn" android:visibility="visible" android:layout_width="45.0dip" android:layout_height="25.0dip" android:layout_marginRight="10.0dip" android:text="@string/float_player_invite_invite" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

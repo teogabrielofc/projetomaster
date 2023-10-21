@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="260.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:hexagon="http://schemas.android.com/apk/res-auto" xmlns:ripple="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/mm_sliding_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/login_button" android:background="@drawable/mm_sliding_bg" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.groundhog.multiplayermaster.view.HexagonIconView android:id="@id/icon_hexagon" android:layout_width="80.0dip" android:layout_height="80.0dip" ripple:hexagonLineWith="3.0dip" ripple:hexagonLineColor="@color/mm_sliding_click_login" ripple:hexagonImage="@drawable/avarta_default_big" />
+                <ImageView android:id="@id/mm_vip_head_iv" android:layout_width="70.0dip" android:layout_height="80.0dip" android:layout_marginLeft="5.0dip" />
+                <RelativeLayout android:id="@id/nike_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon_hexagon" android:layout_alignTop="@id/icon_hexagon" android:layout_centerVertical="true">
+                    <TextView android:textSize="18.0dip" android:textColor="@color/slide_user_name" android:id="@id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:maxWidth="100.0dip" android:text="80999999" />
+                    <ImageView android:id="@id/edit_btn" android:background="@drawable/mm_nikename_edit" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="3.0dip" android:layout_toRightOf="@id/user_name" android:layout_alignTop="@id/user_name" android:layout_centerVertical="true" />
+                    <ImageView android:id="@id/gone_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="3.0dip" android:layout_toRightOf="@id/user_name" android:layout_alignTop="@id/user_name" android:layout_centerVertical="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/mm_sliding_click_login" android:id="@id/user_box_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="809999" android:layout_below="@id/user_name" android:layout_alignLeft="@id/user_name" />
+                    <ImageView android:gravity="center_vertical" android:id="@id/user_balance_txt" android:background="@drawable/mm_vip_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/user_box_id" android:layout_alignLeft="@id/user_name" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ListView android:id="@id/item_list_view" android:background="@color/mm_sliding_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="1.0dip" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:divider="@null" />
+            </LinearLayout>
+            <RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/mm_sliding_logout_rl" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                <com.master.framework.view.RippleView android:id="@id/mm_sliding_logout_button" android:layout_width="200.0dip" android:layout_height="40.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ripple:rv_rippleDuration="200" ripple:rv_type="rectangle">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:background="@color/mm_sliding_bt_logout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mm_sliding_logout" />
+                </com.master.framework.view.RippleView>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

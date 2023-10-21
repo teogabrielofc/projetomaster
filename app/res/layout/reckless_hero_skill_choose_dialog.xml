@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/left_layout" android:layout_width="350.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+            <RelativeLayout android:id="@id/left_top_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/title_choose_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/reckless_hero_select_skill" android:layout_centerHorizontal="true" />
+                <RelativeLayout android:id="@id/text_background_layout" android:background="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/title_choose_tv" android:layout_centerHorizontal="true">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:text="@string/reckless_hero_time_out_skill" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/left_bottom_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/left_top_layout">
+                <RelativeLayout android:id="@id/left_bottom_top_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip">
+                    <ImageView android:id="@id/datum_point" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+                    <ImageView android:id="@id/left_skill_slot_highlight_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="31.0dip" android:src="@drawable/rh_skill_slot_highlighted" android:layout_alignRight="@id/datum_point" />
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="37.0dip" android:layout_alignRight="@id/datum_point">
+                        <ImageView android:id="@id/left_skill_slot" android:layout_width="80.0dip" android:layout_height="90.0dip" android:src="@drawable/selectskill1" />
+                    </RelativeLayout>
+                    <ImageView android:id="@id/right_skill_slot_highlight_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:src="@drawable/rh_skill_slot_highlighted" android:layout_alignLeft="@id/datum_point" />
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="37.0dip" android:layout_marginTop="6.0dip" android:layout_alignLeft="@id/datum_point">
+                        <ImageView android:id="@id/right_skill_slot" android:layout_width="80.0dip" android:layout_height="90.0dip" android:src="@drawable/selectskill2" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <GridView android:id="@id/skill_list_gv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="40.0dip" android:numColumns="4" android:layout_below="@id/left_bottom_top_layout" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rh_skill_list_bottom_line" android:layout_alignBottom="@id/skill_list_gv" />
+                <TextView android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/able_skill_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignRight="@id/skill_list_gv" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/right_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/left_layout">
+            <RelativeLayout android:id="@id/right_top_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="17.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/cutdown_time_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reckless_hero_time_remain" android:layout_alignParentRight="true" />
+                <TextView android:textSize="32.0sp" android:textColor="#fff0c92e" android:id="@id/cutdown_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/cutdown_time_title_tv" android:layout_alignParentRight="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:src="@drawable/rh_skill_line_bg" android:layout_below="@id/cutdown_time_tv" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/right_center_layout" android:layout_width="fill_parent" android:layout_height="101.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="17.0dip" android:layout_below="@id/right_top_layout">
+                <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/skill_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reckless_hero_skill_des" android:layout_alignParentRight="true" />
+                <TextView android:textSize="18.0sp" android:textColor="#fff0c92e" android:id="@id/skill_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_below="@id/skill_title_tv" android:layout_alignParentRight="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/skill_detail_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxWidth="200.0dip" android:layout_below="@id/skill_name_tv" android:layout_alignParentRight="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:src="@drawable/rh_skill_line_bg" android:layout_below="@id/skill_detail_tv" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/right_bottom_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="17.0dip" android:layout_below="@id/right_center_layout">
+                <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/condition_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reckless_hero_unlock_stats" android:layout_alignParentRight="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/condition_detail_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/condition_title_tv" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <Button android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/sure_btn" android:background="@drawable/rh_blue_btn_selector" android:layout_width="84.0dip" android:layout_height="39.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="20.0dip" android:text="@string/game_setting_renascence_point_ok" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

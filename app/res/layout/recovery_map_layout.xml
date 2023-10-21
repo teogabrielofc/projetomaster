@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/recovery_map_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_vvv" android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_alignParentTop="true" />
+    <android.support.v7.widget.RecyclerView android:id="@id/map_backuped_rv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/top_vvv" />
+</RelativeLayout>

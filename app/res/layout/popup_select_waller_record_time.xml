@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/mm_wallert_popup_select_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/popup_select_waller_3_month_all_ll" android:background="@drawable/mm_waller_popup_select_item_bg" android:layout_width="250.0dip" android:layout_height="54.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/mm_wallert_record_3_month_all" android:singleLine="true" />
+    </LinearLayout>
+    <View android:background="@color/mm_recharge_item_title" android:layout_width="250.0dip" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/popup_select_waller_3_month_finish_ll" android:background="@drawable/mm_waller_popup_select_item_bg" android:layout_width="250.0dip" android:layout_height="54.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/mm_wallert_record_3_month_finish" android:singleLine="true" />
+    </LinearLayout>
+    <View android:background="@color/mm_recharge_item_title" android:layout_width="250.0dip" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/popup_select_waller_3_month_notfinish_ll" android:background="@drawable/mm_waller_popup_select_item_bg" android:layout_width="250.0dip" android:layout_height="54.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/mm_wallert_record_3_month_not_finish" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

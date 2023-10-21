@@ -1,0 +1,1563 @@
+{
+  code: 200,
+  data: [
+    {
+      boots: {
+        customName: "Leather Boots",
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 301
+      },
+      breastplate: {
+        customName: "Leather Tunic",
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 299
+      },
+      buff: [
+        {
+          effectName: "DAMAGE_RESISTANCE",
+          customName: "Resistance",
+          itemType: "POTION_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 11
+        },
+        {
+          effectName: "NIGHT_VISION",
+          customName: "Night Vision",
+          itemType: "POTION_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 16
+        }
+      ],
+      des: "Diana is born with the ability to tame beasts. Anyone who dares attempt to violate her will be torn to pieces by beasts.",
+      icon: "https://servermasterconfig.s3.amazonaws.com/dianna-small.jpg",
+      icon2: "https://servermasterconfig.s3.amazonaws.com/dianna-big.png",
+      inventory: [
+        {
+          customName: "Bow",
+          enchants: [
+            {
+              name: "耐久",
+              id: 17,
+              level: 3,
+              maxLevel: 3
+            },
+            {
+              name: "力量",
+              id: 19,
+              level: 1,
+              maxLevel: 5
+            },
+            {
+              name: "无限",
+              id: 22,
+              level: 1,
+              maxLevel: 1
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 261
+        },
+        {
+          customName: "Arrow",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 262
+        }
+      ],
+      legging: {
+        customName: "Leather Pants",
+        itemType: "LEGGING_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 300
+      },
+      name: "Diana",
+      title: "Queen of Jungle",
+      lock: true
+    },
+    {
+      boots: {
+        customName: "Iron Boots",
+        enchants: [
+          {
+            name: "荆棘",
+            id: 5,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 309
+      },
+      breastplate: {
+        customName: "Iron Chestplate",
+        enchants: [
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 307
+      },
+      buff: [
+        {
+          effectName: "REGENERATION",
+          customName: "Regeneration",
+          itemType: "POTION_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 10
+        }
+      ],
+      des: "Jeff is rough. So rough that he'll smash anyone that comes close in to pieces before remembering to ask if you're his teammate.",
+      helmet: {
+        customName: "Iron Helmet",
+        enchants: [
+          {
+            name: "水下速掘",
+            id: 8,
+            level: 1,
+            maxLevel: 1
+          },
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "HELMET_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 306
+      },
+      icon: "https://servermasterconfig.s3.amazonaws.com/jiefu-small.jpg",
+      icon2: "https://servermasterconfig.s3.amazonaws.com/jiefu-big.png",
+      inventory: [
+        {
+          customName: "Stone Axe",
+          enchants: [
+            {
+              name: "锋利",
+              id: 9,
+              level: 2,
+              maxLevel: 5
+            },
+            {
+              name: "效率",
+              id: 15,
+              level: 1,
+              maxLevel: 5
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 275
+        }
+      ],
+      legging: {
+        customName: "Iron Legging",
+        enchants: [
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "LEGGING_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 308
+      },
+      name: "Jeff",
+      title: "Barbaric Mace",
+      lock: true
+    },
+    {
+      boots: {
+        customName: "Leather Boots",
+        enchants: [
+          {
+            name: "保护",
+            id: 0,
+            level: 1,
+            maxLevel: 4
+          }
+        ],
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 301
+      },
+      breastplate: {
+        customName: "Leather Tunic",
+        enchants: [
+          {
+            name: "保护",
+            id: 0,
+            level: 1,
+            maxLevel: 4
+          }
+        ],
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 299
+      },
+      buff: [
+        {
+          effectName: "ABSORPTION",
+          customName: "Absoption",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 22
+        },
+        {
+          effectName: "FIRE_RESISTANCE",
+          customName: "Fire Resistance",
+          itemType: "POTION_TYPE",
+          amplifier: 3,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 12
+        }
+      ],
+      des: "Burn! Frisbey is a pyromaniac who took pleasure in nothing but those that are burning.",
+      helmet: {
+        customName: "Iron Helmet",
+        enchants: [
+          {
+            name: "保护",
+            id: 0,
+            level: 1,
+            maxLevel: 4
+          }
+        ],
+        itemType: "HELMET_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 306
+      },
+      icon: "https://servermasterconfig.s3.amazonaws.com/furuisi-small.jpg",
+      icon2: "https://servermasterconfig.s3.amazonaws.com/furuisi-big.png",
+      inventory: [
+        {
+          customName: "Flint and Steel",
+          enchants: [
+            {
+              name: "耐久",
+              id: 17,
+              level: 3,
+              maxLevel: 3
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 259
+        },
+        {
+          customName: "Stone Pickaxe",
+          enchants: [
+            {
+              name: "耐久",
+              id: 17,
+              level: 3,
+              maxLevel: 3
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 274
+        }
+      ],
+      name: "Frisbey",
+      title: "Pyromaniac",
+      lock: true
+    },
+    {
+      buff: [
+        {
+          effectName: "DAMAGE_BOOST",
+          customName: "Strength",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 5
+        },
+        {
+          effectName: "INVISIBILITY",
+          customName: "Invisibility",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 14
+        },
+        {
+          effectName: "BLINDNESS",
+          customName: "Blindness",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 15
+        },
+        {
+          effectName: "DIG_SLOWDOWN",
+          customName: "Mining Fatigue",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 4
+        }
+      ],
+      des: "Edward gives everyone chills whenever he's in the room. Once you became his target, you could only wait in fear for your death.",
+      icon: "https://servermasterconfig.s3.amazonaws.com/aidehua-small.jpg",
+      icon2: "https://servermasterconfig.s3.amazonaws.com/aidehua-big.png",
+      inventory: [
+        {
+          customName: "Diamond Sword",
+          enchants: [
+            {
+              name: "锋利",
+              id: 9,
+              level: 6,
+              maxLevel: 5
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 276
+        }
+      ],
+      name: "Edward",
+      title: "Grim Reaper's Scythe",
+      lock: true
+    },
+    {
+      boots: {
+        customName: "Golden Boots",
+        enchants: [
+          {
+            name: "火焰保护",
+            id: 1,
+            level: 1,
+            maxLevel: 4
+          },
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 317
+      },
+      breastplate: {
+        customName: "Golden Chestplate",
+        enchants: [
+          {
+            name: "火焰保护",
+            id: 1,
+            level: 1,
+            maxLevel: 4
+          },
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 315
+      },
+      buff: [
+        {
+          effectName: "FIRE_RESISTANCE",
+          customName: "Fire Resistance",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 12
+        },
+        {
+          effectName: "DAMAGE_BOOST",
+          customName: "Strength",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 5
+        }
+      ],
+      des: "Kane subdues every one of his enemies under his hellish rage. The only doctrine he follows is to purge everything with flame.",
+      helmet: {
+        customName: "Golden Helmet",
+        enchants: [
+          {
+            name: "火焰保护",
+            id: 1,
+            level: 1,
+            maxLevel: 4
+          },
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "HELMET_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 314
+      },
+      icon: "https://servermasterconfig.s3.amazonaws.com/kaien-small.jpg",
+      icon2: "https://servermasterconfig.s3.amazonaws.com/kaien-big.png",
+      inventory: [
+        {
+          customName: "Diamon Sword",
+          enchants: [
+            {
+              name: "锋利",
+              id: 9,
+              level: 1,
+              maxLevel: 5
+            },
+            {
+              name: "火焰附加",
+              id: 13,
+              level: 1,
+              maxLevel: 2
+            },
+            {
+              name: "耐久",
+              id: 17,
+              level: 3,
+              maxLevel: 3
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 276
+        }
+      ],
+      legging: {
+        customName: "Golden Legging",
+        enchants: [
+          {
+            name: "火焰保护",
+            id: 1,
+            level: 1,
+            maxLevel: 4
+          },
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "LEGGING_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 316
+      },
+      name: "Kane",
+      title: "Messenger of Flame",
+      lock: true
+    },
+    {
+      boots: {
+        customName: "Leather Boots",
+        enchants: [
+          {
+            name: "荆棘",
+            id: 5,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 301
+      },
+      breastplate: {
+        customName: "Leather Tunic",
+        enchants: [
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 299
+      },
+      buff: [
+        {
+          effectName: "DAMAGE_BOOST",
+          customName: "Strength",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 5
+        }
+      ],
+      des: "Athena is the incarnation of hope itself—every arrow she fires was for the sake of encouraging her comrades.",
+      helmet: {
+        customName: "Leather Cap",
+        enchants: [
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "HELMET_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 298
+      },
+      icon: "https://servermasterconfig.s3.amazonaws.com/yadianna-small.jpg",
+      icon2: "https://servermasterconfig.s3.amazonaws.com/yadianna-big.png",
+      inventory: [
+        {
+          customName: "Bow",
+          enchants: [
+            {
+              name: "耐久",
+              id: 17,
+              level: 3,
+              maxLevel: 3
+            },
+            {
+              name: "冲击",
+              id: 20,
+              level: 1,
+              maxLevel: 2
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 261
+        },
+        {
+          customName: "Arrow of Regeneration II(0:02)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 10,
+          damage: 31,
+          duration: 0,
+          id: 262
+        },
+        {
+          customName: "Arrow of HealingII",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 5,
+          damage: 23,
+          duration: 0,
+          id: 262
+        },
+        {
+          customName: "Arrow",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 56,
+          damage: 0,
+          duration: 0,
+          id: 262
+        },
+        {
+          customName: "Arrow of Invisibility(0:22)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 2,
+          damage: 8,
+          duration: 0,
+          id: 262
+        }
+      ],
+      legging: {
+        customName: "Leather Pants",
+        enchants: [
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "LEGGING_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 300
+      },
+      name: "Athena",
+      title: "Light of Hope",
+      lock: false
+    },
+    {
+      boots: {
+        customName: "Chain Boots",
+        enchants: [
+          {
+            name: "荆棘",
+            id: 5,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 305
+      },
+      breastplate: {
+        customName: "Chain Chestplate",
+        enchants: [
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 303
+      },
+      buff: [
+        {
+          effectName: "REGENERATION",
+          customName: "Regeneration",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 10
+        },
+        {
+          effectName: "JUMP",
+          customName: "Jump Boost",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 8
+        }
+      ],
+      des: "The grand destiny of leading his people out of the darkness has been bestowed upon Ebert since his birth. His bowmanship is unprecedented.",
+      icon: "https://servermasterconfig.s3.amazonaws.com/aibote-small.jpg",
+      icon2: "https://servermasterconfig.s3.amazonaws.com/aibote-big.png",
+      inventory: [
+        {
+          customName: "Bow",
+          enchants: [
+            {
+              name: "耐久",
+              id: 17,
+              level: 3,
+              maxLevel: 3
+            },
+            {
+              name: "冲击",
+              id: 20,
+              level: 1,
+              maxLevel: 2
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 261
+        },
+        {
+          customName: "Arrow",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 60,
+          damage: 0,
+          duration: 0,
+          id: 262
+        },
+        {
+          customName: "Arrow of Water Breathing(0:22)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 2,
+          damage: 20,
+          duration: 0,
+          id: 262
+        },
+        {
+          customName: "Arrow of Leaping II(0:11)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 2,
+          damage: 12,
+          duration: 0,
+          id: 262
+        },
+        {
+          customName: "Arrow of Strength II(0:11)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 5,
+          damage: 34,
+          duration: 0,
+          id: 262
+        },
+        {
+          customName: "Arrow of Swiftness II(0:11)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 5,
+          damage: 17,
+          duration: 0,
+          id: 262
+        }
+      ],
+      legging: {
+        customName: "Chain Legging",
+        enchants: [
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "LEGGING_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 304
+      },
+      name: "Ebert",
+      title: "Arrow of Light",
+      lock: false
+    },
+    {
+      boots: {
+        customName: "Leather Boots",
+        enchants: [
+          {
+            name: "荆棘",
+            id: 5,
+            level: 2,
+            maxLevel: 3
+          },
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 301
+      },
+      breastplate: {
+        customName: "Leather Tunic",
+        enchants: [
+          {
+            name: "荆棘",
+            id: 5,
+            level: 2,
+            maxLevel: 3
+          },
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 299
+      },
+      buff: [
+        {
+          effectName: "REGENERATION",
+          customName: "Regeneration",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 10
+        }
+      ],
+      des: "Lady Ymir likes to torture the dimwits, who approach her with gravely misplaced courage, in variety.",
+      icon: "https://servermasterconfig.s3.amazonaws.com/yimier-small.jpg",
+      icon2: "https://servermasterconfig.s3.amazonaws.com/yimier-big.png",
+      inventory: [
+        {
+          customName: "Wooden Sword",
+          enchants: [
+            {
+              name: "击退",
+              id: 12,
+              level: 1,
+              maxLevel: 2
+            },
+            {
+              name: "耐久",
+              id: 17,
+              level: 3,
+              maxLevel: 3
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 268
+        },
+        {
+          customName: "Splash Potion of PosionⅡ(0:16)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 27,
+          duration: 0,
+          id: 438
+        },
+        {
+          customName: "Splash Potion of PosionⅡ(0:16)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 27,
+          duration: 0,
+          id: 438
+        },
+        {
+          customName: "Splash Potion of PosionⅡ(0:16)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 27,
+          duration: 0,
+          id: 438
+        },
+        {
+          customName: "Splash Potion of PosionⅡ(0:16)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 27,
+          duration: 0,
+          id: 438
+        },
+        {
+          customName: "Splash Potion of PosionⅡ(0:16)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 27,
+          duration: 0,
+          id: 438
+        },
+        {
+          customName: "Splash Potion of PosionⅡ(0:16)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 27,
+          duration: 0,
+          id: 438
+        },
+        {
+          customName: "Splash Potion of PosionⅡ(0:16)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 27,
+          duration: 0,
+          id: 438
+        },
+        {
+          customName: "Splash Potion of PosionⅡ(0:16)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 27,
+          duration: 0,
+          id: 438
+        },
+        {
+          customName: "Splash Potion of PosionⅡ(0:16)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 27,
+          duration: 0,
+          id: 438
+        },
+        {
+          customName: "Splash Potion of PosionⅡ(0:16)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 27,
+          duration: 0,
+          id: 438
+        }
+      ],
+      legging: {
+        customName: "Leather Pants",
+        enchants: [
+          {
+            name: "荆棘",
+            id: 5,
+            level: 2,
+            maxLevel: 3
+          },
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "LEGGING_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 300
+      },
+      name: "Ymir",
+      title: "Black Widow",
+      lock: false
+    },
+    {
+      buff: [
+        {
+          effectName: "WATER_BREATHING",
+          customName: "Water Breathing",
+          itemType: "POTION_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 13
+        },
+        {
+          effectName: "MOVEMENT_SPEED",
+          customName: "Speed",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 1
+        },
+        {
+          effectName: "DAMAGE_RESISTANCE",
+          customName: "Resistance",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 11
+        }
+      ],
+      des: "Nelas has the speed of lightning and none of his enemies knew how they were killed.",
+      icon: "https://servermasterconfig.s3.amazonaws.com/nilasi-small.jpg",
+      icon2: "https://servermasterconfig.s3.amazonaws.com/nilasi-big.png",
+      inventory: [
+        {
+          customName: "Diamon Sword",
+          enchants: [
+            {
+              name: "锋利",
+              id: 9,
+              level: 2,
+              maxLevel: 5
+            },
+            {
+              name: "耐久",
+              id: 17,
+              level: 3,
+              maxLevel: 3
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 276
+        }
+      ],
+      name: "Nelas",
+      title: "Blood Dagger",
+      lock: false
+    },
+    {
+      boots: {
+        customName: "Iron Boots",
+        enchants: [
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 309
+      },
+      breastplate: {
+        customName: "Iron Chestplate",
+        enchants: [
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 307
+      },
+      buff: [
+        {
+          effectName: "DAMAGE_BOOST",
+          customName: "Strength",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 5
+        }
+      ],
+      des: "Robin looks is rebellious and cold-blooded, yet the beast would drop anyone with the right price.",
+      icon: "https://servermasterconfig.s3.amazonaws.com/luobin-small.jpg",
+      icon2: "https://servermasterconfig.s3.amazonaws.com/luobin-big.png",
+      inventory: [
+        {
+          customName: "Stone Sword",
+          enchants: [
+            {
+              name: "锋利",
+              id: 9,
+              level: 2,
+              maxLevel: 5
+            },
+            {
+              name: "耐久",
+              id: 17,
+              level: 3,
+              maxLevel: 3
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 272
+        }
+      ],
+      legging: {
+        customName: "Iron Legging",
+        enchants: [
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "LEGGING_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 308
+      },
+      name: "Robin",
+      title: "Bounty Knight",
+      lock: false
+    },
+    {
+      boots: {
+        customName: "Chain Boots",
+        enchants: [
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 305
+      },
+      breastplate: {
+        customName: "Chain Chestplate",
+        enchants: [
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 303
+      },
+      buff: [
+        {
+          effectName: "DAMAGE_BOOST",
+          customName: "Strength",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 5
+        }
+      ],
+      des: "Irene reminds everybody of her God-like accuracy with every bow she shoots, besides her iron fist leadership.",
+      helmet: {
+        customName: "Chain Helmet",
+        enchants: [
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "HELMET_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 302
+      },
+      icon: "https://servermasterconfig.s3.amazonaws.com/ailin-small.jpg",
+      icon2: "https://servermasterconfig.s3.amazonaws.com/ailin-big.png",
+      inventory: [
+        {
+          customName: "Bow",
+          enchants: [
+            {
+              name: "耐久",
+              id: 17,
+              level: 3,
+              maxLevel: 3
+            },
+            {
+              name: "力量",
+              id: 19,
+              level: 2,
+              maxLevel: 5
+            },
+            {
+              name: "无限",
+              id: 22,
+              level: 1,
+              maxLevel: 1
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 261
+        },
+        {
+          customName: "Arrow",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 262
+        }
+      ],
+      legging: {
+        customName: "Chain Legging",
+        enchants: [
+          {
+            name: "耐久",
+            id: 17,
+            level: 3,
+            maxLevel: 3
+          }
+        ],
+        itemType: "LEGGING_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 304
+      },
+      name: "Irene",
+      title: "Shadow Ranger",
+      lock: false
+    },
+    {
+      boots: {
+        customName: "Diamon Boots",
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 313
+      },
+      breastplate: {
+        customName: "Chain Chestplate",
+        enchants: [
+          {
+            name: "保护",
+            id: 0,
+            level: 1,
+            maxLevel: 4
+          }
+        ],
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 303
+      },
+      buff: [
+        {
+          effectName: "MOVEMENT_SLOWDOWN",
+          customName: "Slowness",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 2
+        }
+      ],
+      des: "Halter is a well-known bloodlust killer whose only desire is to kill and induce pain. Literally tears his enemies up for breakfast. ",
+      helmet: {
+        customName: "Diamon Helmet",
+        enchants: [
+          {
+            name: "水下速掘",
+            id: 8,
+            level: 1,
+            maxLevel: 1
+          }
+        ],
+        itemType: "HELMET_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 310
+      },
+      icon: "https://servermasterconfig.s3.amazonaws.com/huoerde-small.jpg",
+      icon2: "https://servermasterconfig.s3.amazonaws.com/huoerde-big.png",
+      inventory: [
+        {
+          customName: "Diamon Axe",
+          enchants: [
+            {
+              name: "锋利",
+              id: 9,
+              level: 2,
+              maxLevel: 5
+            },
+            {
+              name: "效率",
+              id: 15,
+              level: 1,
+              maxLevel: 5
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 279
+        }
+      ],
+      legging: {
+        customName: "Diamon Legging",
+        itemType: "LEGGING_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 312
+      },
+      name: "Halter",
+      title: "Primal Butcher",
+      lock: false
+    },
+    {
+      boots: {
+        customName: "Leather Boots",
+        enchants: [
+          {
+            name: "火焰保护",
+            id: 1,
+            level: 1,
+            maxLevel: 4
+          }
+        ],
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 301
+      },
+      breastplate: {
+        customName: "Leather Tunic",
+        enchants: [
+          {
+            name: "火焰保护",
+            id: 1,
+            level: 1,
+            maxLevel: 4
+          }
+        ],
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 299
+      },
+      buff: [
+        {
+          effectName: "JUMP",
+          customName: "Jump Boost",
+          itemType: "POTION_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 8
+        },
+        {
+          effectName: "MOVEMENT_SPEED",
+          customName: "Speed",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 1
+        },
+        {
+          effectName: "WATER_BREATHING",
+          customName: "Water Breath",
+          itemType: "POTION_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 13
+        },
+        {
+          effectName: "NIGHT_VISION",
+          customName: "Night Vision",
+          itemType: "POTION_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 16
+        },
+        {
+          effectName: "SATURATION",
+          customName: "Satuation",
+          itemType: "POTION_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 23
+        }
+      ],
+      des: "After snapping from people's humiliation, Sophia would now revenge by contaminating her enemies' homelands till they would have nowhere to escape and die a slow death.",
+      icon: "https://servermasterconfig.s3.amazonaws.com/sofeiya-small.jpg",
+      icon2: "https://servermasterconfig.s3.amazonaws.com/sofeiya-big.jpg",
+      inventory: [
+        {
+          customName: "Golden Sword",
+          enchants: [
+            {
+              name: "锋利",
+              id: 9,
+              level: 2,
+              maxLevel: 5
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 283
+        }
+      ],
+      name: "Sophia",
+      title: "Witherer",
+      lock: false
+    }
+  ]
+}

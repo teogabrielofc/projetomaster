@@ -1,0 +1,1177 @@
+﻿{
+  "code": 200,
+  "data": {
+    "gold": {
+      "baseGold": 1200,
+      "doubleKill": 1.2,
+      "killGold": 900,
+      "killingSpring": 2,
+      "legendary": 2.4,
+      "rage": 1.8,
+      "tripleKill": 1.5
+    },
+    "random": {
+      "buffers": [],
+      "props": [
+        {
+          "items": [
+            {
+              "count": 1,
+              "id": 373,
+              "customName": "healing",
+              "damage": 21
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/1.PNG",
+          "name": "potion of healing",
+          "ratio": 25
+        },
+        {
+          "items": [
+            {
+              "count": 1,
+              "id": -10,
+              "customName": "map",
+              "damage": 0
+            }
+          ],
+          "name": "Radar",
+          "ratio": 0
+        },
+        {
+          "items": [
+            {
+              "count": 200,
+              "id": -11,
+              "customName": "Gold",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/2.PNG",
+          "name": "200golds",
+          "ratio": 30
+        },
+        {
+          "items": [
+            {
+              "count": 350,
+              "id": -11,
+              "customName": "Gold",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/3.PNG",
+          "name": "350golds",
+          "ratio": 15
+        },
+        {
+          "items": [
+            {
+              "count": 600,
+              "id": -11,
+              "customName": "Gold",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/4.PNG",
+          "name": "600golds",
+          "ratio": 10
+        }
+      ],
+      "weapons": []
+    },
+    "roles": [
+      {
+        "skin_icon": "https://servermasterconfig.s3.amazonaws.com/tools/5.PNG",
+        "weapons": [
+          {
+            "count": 1,
+            "id": 262,
+            "customName": "arrow",
+            "damage": 0
+          },
+          {
+            "enchants": [
+              {
+                "id": 17,
+                "level": 3,
+                "name": "unbreaking"
+              },
+              {
+                "id": 22,
+                "level": 1,
+                "name": "infinity"
+              }
+            ],
+            "count": 1,
+            "id": 261,
+            "customName": "bow",
+            "damage": 0
+          },
+          {
+            "enchants": [
+              {
+                "id": 9,
+                "level": 1,
+                "name": "sharpness"
+              },
+              {
+                "id": 17,
+                "level": 3,
+                "name": "unbreaking"
+              }
+            ],
+            "count": 1,
+            "id": 290,
+            "customName": "wooden hoe",
+            "damage": 0
+          }
+        ],
+        "icon": "https://servermasterconfig.s3.amazonaws.com/tools/6.PNG",
+        "gold": 1500,
+        "name": "Trainee assassin",
+        "productId": 0,
+        "unlockType": 0,
+        "ver": 0
+      },
+      {
+        "skin_icon": "https://servermasterconfig.s3.amazonaws.com/tools/7.PNG",
+        "weapons": [
+          {
+            "enchants": [
+              {
+                "id": 9,
+                "level": 3,
+                "name": "sharpness"
+              },
+              {
+                "id": 12,
+                "level": 1,
+                "name": "konckback"
+              },
+              {
+                "id": 17,
+                "level": 3,
+                "name": "unbreaking"
+              }
+            ],
+            "count": 1,
+            "fontColor": "§5",
+            "id": 267,
+            "customName": "iron sword",
+            "damage": 0
+          },
+          {
+            "enchants": [
+              {
+                "id": 17,
+                "level": 3,
+                "name": "unbreaking"
+              },
+              {
+                "id": 19,
+                "level": 2,
+                "name": "strength"
+              },
+              {
+                "id": 20,
+                "level": 1,
+                "name": "punch"
+              },
+              {
+                "id": 22,
+                "level": 1,
+                "name": "infinity"
+              }
+            ],
+            "count": 1,
+            "fontColor": "§5",
+            "id": 261,
+            "customName": "bow",
+            "damage": 0
+          }
+        ],
+        "icon": "https://servermasterconfig.s3.amazonaws.com/tools/8.PNG",
+        "gold": 0,
+        "name": "Sword of Honor",
+        "productId": 0,
+        "unlockType": 0,
+        "ver": 0
+      }
+    ],
+    "shop": {
+      "c_weapons": [
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 9,
+                  "level": 5,
+                  "name": "sharpness"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "count": 1,
+              "id": 288,
+              "customName": "feather",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/9.PNG",
+          "gold": 300,
+          "name": "Dagger",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 9,
+                  "level": 2,
+                  "name": "sharpness"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "count": 1,
+              "id": 268,
+              "customName": "wooden sword",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/10.PNG",
+          "gold": 660,
+          "name": "Assassin's Dagger",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 9,
+                  "level": 3,
+                  "name": "sharpness"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "count": 1,
+              "id": 272,
+              "customName": "stone sword",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/11.PNG",
+          "gold": 1066,
+          "name": "Black Iron Sword",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 9,
+                  "level": 4,
+                  "name": "sharpness"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "count": 1,
+              "id": 267,
+              "customName": "iron sword",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/12.PNG",
+          "gold": 1330,
+          "name": "Silver Sword",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 9,
+                  "level": 1,
+                  "name": "sharpness"
+                },
+                {
+                  "id": 12,
+                  "level": 1,
+                  "name": "konckback"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "count": 1,
+              "id": 271,
+              "customName": "wooden axe",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/13.PNG",
+          "gold": 572,
+          "name": "Assassin's Axe",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 9,
+                  "level": 2,
+                  "name": "sharpness"
+                },
+                {
+                  "id": 12,
+                  "level": 1,
+                  "name": "konckback"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "count": 1,
+              "id": 275,
+              "customName": "stone axe",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/14.PNG",
+          "gold": 871,
+          "name": "Heavy Axe",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 9,
+                  "level": 3,
+                  "name": "sharpness"
+                },
+                {
+                  "id": 12,
+                  "level": 2,
+                  "name": "konckback"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "count": 1,
+              "id": 258,
+              "customName": "iron axe",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/15.PNG",
+          "gold": 1176,
+          "name": "Silver Axe",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 9,
+                  "level": 2,
+                  "name": "sharpness"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "count": 1,
+              "id": 346,
+              "customName": "fishing rod",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/16.PNG",
+          "gold": 300,
+          "name": "Claws",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 9,
+                  "level": 4,
+                  "name": "sharpness"
+                },
+                {
+                  "id": 13,
+                  "level": 1,
+                  "name": "fire aspect"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "count": 1,
+              "id": 283,
+              "customName": "golden sword",
+              "damage": 0
+            }
+          ],
+          "des": "VIP Exclusive",
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/17.PNG",
+          "gold": 1260,
+          "name": "Sword of Honor",
+          "productId": 217,
+          "unlockType": 1,
+          "ver": 0
+        }
+      ],
+      "equipments": [
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 4,
+                  "level": 1,
+                  "name": "projectile protection"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "slot": 0,
+              "count": 1,
+              "id": 298,
+              "customName": "leather cap",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/18.PNG",
+          "gold": 594,
+          "name": "Leather Cap",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 1,
+                  "level": 1,
+                  "name": "fire protection"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "slot": 1,
+              "count": 1,
+              "id": 299,
+              "customName": "leather tunic",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/19.PNG",
+          "gold": 1254,
+          "name": "Leather Chestplate",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 3,
+                  "level": 1,
+                  "name": "blast protection"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "slot": 2,
+              "count": 1,
+              "id": 300,
+              "customName": "leather pants",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/20.PNG",
+          "gold": 924,
+          "name": "Leather Pants",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 2,
+                  "level": 1,
+                  "name": "feather falling"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "slot": 3,
+              "count": 1,
+              "id": 301,
+              "customName": "leather boots",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/40.PNG",
+          "gold": 726,
+          "name": "Leather Boots",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 0,
+                  "level": 1,
+                  "name": "protection"
+                },
+                {
+                  "id": 4,
+                  "level": 2,
+                  "name": "projectile protection"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "slot": 0,
+              "count": 1,
+              "id": 302,
+              "customName": "chain helmet",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/21.PNG",
+          "gold": 1560,
+          "name": "Silver Hood",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 0,
+                  "level": 1,
+                  "name": "protection"
+                },
+                {
+                  "id": 1,
+                  "level": 2,
+                  "name": "fire protection"
+                },
+                {
+                  "id": 5,
+                  "level": 1,
+                  "name": "thorns"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "slot": 1,
+              "count": 1,
+              "id": 303,
+              "customName": "chain chestplate",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/22.PNG",
+          "gold": 2886,
+          "name": "Silver Chestplate",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 0,
+                  "level": 1,
+                  "name": "protection"
+                },
+                {
+                  "id": 3,
+                  "level": 2,
+                  "name": "blast protection"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "slot": 2,
+              "count": 1,
+              "id": 304,
+              "customName": "chain leggings",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/23.PNG",
+          "gold": 2340,
+          "name": "Silver Leggings",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 0,
+                  "level": 1,
+                  "name": "protection"
+                },
+                {
+                  "id": 2,
+                  "level": 2,
+                  "name": "feather falling"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "slot": 3,
+              "count": 1,
+              "id": 305,
+              "customName": "chain boots",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/24.PNG",
+          "gold": 1482,
+          "name": "Silver Boots",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 0,
+                  "level": 2,
+                  "name": "protection"
+                },
+                {
+                  "id": 4,
+                  "level": 2,
+                  "name": "projectile protection"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "slot": 0,
+              "count": 1,
+              "id": 314,
+              "customName": "golden helmet",
+              "damage": 0
+            }
+          ],
+          "des": "VIP Exclusive",
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/25.PNG",
+          "gold": 1854,
+          "name": "Crown of Honor",
+          "productId": 223,
+          "unlockType": 1,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 0,
+                  "level": 2,
+                  "name": "protection"
+                },
+                {
+                  "id": 1,
+                  "level": 2,
+                  "name": "fire protection"
+                },
+                {
+                  "id": 5,
+                  "level": 1,
+                  "name": "thorns"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "slot": 1,
+              "count": 1,
+              "id": 315,
+              "customName": "golden chestplate",
+              "damage": 0
+            }
+          ],
+          "des": "VIP Exclusive",
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/26.PNG",
+          "gold": 2808,
+          "name": "Chestplate of Honor",
+          "productId": 226,
+          "unlockType": 1,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 0,
+                  "level": 2,
+                  "name": "protection"
+                },
+                {
+                  "id": 3,
+                  "level": 2,
+                  "name": "blast protection"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "slot": 2,
+              "count": 1,
+              "id": 316,
+              "customName": "golden leggings",
+              "damage": 0
+            }
+          ],
+          "des": "VIP Exclusive",
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/27.PNG",
+          "gold": 1944,
+          "name": "Leggings of Honor",
+          "productId": 229,
+          "unlockType": 1,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 0,
+                  "level": 2,
+                  "name": "protection"
+                },
+                {
+                  "id": 2,
+                  "level": 2,
+                  "name": "feather falling"
+                },
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                }
+              ],
+              "slot": 3,
+              "count": 1,
+              "id": 317,
+              "customName": "golden boots",
+              "damage": 0
+            }
+          ],
+          "des": "VIP Exclusive",
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/28.PNG",
+          "gold": 1512,
+          "name": "Boots of Honor",
+          "productId": 232,
+          "unlockType": 1,
+          "ver": 0
+        }
+      ],
+      "props": [
+        {
+          "items": [
+            {
+              "count": 1,
+              "id": 373,
+              "customName": "healing",
+              "damage": 21
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/29.PNG",
+          "gold": 400,
+          "name": "Potion of healing",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "count": 1,
+              "id": 373,
+              "customName": "invisibility(3:00)",
+              "damage": 7
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/30.PNG",
+          "gold": 2000,
+          "name": "Potion of invisibility",
+          "productId": 0,
+          "unlockType": 3,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "count": 1,
+              "id": 373,
+              "customName": "swiftness(3:00)",
+              "damage": 14
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/31.PNG",
+          "gold": 520,
+          "name": "Potion of swiftness",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "count": 1,
+              "id": 322,
+              "customName": "Golden apple",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/32.PNG",
+          "gold": 400,
+          "name": "Golden apple",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "count": 1,
+              "id": 469,
+              "customName": "Milk",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/33.PNG",
+          "gold": 500,
+          "name": "Milk",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "count": 1,
+              "id": 262,
+              "customName": "Arrow of Slowness(0:11)",
+              "damage": 18
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/34.PNG",
+          "gold": 1510,
+          "name": "Arrow of Slowness",
+          "productId": 0,
+          "unlockType": 3,
+          "ver": 0
+        }
+      ],
+      "r_weapons": [
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                },
+                {
+                  "id": 19,
+                  "level": 1,
+                  "name": "strength"
+                },
+                {
+                  "id": 22,
+                  "level": 1,
+                  "name": "infinity"
+                }
+              ],
+              "count": 1,
+              "id": 261,
+              "customName": "bow",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/35.PNG",
+          "gold": 1680,
+          "name": "Striking Bow",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                },
+                {
+                  "id": 19,
+                  "level": 2,
+                  "name": "strength"
+                },
+                {
+                  "id": 20,
+                  "level": 1,
+                  "name": "punch"
+                },
+                {
+                  "id": 22,
+                  "level": 1,
+                  "name": "infinity"
+                }
+              ],
+              "count": 1,
+              "id": 261,
+              "customName": "bow",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/36.PNG",
+          "gold": 2119,
+          "name": "Bashing Bow",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                },
+                {
+                  "id": 19,
+                  "level": 4,
+                  "name": "strength"
+                },
+                {
+                  "id": 20,
+                  "level": 2,
+                  "name": "punch"
+                },
+                {
+                  "id": 22,
+                  "level": 1,
+                  "name": "infinity"
+                }
+              ],
+              "count": 1,
+              "id": 261,
+              "customName": "bow",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/37.PNG",
+          "gold": 3225,
+          "name": "Titans' Bow",
+          "productId": 0,
+          "unlockType": 0,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                },
+                {
+                  "id": 19,
+                  "level": 5,
+                  "name": "strength"
+                },
+                {
+                  "id": 20,
+                  "level": 1,
+                  "name": "punch"
+                },
+                {
+                  "id": 21,
+                  "level": 1,
+                  "name": "flame"
+                },
+                {
+                  "id": 22,
+                  "level": 1,
+                  "name": "infinity"
+                }
+              ],
+              "count": 1,
+              "id": 261,
+              "customName": "bow",
+              "damage": 0
+            }
+          ],
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/38.PNG",
+          "gold": 3030,
+          "name": "Fury of Hell",
+          "productId": 0,
+          "unlockType": 3,
+          "ver": 0
+        },
+        {
+          "items": [
+            {
+              "enchants": [
+                {
+                  "id": 17,
+                  "level": 3,
+                  "name": "unbreaking"
+                },
+                {
+                  "id": 19,
+                  "level": 3,
+                  "name": "strength"
+                },
+                {
+                  "id": 21,
+                  "level": 1,
+                  "name": "flame"
+                },
+                {
+                  "id": 22,
+                  "level": 1,
+                  "name": "infinity"
+                }
+              ],
+              "count": 1,
+              "id": 261,
+              "customName": "bow",
+              "damage": 0
+            }
+          ],
+          "des": "VIP Exclusive",
+          "icon": "https://servermasterconfig.s3.amazonaws.com/tools/39.PNG",
+          "gold": 3220,
+          "name": "Glowing Longbow",
+          "productId": 235,
+          "unlockType": 1,
+          "ver": 0
+        }
+      ]
+    },
+    "death_time": 3,
+    "game_time": 1200
+  }
+}

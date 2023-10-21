@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/mm_sliding_exit_bg" android:layout_width="300.0dip" android:layout_height="210.0dip" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mm_vip_fail_dialog_title_rl" android:background="@drawable/mm_recharge_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/mm_vip_fail_dialog_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mm_vip_dialog_failed_title" android:singleLine="true" android:drawablePadding="10.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="top" android:id="@id/mm_vip_fail_dialog_content_rl" android:background="@color/mm_sliding_exit_bg" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_below="@id/mm_vip_fail_dialog_title_rl">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="@color/mm_vip_dialog_content1" android:gravity="center|left|top" android:id="@id/mm_vip_fail_dialog_content1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="12.0dip" android:text="@string/mm_vip_dialog_failed_content" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/mm_vip_fail_dialog_button_ll" android:background="@color/mm_sliding_exit_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:weightSum="2.0" android:layout_below="@id/mm_vip_fail_dialog_content_rl">
+        <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/mm_vip_fail_dialog_cancel_button" android:background="@drawable/mm_vip_fail_normal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="8.0dip" android:text="@string/mm_sliding_exit_cancel_button" android:layout_weight="1.0" android:textAllCaps="false" />
+        <Button android:textSize="12.0sp" android:textColor="@color/mm_dialog_unlock_text" android:id="@id/mm_vip_fail_dialog_ok_button2" android:background="@drawable/mm_mini_unlock_normal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="20.0dip" android:text="@string/mm_vip_dialog_failed_try_again" android:layout_weight="1.0" android:textAllCaps="false" />
+    </LinearLayout>
+    <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/mm_vip_dialog_ok_button" android:background="@color/mm_sliding_exit_cancel_button" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="30.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="22.0dip" android:text="@string/mm_sliding_exit_cancel_button" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

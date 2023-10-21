@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.groundhog.multiplayermaster.floatwindow.view.DraggableRootView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="15.0sp" android:textColor="#ff196e13" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/game_timer" android:background="@drawable/vgame_normal_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/btn_player_stats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vgame_list_open" />
+        <android.support.v7.widget.RecyclerView android:id="@id/player_stats" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.groundhog.multiplayermaster.floatwindow.view.DraggableRootView>

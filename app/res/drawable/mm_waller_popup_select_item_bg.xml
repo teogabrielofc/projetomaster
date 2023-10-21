@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@color/mm_wallert_poput_select_true_color" />
+    <item android:drawable="@color/mm_wallert_popup_select_bg" />
+</selector>

@@ -1,0 +1,148 @@
+{
+    "markets": [
+        {
+            "name": "dev2",
+            "desc": "Google Play",
+            "url": "",
+            "minecraft": "",
+            "app": "com.android.vending",
+            "mcdownload": 1,
+            "versioncode": 0,
+            "updatedesc":"",
+            "forceUpdateVers":0
+        },
+        {
+            "name": "official",
+            "desc": "Google Play",
+            "url": "",
+            "minecraft": "",
+            "app": "com.android.vending",
+            "mcdownload": 1,
+            "versioncode": 0,
+            "updatedesc":"",
+            "forceUpdateVers":0
+
+        },
+        {
+            "name": "googleplay",
+            "desc": "Google Play",
+            "url": "https://play.google.com/store/apps/details?id=com.groundhog.multiplayermaster",
+            "minecraft": "",
+            "app": "com.android.vending",
+            "mcdownload": 1,
+            "versioncode": 193,
+            "updatedesc":"",
+            "forceUpdateVers":0
+        },
+        {
+            "name": "amazon",
+            "desc": "Amazon App Market",
+            "url": "",
+            "minecraft": "",
+            "app": "com.amazon.venezia",
+            "mcdownload": 1,
+            "versioncode": 0,
+            "updatedesc":"",
+            "forceUpdateVers":0
+        },
+        {
+            "name": "samsung",
+            "desc": "SamSung App Market",
+            "url": "",
+            "minecraft": "",
+            "app": "com.sec.android.app.samsungapps",
+            "mcdownload": 0,
+            "versioncode": 0,
+            "updatedesc":"",
+            "forceUpdateVers":0
+        },
+        {
+            "name": "onemobile",
+            "desc": "1Mobile Market",
+            "url": "",
+            "minecraft": "",
+            "app": "me.onemobile.android",
+            "mcdownload": 0,
+            "versioncode": 0,
+            "updatedesc":"",
+            "forceUpdateVers":0
+        },
+        {
+            "name": "yandex",
+            "desc": "Yandex Store",
+            "url": "",
+            "minecraft": "",
+            "app": "com.yandex.store",
+            "mcdownload": 0,
+            "versioncode": 0,
+            "updatedesc":"",
+            "forceUpdateVers":0
+        },
+        {
+            "name": "aptoide",
+            "desc": "Aptoide Store",
+            "url": "",
+            "minecraft": "",
+            "app": "cm.aptoide.pt",
+            "mcdownload": 0,
+            "versioncode": 0,
+            "updatedesc":"",
+            "forceUpdateVers":0
+        },
+        {
+            "name": "getjar",
+            "desc": "GetJar",
+            "url": "http://www.getjar.com/mobile-applications/",
+            "minecraft": "http://www.getjar.com/mobile-applications/",
+            "app": "",
+            "mcdownload": 0,
+            "versioncode": 0,
+            "updatedesc":"",
+            "forceUpdateVers":0
+        },
+        {
+            "name": "slideme",
+            "desc": "SlideME",
+            "url": "http://slideme.org/applications",
+            "minecraft": "http://slideme.org/applications",
+            "app": "",
+            "mcdownload": 0,
+            "versioncode": 0,
+            "updatedesc":"",
+            "forceUpdateVers":0
+        },
+        {
+            "name": "opera",
+            "desc": "Opera Mobile Store",
+            "url": "http://apps.opera.com/",
+            "minecraft": "http://apps.opera.com/",
+            "app": "",
+            "mcdownload": 0,
+            "versioncode": 0,
+            "updatedesc":"",
+            "forceUpdateVers":0
+        },
+        {
+            "name": "cnet",
+            "desc": "CNET",
+            "url": "http://download.cnet.com/",
+            "minecraft": "http://download.cnet.com/",
+            "app": "",
+            "mcdownload": 0,
+            "versioncode": 0,
+            "updatedesc":"",
+            "forceUpdateVers":0
+        },
+        {
+            "name": "uc",
+            "desc": "uc",
+            "url": "",
+            "minecraft": "http://www.ninestore.ru/android-games/Minecraft-Pocket-Edition/",
+            "app": "com.android.vending",
+            "mcdownload": 0,
+            "versioncode": 0,
+            "updatedesc":"",
+            "forceUpdateVers":0
+        }
+    ]
+}

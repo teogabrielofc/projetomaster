@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mian_layer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/left_layer" android:background="@drawable/bg" android:layout_width="128.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+            <com.groundhog.multiplayermaster.floatwindow.view.MainViewLeftMenu android:id="@id/main_left_menu" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/right_layer" android:background="@drawable/bg" android:layout_width="250.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <com.groundhog.multiplayermaster.floatwindow.ui.rightLayer.Player.PlayerFrameLayout android:id="@id/mm_float_player_framelayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/game_setting_show" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.groundhog.multiplayermaster.floatwindow.ui.rightLayer.InviteFriendLayer android:id="@id/invite_friend_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.groundhog.multiplayermaster.floatwindow.ui.rightLayer.ScreenShotLayer android:id="@id/screen_shot_layer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/mm_float_transfer_show" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/mm_float_mapBackUp_show" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.groundhog.multiplayermaster.floatwindow.ui.rightLayer.skin.SkinLayout android:id="@id/mm_float_skin_show" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/mm_float_voice_show" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

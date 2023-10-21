@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/mm_default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:addfriend="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip">
+        <RelativeLayout android:id="@id/mm_friend_addfriends_list_search_ll" android:background="@color/mm_friends_list_search_bg" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/mm_friend_addfriends_list_search_icon" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/mm_friend_friendlist_search_search" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/mm_friend_addfriends_list_search_icon">
+                <EditText android:textSize="12.0sp" android:textColor="@color/mm_friends_list_search_text_bg" android:id="@id/mm_friends_add_friend_search_edit" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:hint="@string/mm_friends_add_search" android:singleLine="true" android:layout_weight="1.0" />
+                <ImageView android:id="@id/mm_friend_addfriends_list_search_delete" android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="30.0dip" android:src="@drawable/mm_friend_friendlist_search_delete" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_weight="5.0">
+            <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/mm_friends_add_friend_search_button" android:background="@color/mm_pop_search_room_submit" android:layout_width="60.0dip" android:layout_height="30.0dip" android:layout_marginRight="5.0dip" android:text="@string/mm_friends_addfriend_search_button" android:layout_below="@id/tile_top_layer" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.groundhog.multiplayermaster.view.XListView android:id="@id/mm_friend_addfriend_search_list" android:background="@color/mm_default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:divider="@null" android:dividerHeight="3.0dip" android:footerDividersEnabled="false" />
+        <RelativeLayout android:id="@id/friends_addfriend_no_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/friends_addfriend_no_message_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mm_friend_no_message" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/friends_no_friend" android:id="@id/friends_addfriend_no_message_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/friends_no_result" android:layout_below="@id/friends_addfriend_no_message_iv" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

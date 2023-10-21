@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/bg" android:layout_width="300.0dip" android:layout_height="190.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="#7fffffff" android:id="@id/rebirth_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/tip_text" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#7fffffff" android:gravity="center" android:id="@id/rebirth_msg" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="sdadsefffffff" android:layout_below="@id/rebirth_title" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/bottom_layer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textSize="12.0sp" android:textColor="@drawable/float_kick_dialog_text_btn_select" android:gravity="center" android:id="@id/canel_text_btn" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="@string/cancel_text" android:layout_weight="1.0" />
+            <View android:background="#19ffffff" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="12.0sp" android:textColor="@drawable/float_kick_dialog_text_btn_select" android:gravity="center" android:id="@id/ok_text_btn" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="@string/kick_text" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/bottom_layer" />
+    </RelativeLayout>
+</RelativeLayout>

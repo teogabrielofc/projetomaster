@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/el_prop_card_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#ff6a5c51" android:gravity="center" android:background="#ff1d1a16" android:layout_width="fill_parent" android:layout_height="25.0dip" android:text="声音设置" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="25.0dip" android:layout_marginBottom="25.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_sound" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_sound" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/el_mic_open" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/tv_sound" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="已打开" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_mic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip">
+            <ImageView android:id="@id/iv_mic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/el_sound_open" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/tv_mic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="已打开" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

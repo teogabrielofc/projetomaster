@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/mm_chat_voice_bg" android:layout_width="150.0dip" android:layout_height="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/mm_float_voice_img" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginLeft="15.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:lottie_fileName="floatChatVoice/data.json" app:lottie_imageAssetsFolder="floatChatVoice/images" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/mm_float_voice_name" android:layout_width="100.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:text="123" android:maxEms="15" android:singleLine="true" android:layout_toRightOf="@id/mm_float_voice_img" android:layout_centerVertical="true" />
+</RelativeLayout>

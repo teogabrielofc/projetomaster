@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/rc_ac_ll_file_download" android:background="#ff0195ff" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/rc_ac_iv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:src="@drawable/rc_ac_file_preview" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/rc_ac_file_download_preview" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/rc_ac_ll_download_file_detail_info" android:layout_width="160.0dip" android:layout_height="wrap_content" android:layout_marginTop="39.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/rc_ac_iv_file_type_image" android:layout_width="160.0dip" android:layout_height="160.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff343434" android:ellipsize="middle" android:layout_gravity="center_horizontal" android:id="@id/rc_ac_tv_file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:singleLine="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffa8a8a8" android:layout_gravity="center_horizontal" android:id="@id/rc_ac_tv_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginBottom="17.0dip" />
+    </LinearLayout>
+    <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/rc_ac_btn_download_button" android:background="@drawable/rc_ac_btn_file_download_open_button" android:layout_width="328.0dip" android:layout_height="50.0dip" android:text="@string/rc_ac_file_download_btn" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/rc_ac_ll_progress_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/rc_ac_pb_download_progress" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="3.0dip" android:layout_weight="1.0" style="@style/rc_pb_file_download_progress" />
+            <ImageView android:id="@id/rc_btn_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/rc_btn_download_cancel" />
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="#ff343434" android:layout_gravity="center_horizontal" android:id="@id/rc_ac_tv_download_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" />
+    </LinearLayout>
+</LinearLayout>

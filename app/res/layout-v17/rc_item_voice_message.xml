@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/rc_layout" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="230.0dip" android:minWidth="52.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/rc_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitStart" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/rc_voice_color_left" android:layout_gravity="center|left" android:id="@id/rc_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/rc_voice_color_right" android:layout_gravity="center|right" android:id="@id/rc_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/rc_voice_unread" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/rc_voice_unread" android:layout_marginStart="8.0dip" />
+</LinearLayout>

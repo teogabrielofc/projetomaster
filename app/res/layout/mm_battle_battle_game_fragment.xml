@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/mm_battle_battle_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/mm_battle_battle_game_center_img" android:background="@drawable/mm_battle_battle_cover" android:layout_width="275.0dip" android:layout_height="375.0dip" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/mm_private_survivor_tip_iv" android:background="@drawable/mm_private_survivor_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-6.0dip" android:layout_marginRight="-5.0dip" android:layout_alignTop="@id/mm_battle_battle_game_center_img" android:layout_alignRight="@id/mm_battle_battle_game_center_img" />
+    <RelativeLayout android:id="@id/mm_battle_battle_game_join" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_alignBottom="@id/mm_battle_battle_game_center_img" android:layout_centerHorizontal="true">
+        <TextView android:textSize="21.0sp" android:textColor="@color/white" android:gravity="center" android:background="@drawable/battle_fragment_join_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mm_private_server_join" />
+    </RelativeLayout>
+    <TextView android:textSize="21.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/mm_battle_battle_game" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/mm_battle_mode" android:layout_centerHorizontal="true" />
+</RelativeLayout>

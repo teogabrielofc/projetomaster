@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/mm_default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mm_friend_addfriend_title_ll" android:background="@drawable/mm_header_bg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <Button android:id="@id/mm_friend_addfriend_title_backBt" android:background="@drawable/back_btn_select" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="5.0dip" android:layout_centerVertical="true" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/mm_friend_addfriend_title_backBt">
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/mm_friends_addfriends_title_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mm_friends_add_friend_title" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/mm_friends_add_friend_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

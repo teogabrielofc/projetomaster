@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mm_float_game_setting_rl" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/game_setting_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mm_game_time_setting_view_time" android:layout_centerVertical="true" />
+        <CheckBox android:id="@id/game_setting_time_lock" android:focusable="false" android:clickable="false" android:layout_width="18.0dip" android:layout_height="27.0dip" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/game_setting_time_text" android:layout_centerVertical="true" style="@style/CustomLockCheckboxTheme" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/mm_float_game_setting_rl" android:layout_centerVertical="true">
+        <View android:background="@drawable/mm_float_game_setting_timebar2" android:layout_width="200.0dip" android:layout_height="6.0dip" android:layout_marginLeft="9.0dip" android:layout_centerInParent="true" />
+        <SeekBar android:id="@id/game_setting_time_sBar" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:visibility="visible" android:layout_width="208.0dip" android:layout_height="18.0dip" android:indeterminate="false" android:progressDrawable="@null" android:thumb="@drawable/mm_float_gamesetting_bar_block" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:background="@color/line_setting" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

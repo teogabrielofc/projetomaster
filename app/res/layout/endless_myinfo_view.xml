@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/el_popup_window_lay" android:layout_width="wrap_content" android:layout_height="34.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/el_main_lay" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <RelativeLayout android:gravity="right" android:id="@id/el_score_level_lay" android:layout_width="60.0dip" android:layout_height="wrap_content" android:minWidth="60.0dip">
+                <TextView android:textSize="10.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/el_level_tv" android:background="#ffc70931" android:layout_width="wrap_content" android:layout_height="17.0dip" android:minWidth="34.0dip" android:layout_alignParentRight="true" />
+                <TextView android:textSize="9.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/el_score_tv" android:background="#ff232321" android:layout_width="fill_parent" android:layout_height="17.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/el_tool_bar_lay" android:layout_width="wrap_content" android:layout_height="34.0dip" android:layout_toRightOf="@id/el_score_level_lay">
+                <ImageView android:id="@id/el_prop_icon_img" android:background="@drawable/el_upgrade_icon" android:layout_width="34.0dip" android:layout_height="34.0dip" />
+                <View android:id="@id/el_line" android:background="#ff333333" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_toRightOf="@id/el_prop_icon_img" />
+                <ImageView android:id="@id/el_upgrade_img" android:background="@drawable/el_prop_icon" android:visibility="gone" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_toRightOf="@id/el_line" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/el_resurgence_lay" android:background="@drawable/el_resurgence_bg" android:visibility="gone" android:layout_width="68.0dip" android:layout_height="34.0dip" android:layout_toRightOf="@id/el_score_level_lay" />
+        </RelativeLayout>
+        <View android:id="@id/el_line2" android:background="#ff333333" android:visibility="gone" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_toRightOf="@id/el_main_lay" />
+        <Button android:id="@id/el_voice_btn" android:background="@drawable/el_voice_open" android:visibility="gone" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_toRightOf="@id/el_line2" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.groundhog.multiplayermaster.floatwindow.view.DraggableRootView android:layout_width="105.0dip" android:layout_height="67.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/assassin_gaming_order_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+            <TextView android:textSize="9.0sp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/assassin_point_rank" />
+            <TextView android:textSize="9.0sp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/assassin_point_player" android:layout_weight="3.0" />
+            <TextView android:textSize="9.0sp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/assassin_point_kill" />
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@id/rank_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <View android:id="@id/placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.groundhog.multiplayermaster.floatwindow.view.DraggableRootView>

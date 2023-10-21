@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/mm_default_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/visitor_tip_layer" android:background="@color/mm_default_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/icon" android:background="@drawable/mm_history_no_login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/mm_pop_history_tag_text" android:id="@id/no_login_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/visitor_tip_title" android:layout_below="@id/icon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/mm_pop_history_tag_text" android:gravity="center" android:id="@id/no_login_tip_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="10.0dip" android:text="@string/visitor_tip_message" android:layout_below="@id/no_login_title" android:layout_centerHorizontal="true" />
+        <Button android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/login_btn" android:background="@color/mm_pop_history_login_button" android:layout_width="200.0dip" android:layout_height="48.0dip" android:layout_marginTop="100.0dip" android:text="@string/login_atonce" android:layout_below="@id/no_login_tip_text" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

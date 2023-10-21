@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/war_vgame_small_view_layer" />
+    <RelativeLayout android:id="@id/main_view" android:layout_width="226.0dip" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/list_layer" android:layout_width="165.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_centerHorizontal="true">
+                <RelativeLayout android:id="@id/player_list_rect" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <View android:id="@id/view" android:background="@drawable/vgame_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip" />
+                    <ListView android:id="@id/player_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="45.0dip" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:divider="@null" />
+                    <RelativeLayout android:id="@id/bottom_layer" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_alignParentBottom="true">
+                        <ImageView android:background="@drawable/vgame_list_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+            <TextView android:gravity="center" android:id="@id/rule_btn" android:background="@drawable/vgame_rule_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/title_layer" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/my_killed_tv" android:background="@drawable/vgame_killed_score_bg" android:paddingLeft="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="0" />
+            <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/my_dead_tv" android:background="@drawable/vgame_dead_score_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="0" android:layout_alignParentRight="true" />
+            <RelativeLayout android:background="@drawable/vgame_normal_title" android:layout_width="142.0dip" android:layout_height="40.0dip" android:layout_centerHorizontal="true">
+                <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="15.0sp" android:textColor="#ff196e13" android:gravity="center" android:id="@id/room_id_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="123456" android:drawableLeft="@drawable/vgame_home" android:drawablePadding="3.0dip" android:layout_centerInParent="true" />
+                <TextView android:textSize="15.0sp" android:textColor="#ff196e13" android:gravity="center" android:id="@id/game_time_limit_loc1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <Button android:id="@id/open_list_btn" android:background="@drawable/vgame_list_open" android:layout_width="74.5dip" android:layout_height="12.5dip" android:layout_marginTop="35.0dip" android:layout_centerHorizontal="true" />
+        <Button android:id="@id/begin_btn" android:background="@drawable/vgame_begin_btn" android:layout_width="96.5dip" android:layout_height="33.5dip" android:layout_marginTop="10.0dip" android:layout_below="@id/open_list_btn" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/list_title_tip" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="35.0dip">
+            <RelativeLayout android:id="@id/killed_msg_title_tip" android:visibility="visible" android:layout_width="148.0dip" android:layout_height="20.0dip" android:layout_centerHorizontal="true">
+                <TextView android:textSize="7.0sp" android:textColor="#fffcd20b" android:gravity="center" android:id="@id/manslaughter_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/game_vocation_combo" android:layout_alignParentRight="true" />
+                <TextView android:textSize="7.0sp" android:textColor="#fffcd20b" android:gravity="center" android:id="@id/dead_tv" android:layout_width="18.0dip" android:layout_height="fill_parent" android:layout_marginRight="13.0dip" android:text="@string/game_vocation_dead" android:layout_toLeftOf="@id/manslaughter_tv" />
+                <TextView android:textSize="7.0sp" android:textColor="#fffcd20b" android:gravity="center" android:id="@id/killed_tv" android:layout_width="18.0dip" android:layout_height="fill_parent" android:layout_marginRight="13.0dip" android:text="@string/game_vocation_kill" android:layout_toLeftOf="@id/dead_tv" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

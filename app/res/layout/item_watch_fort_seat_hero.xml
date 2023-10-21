@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="49.0dip" android:layout_height="49.0dip">
+        <ImageView android:id="@id/wf_hero_icon_iv" android:visibility="gone" android:layout_width="37.0dip" android:layout_height="37.0dip" android:layout_centerInParent="true" />
+        <TextView android:textSize="10.0sp" android:textColor="#ff777777" android:id="@id/wf_seat_hero_choosing_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Select\n-ing" android:layout_centerInParent="true" android:lineSpacingExtra="2.0dip" />
+        <ImageView android:id="@id/wf_seat_hero_bg_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/wf_hero_self_border" />
+    </RelativeLayout>
+</LinearLayout>

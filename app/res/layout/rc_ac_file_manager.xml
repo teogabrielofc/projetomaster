@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/rc_ac_ll_go_back" android:background="#ff0195ff" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/rc_ac_iv_file_manager_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:src="@drawable/rc_ac_file_preview" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/rc_ac_file_send_preview" />
+    </LinearLayout>
+    <TextView android:visibility="gone" android:text="@string/rc_ac_file_manager_category_title" style="@style/rc_ac_file_manager_title" />
+    <View style="@style/rc_ac_file_manager_line" />
+    <LinearLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <ImageView android:src="@drawable/rc_ac_text_file_icon" style="@style/rc_ac_file_manager_image_style" />
+        <TextView android:id="@id/rc_ac_tv_file_manager_file" android:text="@string/rc_ac_file_manager_category_file" style="@style/rc_ac_file_manager_style" />
+    </LinearLayout>
+    <View style="@style/rc_ac_file_manager_line" />
+    <LinearLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <ImageView android:src="@drawable/rc_ac_video_file_icon" style="@style/rc_ac_file_manager_image_style" />
+        <TextView android:id="@id/rc_ac_tv_file_manager_video" android:text="@string/rc_ac_file_manager_category_video" style="@style/rc_ac_file_manager_style" />
+    </LinearLayout>
+    <View style="@style/rc_ac_file_manager_line" />
+    <LinearLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <ImageView android:src="@drawable/rc_ac_audio_file_icon" style="@style/rc_ac_file_manager_image_style" />
+        <TextView android:id="@id/rc_ac_tv_file_manager_audio" android:text="@string/rc_ac_file_manager_category_audio" style="@style/rc_ac_file_manager_style" />
+    </LinearLayout>
+    <View style="@style/rc_ac_file_manager_line" />
+    <LinearLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <ImageView android:src="@drawable/rc_ac_other_file_icon" style="@style/rc_ac_file_manager_image_style" />
+        <TextView android:id="@id/rc_ac_tv_file_manager_picture" android:text="@string/rc_ac_file_manager_category_picture" style="@style/rc_ac_file_manager_style" />
+    </LinearLayout>
+    <View style="@style/rc_ac_file_manager_line" />
+    <TextView android:text="@string/rc_ac_file_manager_dir_title" style="@style/rc_ac_file_manager_title" />
+    <View style="@style/rc_ac_file_manager_line" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <ImageView android:src="@drawable/rc_ac_ram_icon" style="@style/rc_ac_file_manager_image_style" />
+        <TextView android:id="@id/rc_ac_tv_file_manager_mobile_memory" android:text="@string/rc_ac_file_manager_mobile_memory" style="@style/rc_ac_file_manager_style" />
+    </LinearLayout>
+    <View style="@style/rc_ac_file_manager_line" />
+    <LinearLayout android:id="@id/rc_ac_ll_sd_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <ImageView android:src="@drawable/rc_ac_sd_card_icon" style="@style/rc_ac_file_manager_image_style" />
+        <TextView android:id="@id/rc_ac_tv_file_manager_SD_card" android:text="@string/rc_ac_file_manager_SD_card" style="@style/rc_ac_file_manager_style" />
+    </LinearLayout>
+    <View style="@style/rc_ac_file_manager_line" />
+</LinearLayout>

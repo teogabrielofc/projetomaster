@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/list_item_select" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <ImageView android:id="@id/icon_pp" android:background="@drawable/mm_create_game_peoplenum" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginLeft="20.0dip" android:layout_centerVertical="true" />
+        <CheckBox android:id="@id/icon" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CustomRPN_CheckboxTheme2" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/mm_create_game_dialog_normal" android:id="@id/item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" android:maxLength="24" android:layout_toRightOf="@id/icon_pp" android:layout_centerVertical="true" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/mm_create_game_dialog_normal" android:id="@id/item_added_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" android:layout_toRightOf="@id/item_name" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

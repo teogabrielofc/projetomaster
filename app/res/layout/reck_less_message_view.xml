@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <ImageView android:background="@drawable/reckless_rank_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="35.0sp" android:textColor="#ffffcc00" android:id="@id/my_rank_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="0" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/total_player_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="25.0dip" android:text="/0" android:layout_toRightOf="@id/my_rank_tv" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/rank_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/reckless_hero_rank" android:layout_below="@id/my_rank_tv" />
+        <RelativeLayout android:background="@drawable/reckless_time_bg" android:layout_width="145.0dip" android:layout_height="32.0dip" android:layout_margin="10.0dip" android:layout_alignParentRight="true">
+            <TextView android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/time_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="00:00:00" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/game_over_time_layer" android:background="#b2000000" android:visibility="gone" android:layout_width="92.0dip" android:layout_height="62.0dip" android:layout_marginTop="56.0dip" android:layout_centerHorizontal="true">
+            <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/title_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/reckless_hero_time_remain" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="32.0sp" android:textColor="@color/white" android:id="@id/game_over_time_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="0" android:layout_below="@id/title_tip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <ListView android:id="@id/list_view" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:divider="@null" android:layout_below="@id/rank_text" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/select_emotion_layout" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/emotion_rect" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.viewpagerindicator.CirclePageIndicator android:id="@id/circle_indicator" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" />
+        <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginBottom="18.0dip" android:layout_above="@id/circle_indicator" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/vip_tips_rect" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/emotion_label_tv" android:background="@drawable/open_vip_expression_icon" android:layout_width="90.0dip" android:layout_height="90.0dip" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/emotion_label_tv" android:layout_centerVertical="true">
+            <TextView android:textSize="15.0sp" android:textColor="#ff666666" android:id="@id/emotion_desc_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/mm_vip_power_info_expression" android:layout_centerHorizontal="true" />
+            <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/open_vip_btn" android:background="@drawable/mm_create_game_button" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_margin="16.0dip" android:text="@string/mm_vip_open_vip" android:layout_below="@id/emotion_desc_tv" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

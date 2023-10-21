@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:id="@id/mm_create_addon_rl" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="450.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/mm_create_addon_layout" android:background="@color/mm_create_game_dialog_bg" android:layout_width="332.0dip" android:layout_height="450.0dip" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/mm_create_addon_title" android:background="@color/mm_create_game_dialog_bg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/mm_create_addon_tip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mm_create_master_addon" android:singleLine="true" android:drawablePadding="10.0dip" android:layout_centerInParent="true" />
+            <View android:background="@color/mm_create_game_dialog_line" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            <ImageView android:id="@id/mm_create_addon_close" android:background="@drawable/mm_create_addon_close" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ListView android:id="@id/mm_create_addon_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="320.0dip" android:listSelector="@color/transparent" android:divider="@null" />
+        <RelativeLayout android:gravity="center" android:background="@color/mm_create_game_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:background="@color/mm_create_game_dialog_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <Button android:textColor="@color/white" android:id="@id/mm_create_addon_btn" android:background="@drawable/mm_create_game_button" android:layout_width="295.0dip" android:layout_height="38.0dip" android:layout_marginTop="5.0dip" android:text="@string/mm_create_master_addon_download" android:layout_centerInParent="true" android:textAllCaps="false" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

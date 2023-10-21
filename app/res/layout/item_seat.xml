@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/main_layer" android:layout_width="55.0dip" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/avatar_bg" android:layout_width="55.0dip" android:layout_height="55.0dip">
+            <ImageView android:id="@id/avatar_img" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerInParent="true" />
+            <FrameLayout android:id="@id/avatar_item_bg" android:background="@drawable/wf_hero_stone_border" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:textSize="10.0sp" android:textColor="#ff1d1d1e" android:gravity="center" android:id="@id/player_name" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/avatar_bg" />
+    </RelativeLayout>
+</FrameLayout>

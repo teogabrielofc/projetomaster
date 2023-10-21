@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="42.0dip" android:layout_height="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/req_image_tip" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_centerInParent="true" />
+    <RelativeLayout android:layout_width="40.0dip" android:layout_height="40.0dip">
+        <ImageView android:id="@id/btn_float_view" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/mm_float_logo" android:layout_centerInParent="true" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/mm_float_red_tips" android:background="@drawable/mm_float_red_point" android:visibility="gone" android:layout_width="13.0dip" android:layout_height="13.0dip" android:text="1" android:includeFontPadding="false" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

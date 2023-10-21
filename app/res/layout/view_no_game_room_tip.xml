@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/no_room_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="120.0dip" android:layout_below="@id/spinner_layout" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/error_icon" android:background="@drawable/tip_errow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ffa8a8a8" android:gravity="center" android:id="@id/tip_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/mm_main_all_version_no_room1" android:layout_below="@id/error_icon" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ffa8a8a8" android:gravity="center" android:id="@id/tip_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/mm_main_all_version_no_room2" android:layout_below="@id/tip_text1" android:layout_centerHorizontal="true" />
+    <ImageView android:background="@drawable/home_add_btn_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_below="@id/tip_text2" android:layout_centerHorizontal="true" />
+</RelativeLayout>

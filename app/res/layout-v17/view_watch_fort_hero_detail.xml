@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/wf_hero_detail_bg" android:layout_width="220.0dip" android:layout_height="289.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/wf_no_chose_hero_view" android:background="@drawable/wf_no_chose_hero_tip" android:layout_width="101.0dip" android:layout_height="26.0dip" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/wf_hero_detail_rect" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/hero_big_head" android:layout_width="195.0dip" android:layout_height="132.0dip" android:layout_marginTop="30.0dip" android:src="@drawable/wf_hero_choose_head_bg" android:layout_centerHorizontal="true" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="120.0dip" android:layout_marginBottom="4.0dip" android:layout_above="@id/wf_hero_confirm_btn">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="10.0sp" android:textColor="#ffbbbbbb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/watch_fort_layout_name" />
+                    <TextView android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/hero_name_tv" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="莱因哈特" android:lineSpacingExtra="2.0dip" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="10.0sp" android:textColor="#ffbbbbbb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/watch_fort_layout_equipment" />
+                    <TextView android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/hero_equip_tv" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="王者之剑*1、霸王神弓*2、霸王神弓*2" android:lineSpacingExtra="2.0dip" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="10.0sp" android:textColor="#ffbbbbbb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/watch_fort_layout_skill" />
+                    <TextView android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/hero_effect_tv" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="荆棘:IV级" android:lineSpacingExtra="2.0dip" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="10.0sp" android:textColor="#ffbbbbbb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/watch_fort_layout_detail" />
+                    <TextView android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/hero_desc_tv" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="这个英雄有点傻。。。" android:lineSpacingExtra="2.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <Button android:id="@id/wf_hero_confirm_btn" android:background="@drawable/wf_confirm_selector" android:layout_width="88.0dip" android:layout_height="34.0dip" android:layout_marginBottom="24.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <View android:id="@id/wf_hero_need_buy_view" android:background="@drawable/wf_hero_need_by_tip" android:layout_width="116.0dip" android:layout_height="27.0dip" android:layout_marginBottom="24.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

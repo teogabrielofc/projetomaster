@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@color/right_layer_title" android:gravity="center_vertical" android:id="@id/chat_title_tv" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="54.0dip" android:text="" />
+    <RelativeLayout android:background="@drawable/chat_history_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/chat_title_tv">
+        <EditText android:textSize="@dimen/chat_msg_size" android:id="@id/chat_msg_et" android:background="@drawable/chat_history_input_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_margin="10.0dip" android:hint="" android:layout_alignParentBottom="true" android:imeOptions="flagNoExtractUi" />
+        <ListView android:id="@id/chat_msg_lv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/transparent" android:layout_above="@id/chat_msg_et" />
+        <TextView android:textSize="@dimen/chat_msg_size" android:textColor="@color/chat_msg_public_color" android:gravity="center" android:id="@id/no_chat_msg_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="" android:layout_above="@id/chat_msg_et" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,65 @@
+[
+    {
+        "id": 3340,
+        "name": "ammoassault",
+        "count": 30,
+        "tag": "突击步枪弹",
+        "texture": "ammoassault"
+    },
+    {
+        "id": 3341,
+        "name": "ammosubmachine",
+        "count": 30,
+        "tag": "冲锋枪子弹",
+        "texture": "ammosubmachine"
+    },
+    {
+        "id": 3342,
+        "name": "ammolightmachine",
+        "count": 30,
+        "tag": "轻机枪子弹",
+        "texture": "ammolightmachine"
+    },
+    {
+        "id": 3343,
+        "name": "ammosniper",
+        "count": 1,
+        "tag": "狙击枪子弹",
+        "texture": "ammosniper"
+    },
+    {
+        "id": 3344,
+        "name": "ammoshotgun",
+        "count": 10,
+        "tag": "霰弹枪子弹",
+        "texture": "ammoshotgun"
+    },
+    {
+        "id": 3345,
+        "name": "ammomachinepistol",
+        "count": 1,
+        "tag": "自动手枪弹",
+        "texture": "ammomachinepistol"
+    },
+    {
+        "id": 3346,
+        "name": "ammohandgun",
+        "count": 1,
+        "tag": "手枪子弹",
+        "texture": "ammohandgun"
+    },
+    {
+        "id": 3347,
+        "name": "ammolauncher",
+        "count": 1,
+        "tag": "发射器子弹",
+        "texture": "ammolauncher"
+    },
+    {
+        "id": 3348,
+        "name": "ammominigun",
+        "count": 1,
+        "tag": "小机枪子弹",
+        "texture": "ammominigun"
+    }
+]

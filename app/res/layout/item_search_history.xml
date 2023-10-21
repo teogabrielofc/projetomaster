@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/list_item_select" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="#ff676d65" android:id="@id/name_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</FrameLayout>

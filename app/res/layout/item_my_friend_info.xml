@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/start_private_chat" android:background="@drawable/abc_list_selector_holo_dark" android:layout_width="fill_parent" android:layout_height="84.0dip">
+        <ImageView android:id="@id/iv_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/avarta_default_big" android:layout_centerVertical="true" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/iv_message_tip" android:background="@drawable/newmessage_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9" android:layout_alignTop="@id/iv_icon" android:layout_alignRight="@id/iv_icon" android:layout_centerVertical="true" />
+        <RelativeLayout android:id="@id/my_friend_rect" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_toRightOf="@id/iv_icon">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <TextView android:textSize="15.0sp" android:textColor="#ff676d65" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                <TextView android:textColor="#ffafafaf" android:id="@id/tv_room_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="6.0dip" android:text="1234" android:drawableLeft="@drawable/room_gray" android:drawableRight="@drawable/right_angle_bracket" android:drawablePadding="5.0dip" android:layout_below="@id/tv_name" />
+                <TextView android:textColor="@color/friend_offline" android:id="@id/tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="" android:layout_toRightOf="@id/tv_room_id" android:layout_below="@id/tv_name" />
+            </RelativeLayout>
+            <Button android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/btn_join_room" android:background="@drawable/button_greenbg_selector" android:layout_width="84.0dip" android:layout_height="28.0dip" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="@color/segment_line_bg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

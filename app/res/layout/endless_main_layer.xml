@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/main_view" android:layout_width="154.0dip" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/player_layer" android:background="@drawable/endless_player_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginTop="31.0dip" android:layout_centerHorizontal="true">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip" android:layout_centerHorizontal="true">
+                <ListView android:id="@id/player_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="3.0dip" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:divider="@null" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/title_layer" android:background="@drawable/endless_title_n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="14.0sp" android:textColor="#ffeef8fe" android:gravity="center" android:id="@id/room_id_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="7.0dip" android:text="1234567" android:drawableLeft="@drawable/reckless_home" android:drawablePadding="3.0dip" />
+            <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="14.0sp" android:textColor="#ffeef8fe" android:gravity="center" android:id="@id/player_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginRight="16.0dip" android:text="0/0" android:drawableLeft="@drawable/reckless_num_icon" android:drawablePadding="2.0dip" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <Button android:id="@id/begin_btn" android:background="@drawable/endless_begin_btn_select" android:layout_width="89.0dip" android:layout_height="30.5dip" android:layout_marginTop="10.0dip" android:layout_below="@id/title_layer" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

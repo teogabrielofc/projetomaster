@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/acti_frame" android:background="@color/mm_default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_rect" android:background="@drawable/mm_header_bg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/title_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/create_recently_text" android:layout_toRightOf="@id/back_btn" android:layout_centerVertical="true" />
+        <Button android:id="@id/back_btn" android:background="@drawable/back_btn_select" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="5.0dip" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@color/mm_main_gameList_popupWindows_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <RelativeLayout android:id="@id/join_recently_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="@color/mm_pop_history_tag_text" android:gravity="center" android:id="@id/join_tip_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/join_recently_text" />
+            <View android:id="@id/select_tag_line_join" android:background="#ff70a230" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/create_recently_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="@color/mm_pop_history_tag_select_text" android:gravity="center" android:id="@id/create_tip_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/create_recently_text" />
+            <View android:id="@id/select_tag_line_create" android:background="#ff70a230" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/create_recently_fragment" android:background="@color/mm_default_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <fragment android:name="com.groundhog.multiplayermaster.ui.slideMenu.MyCreatedHistoryFragment" android:background="@color/mm_default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/join_recently_fragment" android:background="@color/mm_default_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <fragment android:name="com.groundhog.multiplayermaster.ui.slideMenu.MyLatestJoinedFragment" android:background="@color/mm_default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

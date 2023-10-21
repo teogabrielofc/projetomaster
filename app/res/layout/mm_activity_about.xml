@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/mm_default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:hexagon="http://schemas.android.com/apk/res-auto" xmlns:ripple="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/mm_about_title_ll" android:background="@drawable/mm_header_bg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <Button android:id="@id/mm_about_title_backBt" android:background="@drawable/back_btn_select" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="5.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/mm_about_title_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="@string/mm_about_title_tv" android:layout_toRightOf="@id/mm_about_title_backBt" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/mm_about_icon_rl" android:layout_width="fill_parent" android:layout_height="223.0dip" android:layout_below="@id/mm_about_title_ll">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/mm_about_bg" android:scaleType="centerCrop" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/mm_about_app_text_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <TextView android:textSize="16.0sp" android:textColor="@color/mm_about_app_name" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" />
+            </LinearLayout>
+            <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/mm_about_app_text_ll" android:layout_centerHorizontal="true">
+                <ImageView android:background="@drawable/mm_about_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/mm_about_app_version" android:id="@id/mm_about_app_version_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mm_about_app_version" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/about_line_1" android:background="#ff37383d" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/mm_about_icon_rl" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/about_mapbackup_rl" android:background="#ff242428" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_below="@id/about_line_1">
+        <TextView android:textSize="15.0sp" android:textColor="#ff828690" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/mm_backup_recovery_title" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/about_go" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:background="#ff37383d" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/about_mapbackup_rl" />
+    <Button android:id="@id/mm_test_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

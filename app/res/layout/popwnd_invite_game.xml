@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#7c000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="15.0sp" android:textColor="#ff7b817a" android:gravity="center_vertical" android:id="@id/tile" android:background="#fff9f9f9" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/message_text" />
+        <TextView android:textSize="13.0sp" android:id="@id/mesg_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:layout_below="@id/tile" />
+        <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/agree_btn" android:layout_width="fill_parent" android:layout_height="43.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:text="@string/agree_text" android:layout_below="@id/mesg_text" />
+        <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/refuse_btn" android:background="@drawable/cancel_button_selector" android:layout_width="fill_parent" android:layout_height="43.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:text="@string/refuse_text" android:layout_below="@id/agree_btn" />
+    </RelativeLayout>
+</RelativeLayout>

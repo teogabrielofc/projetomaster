@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/abc_list_selector_holo_dark" android:layout_width="fill_parent" android:layout_height="84.0dip">
+        <ImageView android:id="@id/iv_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/avarta_default_big" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/applied_friend_rect" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:layout_toRightOf="@id/iv_icon">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textColor="#ff676d65" android:id="@id/tv_applied_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                <TextView android:textSize="13.0sp" android:textColor="#676d65aa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="36.0dip">
+                <Button android:textSize="12.0sp" android:textColor="#ff8f8f8f" android:id="@id/btn_reject" android:background="@drawable/button_graybg_selector" android:layout_width="60.0dip" android:layout_height="23.0dip" android:text="" />
+                <Button android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/btn_agree" android:background="@drawable/button_greenbg_selector" android:layout_width="60.0dip" android:layout_height="23.0dip" android:layout_marginLeft="10.0dip" android:text="" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/segment_line_bg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/wf_respawn_bg" android:layout_width="180.0dip" android:layout_height="175.0dip" android:layout_centerInParent="true">
+        <Button android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/respawn_time_btn" android:background="@drawable/wf_un_respawn_btn_bg" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginBottom="20.0dip" android:text="复活(10s)" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/kill_message_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:text="你被 xxxxxxxxxxxxxx 击杀!" android:maxLines="1" android:layout_above="@id/respawn_time_btn" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:background="@drawable/wf_hero_default_bg" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginBottom="10.0dip" android:layout_above="@id/kill_message_tv" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/killer_hero_img" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/wf_hero_choose_head_bg" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

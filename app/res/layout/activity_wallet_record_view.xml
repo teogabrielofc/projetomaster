@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/mm_wallert_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/wallet_title_ll" android:background="@drawable/mm_header_bg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <Button android:id="@id/wallet_record_title_backBt" android:background="@drawable/back_btn_select" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="5.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/wallet_record_title_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="@string/mm_wallet_record" android:layout_toRightOf="@id/wallet_record_title_backBt" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/wallet_record_select_ll" android:background="@color/mm_wallert_time_background" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/wallet_record_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mm_wallert_record_3_month_all" />
+        <ImageView android:id="@id/wallet_record_select_state_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/mm_wallet_record_select_time_icon" />
+    </LinearLayout>
+    <com.groundhog.multiplayermaster.view.XListView android:id="@id/wallet_record_data_lv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:divider="#ff5c5e64" android:dividerHeight="1.0px" android:footerDividersEnabled="false" />
+</LinearLayout>

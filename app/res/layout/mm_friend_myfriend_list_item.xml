@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/mm_default_bg" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:friendhexagon="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="65.0dip">
+        <com.groundhog.multiplayermaster.view.FriendHexagonRightFrameView android:id="@id/mm_friend_myfriend_hexagon_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" friendhexagon:friendRightFrameViewGap="3.0dip" friendhexagon:friendRrameBackGrounp="@color/mm_friends_newfriend_frame_bg">
+            <com.groundhog.multiplayermaster.view.HexagonIconView android:layout_gravity="center_vertical" android:id="@id/mm_friend_myfriend_list_item_hexagon" android:layout_width="55.0dip" android:layout_height="55.0dip" friendhexagon:hexagonLineWith="1.0dip" friendhexagon:hexagonLineColor="@color/mm_friends_list_new_friend_hexagon_line" friendhexagon:hexagonImage="@drawable/avarta_default_big" />
+        </com.groundhog.multiplayermaster.view.FriendHexagonRightFrameView>
+        <RelativeLayout android:id="@id/mm_friend_head_vip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/mm_friend_head_vip_img" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_centerVertical="true" />
+            <RelativeLayout android:gravity="bottom|center|right" android:visibility="gone" android:layout_width="53.0dip" android:layout_height="63.0dip">
+                <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/mm_vip_icon" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/mm_friend_myfriend_list_item_normal_rl" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="65.0dip" android:layout_marginTop="5.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="@color/mm_friends_list_hexagon_online" android:id="@id/mm_friend_myfriend_list_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="@string/mm_friends_myfriend_list_name" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/mm_friends_list_online_status" android:id="@id/mm_friend_myfriend_list_online" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="@string/mm_friends_myfriend_list_online" android:layout_alignParentBottom="true" />
+            <RelativeLayout android:id="@id/mm_friend_gaming_rl" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/mm_friend_myfriend_list_online">
+                <com.groundhog.multiplayermaster.view.McTextView android:textSize="12.0sp" android:textColor="@color/mm_gamelist_room_id" android:gravity="center_vertical" android:id="@id/mm_redblue_friend_gaming_room" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginLeft="5.0dip" android:text="" android:drawableLeft="@drawable/mm_gamelist_room" android:drawablePadding="5.0dip" android:layout_alignParentBottom="true" />
+                <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/mm_friend_join_btn" android:background="@drawable/green_btn_select" android:visibility="visible" android:layout_width="65.0dip" android:layout_height="30.0dip" android:layout_marginRight="10.0dip" android:text="@string/mm_friend_gaming_join" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="false" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

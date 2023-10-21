@@ -1,0 +1,66 @@
+[
+    {
+        "id": 3285,
+        "name": "juggernauthelmet",
+        "defense": 300,
+        "count": 1,
+        "tag": "Juggernaut Helmet",
+        "texture": "juggernauthelmet"
+    },
+    {
+        "id": 3286,
+        "name": "juggernautchestplate",
+        "defense": 300,
+        "count": 1,
+        "tag": "Juggernaut Body",
+        "texture": "juggernautchestplate"
+    },
+    {
+        "id": 3287,
+        "name": "juggernautleggings",
+        "defense": 300,
+        "count": 1,
+        "tag": "Juggernaut Pants",
+        "texture": "juggernautleggings"
+    },
+    {
+        "id": 3288,
+        "name": "juggernautboots",
+        "defense": 300,
+        "count": 1,
+        "tag": "Juggernaut Boots",
+        "texture": "juggernautboots"
+    },
+    {
+        "id": 3289,
+        "name": "junglecamohelmet",
+        "defense": 300,
+        "count": 1,
+        "tag": "Jungle Camo Helmet",
+        "texture": "junglecamohelmet"
+    },
+    {
+        "id": 3290,
+        "name": "junglecamochestplate",
+        "defense": 300,
+        "count": 1,
+        "tag": "Jungle Camo Body",
+        "texture": "junglecamochestplate"
+    },
+    {
+        "id": 3291,
+        "name": "junglecamoleggings",
+        "defense": 300,
+        "count": 1,
+        "tag": "Jungle Camo Pants",
+        "texture": "junglecamoleggings"
+    },
+    {
+        "id": 3292,
+        "name": "junglecamoboots",
+        "defense": 300,
+        "count": 1,
+        "tag": "Jungle Camo Boots",
+        "texture": "junglecamoboots"
+    }
+]

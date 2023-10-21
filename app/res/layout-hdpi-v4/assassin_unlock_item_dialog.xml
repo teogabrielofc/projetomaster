@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/assassin_message_dialog_bg" android:layout_width="209.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:textColor="#ff151515" android:layout_gravity="center_horizontal" android:id="@id/txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="解锁商品" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff151515" android:layout_gravity="center_horizontal" android:id="@id/txt_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:lineSpacingMultiplier="1.5" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="10.0dip">
+            <Button android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/btn" android:background="@drawable/assassin_message_dialog_btn_bg" android:layout_width="85.0dip" android:layout_height="32.0dip" android:text="确定" />
+            <Button android:textSize="12.0sp" android:textColor="#ff999999" android:id="@id/btn_cancel" android:background="@drawable/assassin_unlock_dialog_cancel_btn_bg" android:layout_width="85.0dip" android:layout_height="32.0dip" android:layout_marginLeft="13.0dip" android:text="取消" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/loading_progress_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/assassin_loading_progress" />
+        <TextView android:textSize="11.0sp" android:textColor="#ff666666" android:id="@id/txt_progress_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_gray" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/text_tip" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_vertical_margin" android:text="@string/dialog_launch_mode_title" />
+    <RelativeLayout android:id="@id/launch_mode1" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="80.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_vertical_margin" android:text="@string/launch_mode_1" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/radio_launch_mode1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/activity_vertical_margin" android:src="@drawable/radio_checked" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:background="@color/background_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:id="@id/launch_mode2" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="80.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_vertical_margin" android:text="@string/launch_mode_2" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/radio_launch_mode2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/activity_vertical_margin" android:src="@drawable/radio_uncheck" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:background="@color/background_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/ok" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_vertical_margin" android:text="@string/ok_txt" style="@style/ButtonSelected" />
+    </LinearLayout>
+</LinearLayout>

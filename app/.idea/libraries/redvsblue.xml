@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="redvsblue">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/res/raw/redvsblue.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

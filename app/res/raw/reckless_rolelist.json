@@ -1,0 +1,438 @@
+{
+    "code": 200,
+    "data": {
+        "Brave Power": [
+            {
+                "buff": [
+                    {
+                        "effectName": "DIG_SPEED",
+                        "customName": "Haste",
+                        "itemType": "POTION_TYPE",
+                        "amplifier": 0,
+                        "count": 1,
+                        "damage": 0,
+                        "duration": 5,
+                        "id": 3
+                    }
+                ],
+                "condition": "Participate in Rage Hero for 10 times",
+                "des": "Destroy Roadblocks quicker",
+                "icon": "http://mconlinepicture.bs2dl.huanjuyun.com/sys-1487816775310.PNG",
+                "iconId":"BravePower_v1",
+		        "name": "Brave Power LV.1",
+                "cdTime": 30,
+                "forOther": false,
+                "level": 1,
+                "targetValue": 10,
+                "unlockType": 1
+            },
+            {
+                "buff": [
+                    {
+                        "effectName": "DIG_SPEED",
+                        "customName": "Haste",
+                        "itemType": "POTION_TYPE",
+                        "amplifier": 1,
+                        "count": 1,
+                        "damage": 0,
+                        "duration": 8,
+                        "id": 3
+                    }
+                ],
+                "condition": "Participate in Rage Hero for 50 times",
+                "des": "Destroy Roadblocks quicker",
+                "icon": "http://mconlinepicture.bs2dl.huanjuyun.com/sys-1487816793183.PNG",
+                "iconId":"BravePower_v2",
+                "name": "Brave Power LV.2",
+                "cdTime": 20,
+                "forOther": false,
+                "level": 2,
+                "targetValue": 50,
+                "unlockType": 1
+            },
+            {
+                "buff": [
+                    {
+                        "effectName": "DIG_SPEED",
+                        "customName": "Haste",
+                        "itemType": "POTION_TYPE",
+                        "amplifier": 2,
+                        "count": 1,
+                        "damage": 0,
+                        "duration": 10,
+                        "id": 3
+                    }
+                ],
+                "condition": "Participate in Rage Hero for 100 times",
+                "des": "Destroy Roadblocks quicker",
+                "icon": "http://mconlinepicture.bs2dl.huanjuyun.com/sys-1487816812558.PNG",
+                "iconId":"BravePower_v3",
+                "name": "Brave Power LV.3",
+                "cdTime": 10,
+                "forOther": false,
+                "level": 3,
+                "targetValue": 100,
+                "unlockType": 1
+            }
+        ],
+	  "Wizard\\'s Spells": [
+	    {
+	      "buff": [
+	        {
+	          "effectName": "DIG_SLOWDOWN",
+	          "itemType": "POTION_TYPE",
+	          "customName": "Mining Fatigue",
+	          "damage": 0,
+	          "duration": 10,
+	          "count": 1,
+	          "id": 4,
+	          "amplifier": 0
+	        },
+	        {
+	          "effectName": "MOVEMENT_SLOWDOWN",
+	          "itemType": "POTION_TYPE",
+	          "customName": "Slowness",
+	          "damage": 0,
+	          "duration": 10,
+	          "count": 1,
+	          "id": 2,
+	          "amplifier": 1
+	        },
+	        {
+	          "effectName": "BLINDNESS",
+	          "itemType": "POTION_TYPE",
+	          "customName": "Blindness",
+	          "damage": 0,
+	          "duration": 5,
+	          "count": 1,
+	          "id": 15,
+	          "amplifier": 1
+	        }
+	      ],
+	      "des": "Give the player you specified a negative effect",
+	      "name": "Wizard's Spells",
+	      "icon": "http://mconlinepicture.bs2dl.huanjuyun.com/sys-1489542278118.PNG",
+	      "iconId":"WizardSpells",
+	      "level": 0,
+	      "forOther": true,
+	      "targetValue": 0,
+	      "cdTime": 28,
+	      "unlockType": 2
+	    }
+	  ],
+        "Crazy Builder": [
+            {
+                "condition": "Destroy 50 Roadblocks",
+                "des": "Earn a lot of Roadblocks",
+                "icon": "http://mconlinepicture.bs2dl.huanjuyun.com/sys-1487816532118.PNG",
+                "iconId":"CrazyBuilder_v1",
+                "inventory": [
+                    {
+                        "customName": "Roadblocks",
+                        "itemType": "INVENTORY_TYPE",
+                        "amplifier": 0,
+                        "count": 3,
+                        "damage": 0,
+                        "duration": 0,
+                        "id": 152
+                    }
+                ],
+                "name": "Crazy Builder LV.1",
+                "cdTime": 40,
+                "forOther": false,
+                "level": 1,
+                "targetValue": 50,
+                "unlockType": 1
+            },
+            {
+                "condition": "Destroy 200 Roadblocks",
+                "des": "Earn a lot of Roadblocks",
+                "icon": "http://mconlinepicture.bs2dl.huanjuyun.com/sys-1487816554207.PNG",
+                "iconId":"CrazyBuilder_v2",
+                "inventory": [
+                    {
+                        "customName": "Roadblocks",
+                        "itemType": "INVENTORY_TYPE",
+                        "amplifier": 0,
+                        "count": 5,
+                        "damage": 0,
+                        "duration": 0,
+                        "id": 152
+                    }
+                ],
+                "name": "Crazy Builder LV.2",
+                "cdTime": 35,
+                "forOther": false,
+                "level": 2,
+                "targetValue": 200,
+                "unlockType": 1
+            },
+            {
+                "condition": "Destroy 350 Roadblocks",
+                "des": "Earn a lot of Roadblocks",
+                "icon": "http://mconlinepicture.bs2dl.huanjuyun.com/sys-1487816584624.PNG",
+                "iconId":"CrazyBuilder_v3",
+                "inventory": [
+                    {
+                        "customName": "Roadblocks",
+                        "itemType": "INVENTORY_TYPE",
+                        "amplifier": 0,
+                        "count": 8,
+                        "damage": 0,
+                        "duration": 0,
+                        "id": 152
+                    }
+                ],
+                "name": "Crazy Builder LV.3",
+                "cdTime": 30,
+                "forOther": false,
+                "level": 3,
+                "targetValue": 350,
+                "unlockType": 1
+            }
+        ],
+        "Ninja\\'s Belief": [
+            {
+                "buff": [
+                    {
+                        "effectName": "JUMP",
+                        "customName": "Jump Boost",
+                        "itemType": "POTION_TYPE",
+                        "amplifier": 1,
+                        "count": 1,
+                        "damage": 0,
+                        "duration": 10,
+                        "id": 8
+                    },
+                    {
+                        "effectName": "WATER_BREATHING",
+                        "customName": "Water Breathing",
+                        "itemType": "POTION_TYPE",
+                        "amplifier": 1,
+                        "count": 1,
+                        "damage": 0,
+                        "duration": 10,
+                        "id": 13
+                    }
+                ],
+                "des": "Be able to take shortcuts",
+                "icon": "http://mconlinepicture.bs2dl.huanjuyun.com/sys-1487816708579.PNG",
+                "name": "Ninja's Belief",
+		        "iconId":"NinjaBelief",
+                "cdTime": 30,
+                "forOther": false,
+                "level": 0,
+                "targetValue": 0,
+                "unlockType": 2
+            }
+        ],
+        "Super Rager": [
+            {
+                "buff": [
+                    {
+                        "effectName": "MOVEMENT_SPEED",
+                        "customName": "Speed",
+                        "itemType": "POTION_TYPE",
+                        "amplifier": 0,
+                        "count": 1,
+                        "damage": 0,
+                        "duration": 5,
+                        "id": 1
+                    }
+                ],
+                "des": "Gain speed for a short time",
+                "icon": "http://mconlinepicture.bs2dl.huanjuyun.com/sys-1487816396605.PNG",
+                "name": "Super Rager LV.1",
+		        "iconId":"SuperRager_v1",
+                "cdTime": 45,
+                "forOther": false,
+                "level": 1,
+                "targetValue": 0,
+                "unlockType": 0
+            },
+            {
+                "buff": [
+                    {
+                        "effectName": "MOVEMENT_SPEED",
+                        "customName": "Speed",
+                        "itemType": "POTION_TYPE",
+                        "amplifier": 0,
+                        "count": 1,
+                        "damage": 0,
+                        "duration": 10,
+                        "id": 1
+                    }
+                ],
+                "condition": "Win 50 championships",
+                "des": "Gain speed for a short time",
+                "icon": "http://mconlinepicture.bs2dl.huanjuyun.com/sys-1487816419994.PNG",
+                "name": "Super Rager LV.2",
+		        "iconId":"SuperRager_v2",
+                "cdTime": 30,
+                "forOther": false,
+                "level": 2,
+                "targetValue": 50,
+                "unlockType": 1
+            },
+            {
+                "buff": [
+                    {
+                        "effectName": "MOVEMENT_SPEED",
+                        "customName": "Speed",
+                        "itemType": "POTION_TYPE",
+                        "amplifier": 1,
+                        "count": 1,
+                        "damage": 0,
+                        "duration": 10,
+                        "id": 1
+                    }
+                ],
+                "condition": "Win 100 championships",
+                "des": "Gain speed for a short time",
+                "icon": "http://mconlinepicture.bs2dl.huanjuyun.com/sys-1487816439856.PNG",
+                "name": "Super Rager LV.3",
+		        "iconId":"SuperRager_v3",
+                "cdTime": 20,
+                "forOther": false,
+                "level": 3,
+                "targetValue": 100,
+                "unlockType": 1
+            }
+        ],
+        "Magicblocks": [
+            {
+                "buff": [
+                    {
+                        "effectName": "MOVEMENT_SPEED",
+                        "customName": "Speed",
+                        "itemType": "POTION_TYPE",
+                        "amplifier": 0,
+                        "count": 1,
+                        "damage": 0,
+                        "duration": 5,
+                        "id": 1
+                    }
+                ],
+                "name": "Magicblocks LV.1",
+                "cdTime": 0,
+                "forOther": false,
+                "level": 1,
+                "targetValue": 0,
+                "unlockType": 0
+            },
+            {
+                "buff": [
+                    {
+                        "effectName": "MOVEMENT_SPEED",
+                        "customName": "Speed",
+                        "itemType": "POTION_TYPE",
+                        "amplifier": 1,
+                        "count": 1,
+                        "damage": 0,
+                        "duration": 10,
+                        "id": 1
+                    }
+                ],
+                "name": "Magicblocks LV.2",
+                "cdTime": 0,
+                "forOther": false,
+                "level": 2,
+                "targetValue": 0,
+                "unlockType": 0
+            },
+            {
+                "buff": [
+                    {
+                        "effectName": "JUMP",
+                        "customName": "Jump Boost",
+                        "itemType": "POTION_TYPE",
+                        "amplifier": 1,
+                        "count": 1,
+                        "damage": 0,
+                        "duration": 10,
+                        "id": 8
+                    }
+                ],
+                "name": "Magicblocks LV.3",
+                "cdTime": 0,
+                "forOther": false,
+                "level": 3,
+                "targetValue": 0,
+                "unlockType": 0
+            },
+            {
+                "inventory": [
+                    {
+                        "customName": "Wooden Pickaxe",
+                        "itemType": "INVENTORY_TYPE",
+                        "amplifier": 0,
+                        "count": 1,
+                        "damage": 0,
+                        "duration": 0,
+                        "id": 270
+                    }
+                ],
+                "name": "Magicblocks LV.4",
+                "cdTime": 0,
+                "forOther": false,
+                "level": 4,
+                "targetValue": 0,
+                "unlockType": 0
+            },
+            {
+                "buff": [
+                    {
+                        "effectName": "DIG_SPEED",
+                        "customName": "Haste",
+                        "itemType": "POTION_TYPE",
+                        "amplifier": 0,
+                        "count": 1,
+                        "damage": 0,
+                        "duration": 5,
+                        "id": 3
+                    }
+                ],
+                "name": "Magicblocks LV.5",
+                "cdTime": 0,
+                "forOther": false,
+                "level": 5,
+                "targetValue": 0,
+                "unlockType": 0
+            },
+            {
+                "buff": [
+                    {
+                        "effectName": "DIG_SPEED",
+                        "customName": "Haste",
+                        "itemType": "POTION_TYPE",
+                        "amplifier": 2,
+                        "count": 1,
+                        "damage": 0,
+                        "duration": 10,
+                        "id": 3
+                    }
+                ],
+                "name": "Magicblocks LV.6",
+                "cdTime": 0,
+                "forOther": false,
+                "level": 6,
+                "targetValue": 0,
+                "unlockType": 0
+            }
+        ],
+        "Mage\\'s Aid": [
+            {
+                "condition": "Destroy 1000 Magicblocks",
+                "des": "Earn a Magicblocks's effect once",
+                "icon": "http://mconlinepicture.bs2dl.huanjuyun.com/sys-1488280188401.PNG",
+                "name": "Mage's Aid",
+		        "iconId":"MageAid",
+                "cdTime": 45,
+                "forOther": false,
+                "level": 0,
+                "targetValue": 1000,
+                "unlockType": 1
+            }
+        ]
+    }
+}

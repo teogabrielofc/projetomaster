@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/left_menu_head_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon" android:background="@drawable/house_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_centerVertical="true" />
+        <com.groundhog.multiplayermaster.floatwindow.view.McTextView android:textSize="13.0sp" android:textColor="#ccffffff" android:gravity="center_vertical" android:id="@id/room_id_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_toRightOf="@id/icon" />
+        <TextView android:textSize="9.0sp" android:textColor="#ffb2b4b8" android:id="@id/mm_server_name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" android:layout_toRightOf="@id/icon" android:layout_below="@id/room_id_text" />
+        <TextView android:textSize="8.0sp" android:textColor="#ffb2b4b8" android:id="@id/net_delay_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="8.0dip" android:layout_toRightOf="@id/icon" android:layout_below="@id/mm_server_name_text" />
+    </RelativeLayout>
+</LinearLayout>

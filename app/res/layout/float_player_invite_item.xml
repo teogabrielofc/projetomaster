@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:addhexagon="http://schemas.android.com/apk/res-auto">
+    <com.groundhog.multiplayermaster.floatwindow.view.HexagonIconView android:id="@id/float_player_invite_head" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_centerVertical="true" addhexagon:hexagonLineWith="1.0dip" addhexagon:hexagonLineColor="@color/float_player_invite_hexagon_line" addhexagon:hexagonImage="@drawable/avarta_default_big" />
+    <RelativeLayout android:id="@id/float_player_invite_rl" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="55.0dip" android:layout_centerVertical="true">
+        <TextView android:textSize="13.0sp" android:textColor="@color/float_player_invite_name" android:id="@id/float_player_invite_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/float_player_invite_name" android:singleLine="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:gravity="center" android:layout_width="60.0dip" android:layout_height="30.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/float_player_invite_acceptBtn" android:background="@drawable/green_btn_select" android:visibility="visible" android:layout_width="65.0dip" android:layout_height="30.0dip" android:layout_marginRight="5.0dip" android:text="@string/float_player_invite_invite" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/float_player_invite_confirm" android:id="@id/float_player_invite_acceptedText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/float_player_member_add" />
+            <RelativeLayout android:id="@id/float_player_invite_item_probar" android:background="@drawable/mm_green_btn" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="30.0dip" android:layout_marginRight="5.0dip">
+                <ProgressBar android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="@color/chat_target_segment_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/float_player_invite_rl" />
+</RelativeLayout>

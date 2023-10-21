@@ -1,0 +1,848 @@
+{
+  code: 200,
+  data: [
+    {
+      boots: {
+        color: "RED",
+        customName: "皮革靴子",
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 301
+      },
+      breastplate: {
+        color: "RED",
+        customName: "皮革外套",
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 299
+      },
+      buff: [
+        {
+          effectName: "MOVEMENT_SPEED",
+          customName: "速度",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 1
+        },
+        {
+          effectName: "DAMAGE_BOOST",
+          customName: "力量",
+          itemType: "POTION_TYPE",
+          amplifier: 4,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 5
+        },
+        {
+          effectName: "DAMAGE_RESISTANCE",
+          customName: "抗性提升",
+          itemType: "POTION_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 11
+        },
+        {
+          effectName: "SATURATION",
+          customName: "饱和",
+          itemType: "POTION_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 23
+        },
+        {
+          effectName: "FIRE_RESISTANCE",
+          customName: "防火",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 12
+        },
+        {
+          effectName: "REGENERATION",
+          customName: "生命恢复",
+          itemType: "POTION_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 10
+        }
+      ],
+      inventory: [
+        {
+          customName: "金刚棍",
+          enchants: [
+            {
+              name: "锋利",
+              id: 9,
+              level: 3,
+              maxLevel: 5
+            },
+            {
+              name: "火焰附加",
+              id: 13,
+              level: 2,
+              maxLevel: 2
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 280
+        }
+      ],
+      legging: {
+        color: "RED",
+        customName: "皮革裤子",
+        itemType: "LEGGING_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 300
+      },
+      name: "炎魔",
+      lock: true
+    },
+    {
+      boots: {
+        customName: "铁靴子",
+        enchants: [
+          {
+            name: "火焰保护",
+            id: 1,
+            level: 1,
+            maxLevel: 4
+          },
+          {
+            name: "耐久",
+            id: 17,
+            level: 1,
+            maxLevel: 3
+          }
+        ],
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 309
+      },
+      breastplate: {
+        customName: "铁胸甲",
+        enchants: [
+          {
+            name: "爆炸保护",
+            id: 3,
+            level: 1,
+            maxLevel: 4
+          },
+          {
+            name: "荆棘",
+            id: 5,
+            level: 1,
+            maxLevel: 3
+          },
+          {
+            name: "耐久",
+            id: 17,
+            level: 1,
+            maxLevel: 3
+          }
+        ],
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 307
+      },
+      buff: [
+        {
+          effectName: "DAMAGE_BOOST",
+          customName: "力量",
+          itemType: "POTION_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 5
+        },
+        {
+          effectName: "JUMP",
+          customName: "跳跃提升",
+          itemType: "POTION_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 8
+        }
+      ],
+      inventory: [
+        {
+          customName: "弓",
+          enchants: [
+            {
+              name: "耐久",
+              id: 17,
+              level: 1,
+              maxLevel: 3
+            },
+            {
+              name: "力量",
+              id: 19,
+              level: 3,
+              maxLevel: 5
+            },
+            {
+              name: "火矢",
+              id: 21,
+              level: 1,
+              maxLevel: 1
+            },
+            {
+              name: "无限",
+              id: 22,
+              level: 1,
+              maxLevel: 1
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 261
+        },
+        {
+          customName: "箭",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 262
+        }
+      ],
+      legging: {
+        customName: "铁护腿",
+        enchants: [
+          {
+            name: "荆棘",
+            id: 5,
+            level: 1,
+            maxLevel: 3
+          },
+          {
+            name: "耐久",
+            id: 17,
+            level: 1,
+            maxLevel: 3
+          }
+        ],
+        itemType: "LEGGING_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 308
+      },
+      name: "猎魔者",
+      lock: false
+    },
+    {
+      boots: {
+        customName: "金靴子",
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 317
+      },
+      breastplate: {
+        customName: "金胸甲",
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 315
+      },
+      buff: [
+        {
+          effectName: "FIRE_RESISTANCE",
+          customName: "防火",
+          itemType: "POTION_TYPE",
+          amplifier: 2,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 12
+        },
+        {
+          effectName: "DAMAGE_BOOST",
+          customName: "力量",
+          itemType: "POTION_TYPE",
+          amplifier: 2,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 5
+        },
+        {
+          effectName: "SATURATION",
+          customName: "饱和",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 23
+        }
+      ],
+      inventory: [
+        {
+          customName: "金剑",
+          enchants: [
+            {
+              name: "锋利",
+              id: 9,
+              level: 5,
+              maxLevel: 5
+            },
+            {
+              name: "火焰附加",
+              id: 13,
+              level: 1,
+              maxLevel: 2
+            },
+            {
+              name: "耐久",
+              id: 17,
+              level: 3,
+              maxLevel: 3
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 283
+        }
+      ],
+      legging: {
+        customName: "金护腿",
+        itemType: "LEGGING_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 316
+      },
+      name: "火剑士",
+      lock: false
+    },
+    {
+      buff: [
+        {
+          effectName: "INVISIBILITY",
+          customName: "隐身",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 14
+        },
+        {
+          effectName: "DAMAGE_BOOST",
+          customName: "力量",
+          itemType: "POTION_TYPE",
+          amplifier: 3,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 5
+        }
+      ],
+      inventory: [
+        {
+          customName: "钻石剑",
+          enchants: [
+            {
+              name: "锋利",
+              id: 9,
+              level: 8,
+              maxLevel: 5
+            },
+            {
+              name: "耐久",
+              id: 17,
+              level: 3,
+              maxLevel: 3
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 276
+        }
+      ],
+      name: "刺客",
+      lock: false
+    },
+    {
+      boots: {
+        customName: "铁靴子",
+        enchants: [
+          {
+            name: "火焰保护",
+            id: 1,
+            level: 1,
+            maxLevel: 4
+          }
+        ],
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 309
+      },
+      breastplate: {
+        customName: "铁胸甲",
+        enchants: [
+          {
+            name: "火焰保护",
+            id: 1,
+            level: 1,
+            maxLevel: 4
+          }
+        ],
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 307
+      },
+      buff: [
+        {
+          effectName: "DAMAGE_BOOST",
+          customName: "力量",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 5
+        }
+      ],
+      inventory: [
+        {
+          customName: "钻石剑",
+          enchants: [
+            {
+              name: "锋利",
+              id: 9,
+              level: 3,
+              maxLevel: 5
+            },
+            {
+              name: "耐久",
+              id: 17,
+              level: 3,
+              maxLevel: 3
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 276
+        }
+      ],
+      legging: {
+        customName: "铁护腿",
+        enchants: [
+          {
+            name: "火焰保护",
+            id: 1,
+            level: 1,
+            maxLevel: 4
+          }
+        ],
+        itemType: "LEGGING_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 308
+      },
+      name: "骑士",
+      lock: false
+    },
+    {
+      boots: {
+        customName: "皮革靴子",
+        enchants: [
+          {
+            name: "弹射物保护",
+            id: 4,
+            level: 1,
+            maxLevel: 4
+          }
+        ],
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 301
+      },
+      buff: [
+        {
+          effectName: "REGENERATION",
+          customName: "生命恢复",
+          itemType: "POTION_TYPE",
+          amplifier: 3,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 10
+        }
+      ],
+      helmet: {
+        customName: "皮革帽子",
+        enchants: [
+          {
+            name: "弹射物保护",
+            id: 4,
+            level: 1,
+            maxLevel: 4
+          }
+        ],
+        itemType: "HELMET_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 298
+      },
+      inventory: [
+        {
+          customName: "木剑",
+          enchants: [
+            {
+              name: "锋利",
+              id: 9,
+              level: 2,
+              maxLevel: 5
+            },
+            {
+              name: "击退",
+              id: 12,
+              level: 3,
+              maxLevel: 2
+            },
+            {
+              name: "耐久",
+              id: 17,
+              level: 3,
+              maxLevel: 3
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 268
+        },
+        {
+          customName: "力量Ⅱ(1:30)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 33,
+          duration: 0,
+          id: 373
+        },
+        {
+          customName: "治疗Ⅱ",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 22,
+          duration: 0,
+          id: 373
+        },
+        {
+          customName: "剧毒Ⅱ喷溅(0:16)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 27,
+          duration: 0,
+          id: 438
+        },
+        {
+          customName: "剧毒Ⅱ喷溅(0:16)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 27,
+          duration: 0,
+          id: 438
+        },
+        {
+          customName: "剧毒Ⅱ喷溅(0:16)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 27,
+          duration: 0,
+          id: 438
+        },
+        {
+          customName: "迟缓喷溅(1:07)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 17,
+          duration: 0,
+          id: 438
+        },
+        {
+          customName: "迟缓喷溅(1:07)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 17,
+          duration: 0,
+          id: 438
+        },
+        {
+          customName: "迟缓喷溅(1:07)",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 17,
+          duration: 0,
+          id: 438
+        }
+      ],
+      legging: {
+        customName: "皮革裤子",
+        enchants: [
+          {
+            name: "弹射物保护",
+            id: 4,
+            level: 1,
+            maxLevel: 4
+          }
+        ],
+        itemType: "LEGGING_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 300
+      },
+      name: "药剂师",
+      lock: false
+    },
+    {
+      boots: {
+        customName: "皮革靴子",
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 301
+      },
+      breastplate: {
+        customName: "皮革外套",
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 299
+      },
+      inventory: [
+        {
+          customName: "弓",
+          enchants: [
+            {
+              name: "耐久",
+              id: 17,
+              level: 3,
+              maxLevel: 3
+            },
+            {
+              name: "力量",
+              id: 19,
+              level: 3,
+              maxLevel: 5
+            },
+            {
+              name: "冲击",
+              id: 20,
+              level: 1,
+              maxLevel: 2
+            },
+            {
+              name: "无限",
+              id: 22,
+              level: 1,
+              maxLevel: 1
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 261
+        },
+        {
+          customName: "箭",
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 262
+        }
+      ],
+      legging: {
+        customName: "皮革裤子",
+        itemType: "LEGGING_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 300
+      },
+      name: "游侠",
+      lock: false
+    },
+    {
+      boots: {
+        customName: "锁链靴子",
+        itemType: "BOOT_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 305
+      },
+      breastplate: {
+        customName: "钻石胸甲",
+        itemType: "BREASTPLATE_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 311
+      },
+      buff: [
+        {
+          effectName: "DAMAGE_BOOST",
+          customName: "力量",
+          itemType: "POTION_TYPE",
+          amplifier: 3,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 5
+        },
+        {
+          effectName: "MOVEMENT_SLOWDOWN",
+          customName: "缓慢",
+          itemType: "POTION_TYPE",
+          amplifier: 1,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 2
+        },
+        {
+          effectName: "DAMAGE_RESISTANCE",
+          customName: "抗性提升",
+          itemType: "POTION_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 1000000,
+          id: 11
+        }
+      ],
+      helmet: {
+        customName: "锁链头盔",
+        itemType: "HELMET_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 302
+      },
+      inventory: [
+        {
+          customName: "钻石斧",
+          enchants: [
+            {
+              name: "耐久",
+              id: 17,
+              level: 3,
+              maxLevel: 3
+            }
+          ],
+          itemType: "INVENTORY_TYPE",
+          amplifier: 0,
+          count: 1,
+          damage: 0,
+          duration: 0,
+          id: 279
+        }
+      ],
+      legging: {
+        customName: "锁链护腿",
+        itemType: "LEGGING_TYPE",
+        amplifier: 0,
+        count: 1,
+        damage: 0,
+        duration: 0,
+        id: 304
+      },
+      name: "屠夫",
+      lock: false
+    }
+  ]
+}

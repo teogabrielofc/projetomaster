@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/activity_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/btn_getInfo" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginTop="10.0dip" android:text="获取支付网关信息" />
+    <Button android:id="@id/btn_pay_1001" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginTop="10.0dip" android:text="支付" />
+    <Button android:id="@id/btn_look" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginTop="10.0dip" android:text="查询商品信息" />
+    <Button android:id="@id/btn_verify" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginTop="10.0dip" android:text="消耗1001" />
+    <Button android:id="@id/btn_commit" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginTop="10.0dip" android:text="提交支付网关信息" />
+</LinearLayout>

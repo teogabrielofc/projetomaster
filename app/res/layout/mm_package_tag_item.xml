@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mm_shop_package_type" android:layout_width="fill_parent" android:layout_height="38.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="@color/mm_shop_type" android:gravity="center" android:id="@id/mm_shop_package_type_text" android:background="@color/mm_shop_type_bg" android:layout_width="fill_parent" android:layout_height="38.0dip" />
+        <ImageView android:id="@id/mm_shop_package_arrow_hide" android:background="@drawable/mm_shop_type_hide" android:layout_width="15.0dip" android:layout_height="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/mm_shop_package_arrow_show" android:background="@drawable/mm_shop_type_show" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/mm_shop_package_list_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:divider="@null" android:dividerHeight="10.0dip" android:layout_below="@id/mm_shop_package_type" android:footerDividersEnabled="false" />
+    <RelativeLayout android:id="@id/mm_package_empty_rl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/mm_shop_package_title_ll">
+        <ImageView android:id="@id/mm_package_empty_iv" android:background="@drawable/mm_shop_package_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/mm_package_empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/mm_package_empty_text" android:layout_below="@id/mm_package_empty_iv" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

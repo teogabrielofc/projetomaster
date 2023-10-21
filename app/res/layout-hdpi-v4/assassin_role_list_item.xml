@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="165.0dip" android:layout_height="178.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_selected_flag" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/assassin_role_item_bg_selector" />
+    <ImageView android:id="@id/role_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/assassin_role_item_name_color" android:id="@id/txt_role_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="94.0dip" android:layout_marginTop="29.0dip" android:text="见习刺客" />
+</FrameLayout>

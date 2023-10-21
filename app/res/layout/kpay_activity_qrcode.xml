@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff3f5f9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/kpay_activity_header_view" />
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:gravity="center" android:id="@id/pay_hints" android:background="#ffffde00" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="使用微信扫码支付" />
+    <ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="应付金额" />
+            <TextView android:textSize="32.0sp" android:textColor="#ffff8401" android:layout_gravity="center" android:id="@id/amount_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="30元" />
+            <View android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="30.0dip" />
+            <ImageView android:layout_gravity="center" android:id="@id/qrcode_imageview" android:layout_width="145.0dip" android:layout_height="145.0dip" android:layout_marginTop="15.0dip" android:scaleType="centerCrop" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                <TextView android:textSize="12.0sp" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="使用" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff53b236" android:id="@id/channel_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="微信" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="#ff999999" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="扫描上方二维码完成支付" />
+            <View android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="15.0dip" />
+            <RelativeLayout android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="订单编号" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:id="@id/orderId" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="123123" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下单时间" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:id="@id/orderTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2016-12-30" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="交易方式" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:id="@id/orderType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="微信扫码" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

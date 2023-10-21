@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/mm_battle_comment_framelayout" android:background="@color/mm_private_server_detail_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.groundhog.multiplayermaster.view.BattleCommentListView android:id="@id/mm_battle_comment_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="52.0dip" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/mm_battle_comment_comment" android:background="@color/mm_comment_keyboard_bg" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_alignParentBottom="true">
+            <EditText android:textColorHint="@color/mm_comment_keyboard_hint" android:id="@id/mm_battle_comment_edit" android:background="@color/white" android:paddingLeft="3.0dip" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="92.0dip" />
+            <Button android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/mm_battle_comment_send" android:background="@drawable/mm_create_game_button" android:layout_width="75.0dip" android:layout_height="38.0dip" android:layout_marginRight="12.0dip" android:text="@string/mm_battle_comment_keyboard_send" android:layout_alignParentRight="true" android:textAllCaps="false" />
+        </RelativeLayout>
+        <View android:background="@color/mm_comment_view" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/mm_battle_comment_comment" />
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/mm_private_title_ll" layout="@layout/mm_activity_loading" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="3.0dip" android:layout_toLeftOf="@id/right_layer">
+            <ImageView android:background="@drawable/wf_game_seat_bg_b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="20.0dip" />
+        </FrameLayout>
+        <RelativeLayout android:background="@drawable/wf_game_seat_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="3.0dip" android:layout_toLeftOf="@id/right_layer">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="14.0sp" android:textColor="#ffb07a34" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/title_tip_tv" android:background="@drawable/wf_waiting_title_bg" android:layout_width="360.0dip" android:layout_height="30.5dip" android:layout_marginTop="38.0dip" android:text="@string/watch_fort_layout_waiting" />
+                <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <RelativeLayout android:id="@id/group1_layer" android:background="@drawable/stone_group_bg" android:layout_width="360.0dip" android:layout_height="120.0dip" android:layout_centerHorizontal="true">
+                            <GridView android:gravity="center" android:id="@id/group1_grid_View" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="33.0dip" android:layout_marginTop="38.0dip" android:layout_marginRight="33.0dip" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:numColumns="5" />
+                        </RelativeLayout>
+                        <RelativeLayout android:id="@id/group2_layer" android:background="@drawable/wf_witch_group_bg" android:layout_width="360.0dip" android:layout_height="120.0dip" android:layout_below="@id/group1_layer" android:layout_centerHorizontal="true">
+                            <GridView android:gravity="center" android:id="@id/group2_grid_View" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="33.0dip" android:layout_marginTop="38.0dip" android:layout_marginRight="33.0dip" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:numColumns="5" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <Button android:id="@id/rule_btn" android:background="@drawable/wf_game_rule_btn_select" android:layout_width="47.0dip" android:layout_height="38.0dip" android:layout_marginLeft="31.0dip" android:layout_marginTop="25.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/right_layer" android:layout_width="130.0dip" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <Button android:id="@id/close_btn" android:background="@drawable/wf_close_btn_select" android:layout_width="122.5dip" android:layout_height="33.5dip" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" />
+            <RelativeLayout android:orientation="vertical" android:background="@drawable/wf_idle_player_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="60.0dip" android:layout_below="@id/close_btn">
+                <TextView android:textSize="14.0sp" android:textColor="#ffb07b35" android:gravity="center" android:id="@id/idle_text_tip" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="空闲玩家（0）" />
+                <ListView android:id="@id/player_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:divider="@null" android:layout_above="@id/invite_btn" android:layout_below="@id/idle_text_tip" />
+                <Button android:id="@id/invite_btn" android:background="@drawable/wt_invite_btn_select" android:layout_width="102.5dip" android:layout_height="32.5dip" android:layout_marginBottom="7.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/tip_img" android:background="@drawable/wf_exit_btn_select" android:visibility="gone" android:layout_width="125.0dip" android:layout_height="51.0dip" android:layout_marginBottom="3.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/begin_btn" android:background="@drawable/wf_begin_btn_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/close_btn" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

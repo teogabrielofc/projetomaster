@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/el_upgrade_lay" android:background="@drawable/el_upgrade_panel_bg" android:layout_width="250.0dip" android:layout_height="230.0dip">
+            <TextView android:textSize="10.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/el_score_tv" android:background="@drawable/el_upgrade_score_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+            <ImageView android:id="@id/el_hero_icon" android:layout_width="110.0dip" android:layout_height="109.0dip" android:layout_marginTop="5.0dip" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:id="@id/el_level_lay" android:background="@drawable/el_upgrade_level_bg" android:layout_width="116.0dip" android:layout_height="22.0dip" android:layout_below="@id/el_hero_icon" android:layout_centerHorizontal="true">
+                <RelativeLayout android:id="@id/el_current_level_lay" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/el_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/el_upgrade_right_arrow" android:layout_centerInParent="true" />
+                    <TextView android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/el_old_level_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_toLeftOf="@id/el_right_arrow" android:layout_centerVertical="true" android:layout_toStartOf="@id/el_right_arrow" />
+                    <TextView android:textSize="10.0sp" android:textColor="#fffeca03" android:id="@id/el_new_level_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_toRightOf="@id/el_right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/el_right_arrow" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/el_max_level_lay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="10.0sp" android:gravity="center" android:id="@id/el_max_level_tv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <TextView android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/el_score_need_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="需要战魂6000" android:layout_below="@id/el_level_lay" android:layout_centerHorizontal="true" />
+            <Button android:id="@id/el_upgrade_btn" android:background="@drawable/endlee_upgrade_btn" android:layout_width="91.0dip" android:layout_height="32.0dip" android:layout_marginTop="6.0dip" android:layout_below="@id/el_score_need_tv" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

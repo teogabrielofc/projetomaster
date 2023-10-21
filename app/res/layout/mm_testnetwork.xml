@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_layer" android:background="@drawable/mm_header_bg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <Button android:id="@id/back_btn" android:background="@drawable/back_btn_select" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="5.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/title_textview" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="@string/net_speed_text" android:singleLine="true" android:layout_toRightOf="@id/back_btn" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:background="@drawable/mm_testnetwork_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.groundhog.multiplayermaster.view.TestIconView android:id="@id/test_icon_view" android:layout_width="fill_parent" android:layout_height="320.0dip" android:layout_marginBottom="124.0dip" android:layout_centerHorizontal="true">
+            <ImageView android:layout_gravity="center" android:layout_width="104.0dip" android:layout_height="120.0dip" android:src="@drawable/mm_test_hexagon" />
+            <com.groundhog.multiplayermaster.view.ThreeHexagonView android:layout_gravity="center" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_alignBottom="@id/test_icon_view" />
+        </com.groundhog.multiplayermaster.view.TestIconView>
+        <ImageView android:layout_gravity="right" android:id="@id/mm_plant_1" android:layout_width="85.0dip" android:layout_height="40.0dip" android:layout_marginRight="40.0dip" android:src="@drawable/mm_plant_01" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <ImageView android:layout_gravity="right" android:id="@id/mm_plant_2" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginLeft="40.0dip" android:src="@drawable/mm_plant_02" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <com.groundhog.multiplayermaster.view.McTextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/mm_test_warn" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="@string/mm_speed_testing" android:layout_centerInParent="true" />
+        <TextView android:textSize="18.0sp" android:textColor="#fff8fffd" android:id="@id/mm_test_tip_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="" android:layout_below="@id/mm_test_warn" android:layout_centerHorizontal="true" />
+        <com.groundhog.multiplayermaster.view.McTextView android:textSize="15.0sp" android:textColor="#fff8fffd" android:id="@id/mm_test_tip_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/test_speed_tip" android:layout_below="@id/mm_test_tip_1" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

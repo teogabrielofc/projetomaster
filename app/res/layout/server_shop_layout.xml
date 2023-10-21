@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="5.0">
+        <GridView android:id="@id/mm_float_shop_gridview" android:padding="0.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:listSelector="@color/transparent" android:horizontalSpacing="15.0dip" android:verticalSpacing="8.0dip" android:stretchMode="columnWidth" android:numColumns="4" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/mm_float_server_buyrl" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="6.0" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/mm_server_shop_desc_ll" android:background="@color/mm_server_float_bg1" android:layout_width="fill_parent" android:layout_height="70.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="@color/mm_server_float_text" android:gravity="center|left|top" android:id="@id/mm_float_server_item_tv" android:paddingLeft="24.0dip" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/mm_server_float_balance_text" android:gravity="center_vertical" android:id="@id/mm_server_float_item_balance" android:paddingLeft="24.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="25.0dip" android:drawableLeft="@drawable/mm_recharge_item_icon" android:drawablePadding="2.0dip" />
+        </LinearLayout>
+        <Button android:textSize="12.0sp" android:textColor="@color/mm_server_float_buy_text" android:id="@id/mm_server_shop_btn" android:background="@drawable/mm_server_shop_buy_bg" android:layout_width="200.0dip" android:layout_height="35.0dip" android:layout_marginTop="6.0dip" android:text="@string/mm_server_item_buy" android:layout_below="@id/mm_server_shop_desc_ll" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/mm_server_shop_btn" android:layout_centerHorizontal="true">
+            <TextView android:textSize="15.0sp" android:textColor="@color/mm_server_float_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/skin_vip_balance" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/mm_server_float_balance_text" android:gravity="center_vertical" android:id="@id/mm_server_shop_balance" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:drawableLeft="@drawable/mm_recharge_item_icon" android:drawablePadding="2.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

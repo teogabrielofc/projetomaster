@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mm_about_title_ll" android:background="@drawable/mm_header_bg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <Button android:id="@id/mm_about_title_backBt" android:background="@drawable/back_btn_select" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="5.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/mm_about_title_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="@string/mm_vip_instro_title" android:layout_toRightOf="@id/mm_about_title_backBt" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/activity_open_vip_view_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.groundhog.multiplayermaster.view.VIPLevelBesselView android:id="@id/open_vip_besel_view" android:background="#00ffffff" android:layout_width="fill_parent" android:layout_height="240.0dip" />
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <GridView android:id="@id/open_vip_power_gridview" android:background="#00ffffff" android:focusable="true" android:layout_width="fill_parent" android:layout_height="260.0dip" android:listSelector="#00ffffff" android:numColumns="3" />
+            <Button android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="bottom" android:id="@id/btn_open_vip" android:background="@color/mm_vip_btn_bg" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/mm_vip_open_vip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mm_charge_rl" android:background="@drawable/mm_recharge_item_bg" android:layout_width="fill_parent" android:layout_height="180.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip">
+        <ImageView android:id="@id/mm_charge_item_icon" android:background="@drawable/mm_recharge_item_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/mm_recharge_item_money" android:id="@id/mm_charge_item_coin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/mm_charge_item_icon" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/mm_charge_item_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/mm_charge_item_money" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#ffb7e0e3" android:gravity="center_vertical" android:id="@id/skin_4d_sals_txt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="8.0dip" android:text="Gift: Shadow Blade" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

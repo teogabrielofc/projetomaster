@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/player_list_view" android:layout_width="140.0dip" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:divider="@null" android:layout_alignParentRight="true" />
+        <Button android:id="@id/close_btn" android:background="@drawable/skill_close_bg" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/player_list_view" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="12.0dip" android:text="@string/reckless_hero_skill_on" android:layout_toLeftOf="@id/player_list_view" />
+    </RelativeLayout>
+</FrameLayout>

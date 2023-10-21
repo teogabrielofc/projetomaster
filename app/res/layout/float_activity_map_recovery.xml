@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/map_backuped_rv" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="60.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@color/mm_float_mapbackup_line" android:dividerHeight="0.30000007dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/float_mapbackup_empty_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="55.0dip">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffebf0fc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/mm_float_recovery_3mapbackups" />
+        <TextView android:textSize="10.0sp" android:textColor="#ff828690" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/mm_float_recovery_about_backups" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/map_backup_ly_btn" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="15.0sp" android:textColor="@color/mm_float_mapbackup_btn_text" android:gravity="center" android:id="@id/map_backup_button" android:background="@drawable/green_btn_select" android:layout_width="120.0dip" android:layout_height="36.0dip" android:text="@string/mm_float_recovery_backup_btn" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff828690" android:id="@id/map_backup_full_tip_txt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/mm_float_recovery_3mapbackups_only" />
+    </LinearLayout>
+    <View android:background="@color/mm_float_mapbackup_line" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_above="@id/map_backup_ly_btn" />
+</RelativeLayout>

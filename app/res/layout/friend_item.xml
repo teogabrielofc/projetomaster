@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="54.0dip">
+        <TextView android:textSize="13.0sp" android:textColor="#7fffffff" android:ellipsize="end" android:gravity="top" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:singleLine="true" android:maxLength="20" />
+        <TextView android:textSize="9.0sp" android:textColor="#7fffffff" android:id="@id/state_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="8.0dip" android:layout_toRightOf="@id/icon" android:layout_below="@id/name" />
+        <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/invite_btn" android:background="@drawable/green_btn_select" android:layout_width="44.0dip" android:layout_height="24.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="20.0dip" android:text="@string/invite_text" android:layout_alignParentRight="true" />
+        <View android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

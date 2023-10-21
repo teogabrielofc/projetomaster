@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mm_float_skin_grid_item_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mm_float_skin_more_layout" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="120.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/mm_float_skin_more_iv" android:background="@drawable/mm_float_skin_more" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/mm_float_skin_select_layout" android:visibility="visible" android:layout_width="70.0dip" android:layout_height="120.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/mm_float_skin_select_iv" android:background="@drawable/mm_float_skin_select" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/mm_float_skin_item_layout" android:layout_width="60.0dip" android:layout_height="120.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/mm_float_skin_item_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</RelativeLayout>

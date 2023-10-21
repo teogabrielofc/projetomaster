@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/main_layer" android:layout_width="510.0dip" android:layout_height="wrap_content">
+            <RelativeLayout android:background="@drawable/wf_statistics_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+                <RelativeLayout android:id="@id/watch_fort_result_head_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true">
+                    <RelativeLayout android:id="@id/stone_img_result_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="31.0dip" android:layout_alignParentLeft="true">
+                        <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="33.0sp" android:textColor="#ffffd500" android:gravity="left" android:id="@id/stone_result_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:drawableBottom="@drawable/wf_stone_name" android:drawablePadding="-10.0dip" android:layout_centerInParent="true" android:inputType="number" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/wither_img_result_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="31.0dip" android:layout_alignParentRight="true">
+                        <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="33.0sp" android:textColor="#ffffd500" android:gravity="right" android:id="@id/wither_result_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:drawableBottom="@drawable/wf_wither_name" android:drawablePadding="-10.0dip" android:layout_centerInParent="true" android:inputType="number" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <LinearLayout android:id="@id/watch_fort_result_content_layout" android:layout_width="fill_parent" android:layout_height="175.0dip" android:layout_marginLeft="50.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/watch_fort_result_head_layout" android:layout_centerHorizontal="true">
+                    <RelativeLayout android:background="@drawable/wf_team_bg" android:paddingLeft="10.0dip" android:layout_width="225.0dip" android:layout_height="195.0dip">
+                        <include android:id="@id/ph1" layout="@layout/header_watch_fort_game_layout" />
+                        <ListView android:id="@id/stone_result_content_lv" android:layout_width="190.0dip" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:dividerHeight="0.5dip" android:layout_below="@id/ph1" />
+                    </RelativeLayout>
+                    <RelativeLayout android:background="@drawable/wf_team_bg" android:paddingLeft="15.0dip" android:layout_width="225.0dip" android:layout_height="195.0dip" android:layout_marginLeft="10.0dip">
+                        <include android:id="@id/ph2" layout="@layout/header_watch_fort_game_layout" />
+                        <ListView android:id="@id/wither_result_content_lv" android:layout_width="190.0dip" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:dividerHeight="0.5dip" android:layout_below="@id/ph2" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/watch_fort_result_footer_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/watch_fort_result_content_layout" android:layout_centerHorizontal="true">
+                    <Button android:id="@id/watch_fort_result_share_btn" android:background="@drawable/wf_share_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <Button android:id="@id/watch_fort_result_quit_btn" android:background="@drawable/wf_exit_game_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <ImageView android:id="@id/watch_fort_result_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/game_victory" />
+                <TextView android:textSize="13.0sp" android:textColor="#ffebfeff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:maxLines="1" android:layout_alignBottom="@id/watch_fort_result_img" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <Button android:id="@id/close_btn" android:background="@drawable/wf_result_close_select" android:layout_width="25.5dip" android:layout_height="24.5dip" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+</RelativeLayout>

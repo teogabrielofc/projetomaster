@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/main_bg" android:background="@drawable/vgame_result_bg" android:layout_width="360.0dip" android:layout_height="278.0dip" android:layout_centerHorizontal="true">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#fffff600" android:gravity="center" android:id="@id/title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        <LinearLayout android:orientation="vertical" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="242.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/title_tv">
+            <RelativeLayout android:id="@id/title_layer" android:layout_width="fill_parent" android:layout_height="40.0dip">
+                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/rank_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="18.0dip" android:text="@string/game_vocation_rank" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/player_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="@string/game_vocation_player" android:layout_toRightOf="@id/rank_tv" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/liansha_tv" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:text="@string/game_vocation_combo" android:layout_alignParentRight="true" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/dead_tv" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:text="@string/game_vocation_dead" android:layout_toLeftOf="@id/liansha_tv" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/shadi_tv" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:text="@string/game_vocation_kill" android:layout_toLeftOf="@id/dead_tv" />
+            </RelativeLayout>
+            <View android:background="#ff35463f" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <ListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:divider="@null" android:dividerHeight="1.0px" android:footerDividersEnabled="false" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/main_bg" android:layout_centerHorizontal="true">
+        <Button android:textSize="14.0sp" android:textColor="#ff51ac36" android:gravity="center" android:id="@id/go_on_btn" android:background="@drawable/vgame_result_btn_select" android:layout_width="102.0dip" android:layout_height="40.0dip" android:layout_marginRight="15.0dip" android:text="@string/game_vocation_resume" />
+        <Button android:textSize="14.0sp" android:textColor="#ff51ac36" android:gravity="center" android:id="@id/share_btn" android:background="@drawable/vgame_result_btn_select" android:layout_width="102.0dip" android:layout_height="40.0dip" android:layout_marginLeft="15.0dip" android:text="@string/game_vocation_share" />
+    </LinearLayout>
+</RelativeLayout>

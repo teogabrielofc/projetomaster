@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="300.0dip" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/rect_black_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:layout_toRightOf="@id/rule_split_img" android:layout_below="@id/rule_top_right_close_img" android:layout_toEndOf="@id/rule_split_img">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/rule_text_tip_tv" android:paddingLeft="14.0dip" android:paddingTop="6.0dip" android:paddingRight="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.5" />
+        </ScrollView>
+    </RelativeLayout>
+    <ImageView android:id="@id/rule_top_img" android:background="@drawable/rule_top_bg" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/rule_bottom_img" android:background="@drawable/rule_bottom_bg" android:layout_width="fill_parent" android:layout_height="19.0dip" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/rule_left_img" android:background="@drawable/rule_left_bg" android:layout_width="20.0dip" android:layout_height="fill_parent" android:layout_above="@id/rule_bottom_img" android:layout_below="@id/rule_top_img" android:layout_alignParentLeft="true" />
+    <ImageView android:id="@id/rule_right_img" android:background="@drawable/rule_right_bg" android:layout_width="20.0dip" android:layout_height="fill_parent" android:layout_above="@id/rule_bottom_img" android:layout_below="@id/rule_top_img" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/rule_left_layout" android:background="@drawable/rect_black_bg" android:padding="7.0dip" android:layout_width="113.0dip" android:layout_height="fill_parent" android:layout_toRightOf="@id/rule_left_img" android:layout_above="@id/rule_bottom_img" android:layout_below="@id/rule_top_img">
+        <RadioGroup android:orientation="vertical" android:id="@id/rule_left_btn_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:textSize="14.0sp" android:textColor="@drawable/text_color_pvp_selector" android:gravity="center" android:id="@id/rule_left_red_blue_pvp_btn" android:background="@drawable/check_button_pvp_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:text="@string/game_vocation_role" />
+            <RadioButton android:textSize="14.0sp" android:textColor="@drawable/text_color_pvp_selector" android:gravity="center" android:id="@id/rule_left_more_game_btn" android:background="@drawable/check_button_pvp_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:button="@null" android:text="@string/more_game" />
+        </RadioGroup>
+    </RelativeLayout>
+    <ImageView android:id="@id/rule_split_img" android:background="@drawable/rule_left_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/rule_left_layout" android:layout_above="@id/rule_bottom_img" android:layout_below="@id/rule_top_img" />
+    <ImageView android:id="@id/rule_top_right_close_img" android:padding="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/rule_close" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:contentDescription="@string/cancel_text" />
+</RelativeLayout>

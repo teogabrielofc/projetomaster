@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/mm_server_float_item_bg" android:layout_width="50.0dip" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mm_server_float_item_img" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/mm_server_float_item_normal" android:background="@drawable/mm_server_float_shop_normal" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+    <ImageView android:id="@id/mm_server_float_item_select" android:background="@drawable/mm_server_float_package_select" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+</RelativeLayout>

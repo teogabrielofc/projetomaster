@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mm_float_item_logo" android:layout_width="40.0dip" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/mm_float_item_logo_anim" android:layout_width="fill_parent" android:layout_height="fill_parent" app:lottie_fileName="floatItemLogo/floatItemLogo.json" app:lottie_imageAssetsFolder="floatItemLogo/images" />
+    <ImageView android:id="@id/mm_float_item_bg" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/float_item_bg" android:layout_centerInParent="true" />
+</RelativeLayout>

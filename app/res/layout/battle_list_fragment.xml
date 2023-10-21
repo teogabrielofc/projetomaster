@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.groundhog.multiplayermaster.view.SpecialViewPager android:id="@id/mm_main_battle_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/mm_main_battle_left_rl" android:layout_width="60.0dip" android:layout_height="100.0dip" android:layout_marginLeft="0.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/mm_main_battle_left" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/mm_battle_left_normal" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="right" android:id="@id/mm_main_battle_right_rl" android:layout_width="60.0dip" android:layout_height="100.0dip" android:layout_marginRight="0.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/mm_main_battle_right" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/mm_battle_right_normal" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RadioGroup android:orientation="horizontal" android:id="@id/mm_battle_radio_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <RadioButton android:enabled="false" android:id="@id/mm_battle_battle_radio" android:background="@drawable/battle_view_radio" android:layout_width="18.0dip" android:layout_height="20.0dip" android:layout_marginLeft="9.0dip" android:checked="true" style="@style/mm_battle_radio_style" />
+        <RadioButton android:enabled="false" android:id="@id/mm_battle_survivor_radio" android:background="@drawable/battle_view_radio" android:layout_width="18.0dip" android:layout_height="20.0dip" android:layout_marginLeft="9.0dip" style="@style/mm_battle_radio_style" />
+        <RadioButton android:enabled="false" android:id="@id/mm_battle_bedwar_radio" android:background="@drawable/battle_view_radio" android:layout_width="18.0dip" android:layout_height="20.0dip" android:layout_marginLeft="9.0dip" style="@style/mm_battle_radio_style" />
+        <RadioButton android:enabled="false" android:id="@id/mm_battle_comming_radio" android:background="@drawable/battle_view_radio" android:layout_width="18.0dip" android:layout_height="20.0dip" android:layout_marginLeft="9.0dip" style="@style/mm_battle_radio_style" />
+    </RadioGroup>
+</RelativeLayout>

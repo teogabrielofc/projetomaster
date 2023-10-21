@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/main_view" android:layout_width="162.0dip" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/title_layer" android:background="@drawable/reckless_title_n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="15.0sp" android:textColor="#ffeef8fe" android:gravity="center" android:id="@id/room_id_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="4.0dip" android:text="123456" android:drawableLeft="@drawable/reckless_home" android:drawablePadding="2.0dip" />
+            <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="15.0sp" android:textColor="#ffeef8fe" android:gravity="center" android:id="@id/player_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="12.0dip" android:text="0/0" android:drawableLeft="@drawable/reckless_num_icon" android:drawablePadding="2.0dip" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/player_layer" android:background="@drawable/reckless_list_bg" android:visibility="gone" android:layout_width="161.5dip" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:layout_centerHorizontal="true">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="40.0dip">
+                <ListView android:id="@id/player_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:divider="@null" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <Button android:id="@id/begin_btn" android:background="@drawable/reckless_game_begin_btn_select" android:layout_width="119.5dip" android:layout_height="47.5dip" android:layout_marginTop="8.0dip" android:layout_below="@id/title_layer" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

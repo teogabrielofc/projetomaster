@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:background="#ff0195ff" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/rc_ad_ll_file_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+            <ImageView android:id="@id/rc_ad_iv_file_list_go_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/rc_ac_file_preview" />
+            <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/rc_ad_tv_file_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rc_ac_file_send_preview" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:id="@id/rc_ad_tv_file_list_select_state" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rc_ad_send_file_no_select_file" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/rc_fm_lv_storage_folder_list_files" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/rc_fm_ll_storage_folder_list_load" android:background="#66000000" android:visibility="gone" android:layout_width="120.0dip" android:layout_height="120.0dip">
+            <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/rc_fm_pb_storage_folder_list_load_progress" android:layout_width="37.0dip" android:layout_height="37.0dip" android:layout_marginTop="28.0dip" android:layout_marginBottom="16.0dip" style="?android:attr/progressBarStyleLarge" />
+            <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/rc_fm_tv_storage_folder_list_load_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rc_fr_loading_file_message" />
+        </LinearLayout>
+        <TextView android:textSize="20.0sp" android:layout_gravity="center" android:id="@id/rc_fm_tv_no_file_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

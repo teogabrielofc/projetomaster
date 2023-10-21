@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="horizontal" android:background="@drawable/killed_bg2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/title_layer" android:layout_centerHorizontal="true">
+        <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.groundhog.multiplayermaster.mainexport.view.StrokedTextView android:textSize="16.0dip" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/name_tv" android:paddingLeft="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:tv_strokeColor="#ff242524" app:tv_strokeTextColor="@color/white" app:tv_strokeWidth="2.0" />
+            <com.groundhog.multiplayermaster.mainexport.view.StrokedTextView android:textSize="16.0dip" android:textColor="#ff55d92d" android:layout_gravity="center_vertical" android:id="@id/killed_tv" android:paddingRight="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" app:tv_strokeColor="#ff242524" app:tv_strokeTextColor="#ff55d92d" app:tv_strokeWidth="2.0" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:orientation="horizontal" android:id="@id/item_bg" android:background="@drawable/vgame_get_item_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="60.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.groundhog.multiplayermaster.mainexport.view.StrokedTextView android:textSize="12.0sp" android:textColor="#fffee100" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/game_vocation_receive" app:tv_strokeColor="#ff242524" app:tv_strokeTextColor="#fffee100" app:tv_strokeWidth="2.0" />
+            <com.groundhog.multiplayermaster.mainexport.view.StrokedTextView android:textSize="12.0sp" android:textColor="#ff55d92d" android:gravity="center" android:id="@id/item_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" app:tv_strokeColor="#ff242524" app:tv_strokeTextColor="#ff55d92d" app:tv_strokeWidth="2.0" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

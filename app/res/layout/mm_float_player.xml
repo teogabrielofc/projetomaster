@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="10.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/friend_apply_count_text" android:background="@drawable/mm_float_red_point" android:visibility="gone" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="15.0dip" android:text="1" android:includeFontPadding="false" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.astuetz.PagerSlidingTabStrip android:id="@id/mm_float_player_tabs" android:layout_width="fill_parent" android:layout_height="48.0dip" app:pstsIndicatorColor="@color/mm_float_friend_player_paper" app:pstsDividerColor="@color/chat_target_segment_color" app:pstsDividerWidth="1.0dip" app:pstsDividerPadding="8.0dip" app:pstsShouldExpand="true" app:pstsTabTextColor="@color/float_player_tab_normal" app:pstsTabTextAllCaps="false" />
+        <View android:background="@color/chat_target_segment_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <android.support.v4.view.ViewPager android:id="@id/mm_float_player_views_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

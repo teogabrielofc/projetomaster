@@ -1,0 +1,27 @@
+[
+  {
+    "ServerArea": "North America",
+    "ServerIP": "http://52.71.40.7",
+    "CountryCode": "US"
+  },
+  {
+    "ServerArea": "Asia1",
+    "ServerIP": "http://52.77.80.125",
+    "CountryCode": "SG"
+  },
+  {
+    "ServerArea": "Asia2",
+    "ServerIP": "http://52.79.154.247",
+    "CountryCode": "KR"
+  },
+  {
+    "ServerArea": "South America",
+    "ServerIP": "http://52.67.8.179",
+    "CountryCode": "BR"
+  },
+  {
+    "ServerArea": "Europe",
+    "ServerIP": "http://52.58.86.161",
+    "CountryCode": "DE"
+  }
+]

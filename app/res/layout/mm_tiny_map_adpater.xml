@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/mm_tiny_bg" android:layout_width="fill_parent" android:layout_height="185.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mm_tiny_map_item_unlock" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="10.0dip">
+        <ImageView android:id="@id/mm_tiny_map_instro_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:scaleType="fitXY" />
+        <RelativeLayout android:id="@id/mm_tiny_map_item_top1" android:layout_width="fill_parent" android:layout_height="27.0dip">
+            <RelativeLayout android:id="@id/mm_tiny_map_item_unlock_toprl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/mm_tiny_map_item_unlock_topiv" android:background="@drawable/mm_tiny_unlock_top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/mm_tiny_map_item_lock_topiv" android:background="@drawable/mm_tiny_lock_top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <ImageView android:id="@id/mm_tiny_map_item_introbg" android:background="@drawable/mm_tiny_intro_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/mm_tiny_map_item_unlock_toprl" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/mm_tiny_unlock_name" android:gravity="center" android:id="@id/mm_tiny_map_name_text" android:background="@drawable/mm_tiny_unlock_name" android:paddingLeft="5.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mm_tiny_mode_name" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/mm_tiny_tip" android:gravity="center_vertical" android:id="@id/mm_tiny_map_item_unlock_intro" android:paddingLeft="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mm_tiny_mode_instro" android:singleLine="true" android:layout_toRightOf="@id/mm_tiny_map_name_text" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="100.0dip" android:layout_height="36.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="13.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <TextView android:textSize="12.0sp" android:textColor="@color/mm_tiny_unlock_btn" android:gravity="center" android:id="@id/mm_tiny_map_unlock_button" android:background="@drawable/mm_tiny_unlock_button_bg" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="30.0dip" android:text="@string/mm_tiny_play_text" android:layout_alignParentBottom="true" />
+            <RelativeLayout android:id="@id/mm_tiny_map_lock_button_rl" android:layout_width="100.0dip" android:layout_height="36.0dip">
+                <TextView android:textSize="12.0sp" android:textColor="@color/mm_tiny_lock_btn" android:gravity="center" android:id="@id/mm_tiny_lock_button" android:background="@drawable/mm_tiny_lock_button_bg" android:layout_width="100.0dip" android:layout_height="30.0dip" android:adjustViewBounds="true" android:text="@string/mm_tiny_buynow_text" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@color/mm_tiny_unlock_btn" android:gravity="center" android:id="@id/mm_tiny_map_processing" android:background="@drawable/mm_tiny_processing" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="30.0dip" android:text="@string/mm_tiny_map_downloaded" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/mm_tiny_map_item_bottom_unlock" android:background="@drawable/mm_tiny_unlock_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/mm_tiny_map_item_bottom_lock" android:background="@drawable/mm_tiny_lock_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/mm_tiny_map_player_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

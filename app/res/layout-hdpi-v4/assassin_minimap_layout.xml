@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.groundhog.multiplayermaster.floatwindow.view.DraggableRootView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/btn_minimap_minimized" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/assassin_icon_minimap" />
+</com.groundhog.multiplayermaster.floatwindow.view.DraggableRootView>

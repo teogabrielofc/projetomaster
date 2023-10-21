@@ -1,0 +1,13 @@
+.class synthetic Lcom/groundhog/multiplayermaster/floatwindow/manager/assassin/be$1;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/groundhog/multiplayermaster/floatwindow/manager/assassin/be;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1008
+    name = null
+.end annotation

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout" android:background="@color/mm_main_right_pop_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:background="@color/mm_main_gameList_popupWindows_listline" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <ListView android:id="@id/list_view" android:background="@color/mm_main_gameList_popupWindows_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@color/mm_main_gameList_popupWindows_listline" android:dividerHeight="0.5dip" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

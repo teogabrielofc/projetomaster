@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/mm_header_bg" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:hexagon="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/slimenu_btn" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.groundhog.multiplayermaster.view.HexagonIconView android:id="@id/mm_sliding_icon_hexagon" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_centerInParent="true" hexagon:hexagonLineWith="2.0dip" hexagon:hexagonLineColor="@color/mm_vip_head_line_gray" hexagon:hexagonImage="@drawable/avarta_default_big" />
+        <View android:id="@id/menu_red_point" android:background="@drawable/mm_tiny_unlock_tip" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="13.0dip" android:layout_marginBottom="8.0dip" android:layout_alignTop="@id/mm_sliding_icon_hexagon" android:layout_alignRight="@id/mm_sliding_icon_hexagon" />
+    </RelativeLayout>
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/title_textview_main" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="11.0sp" android:textColor="#ffffffff" android:id="@id/self_ping_textview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title_textview" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/search_room_ral" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/slimenu_btn_right_select" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/mm_main_stamp_free" android:background="@drawable/main_stamp_anim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toLeftOf="@id/search_room_ral" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="190.0dip" android:layout_height="28.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:id="@id/item_pvp_result_name" android:layout_width="64.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="online_3823786" android:singleLine="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/left_content_head" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="3.0" android:layout_toRightOf="@id/item_pvp_result_name" android:layout_centerVertical="true">
+        <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/item_pvp_result_killed" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/float_kill_pigs" android:layout_weight="1.0" />
+        <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/item_pvp_result_death" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/float_died" android:layout_weight="1.0" />
+        <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/item_pvp_result_misKill" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/float_mistake_kill" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

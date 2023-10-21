@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="400.0dip" android:layout_height="280.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layer" android:background="@drawable/bg" android:layout_width="350.0dip" android:layout_height="260.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip">
+            <RelativeLayout android:id="@id/res_img" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+    </LinearLayout>
+    <Button android:id="@id/close_btn" android:background="@drawable/close_btn2_select" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_toRightOf="@id/layer" />
+</RelativeLayout>

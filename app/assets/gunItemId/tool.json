@@ -1,0 +1,50 @@
+[
+    {
+        "id": 3365,
+        "name": "desnogunsinfo",
+        "tag": "设置",
+        "isParachute": false,
+        "isAim": false,
+        "texture": "desnogunsinfo"
+    },
+    {
+        "id": 3321,
+        "name": "parachute",
+        "tag": "降落伞",
+        "isParachute": true,
+        "isAim": false,
+        "texture": "parachute"
+    },
+    {
+        "id": 3322,
+        "name": "medicalkit",
+        "tag": "急救包",
+        "isParachute": false,
+        "isAim": false,
+        "texture": "medicalkit"
+    },
+    {
+        "id": 3324,
+        "name": "binoculars",
+        "tag": "望远镜",
+        "isParachute": false,
+        "isAim": true,
+        "texture": "binoculars"
+    },
+    {
+        "id": 3326,
+        "name": "nightbinoculars",
+        "tag": "夜视望远镜",
+        "isParachute": false,
+        "isAim": true,
+        "texture": "nightbinoculars"
+    },
+    {
+        "id": 3325,
+        "name": "zoombinoculars",
+        "tag": "伸缩望远镜",
+        "isParachute": false,
+        "isAim": true,
+        "texture": "zoombinoculars"
+    }
+]

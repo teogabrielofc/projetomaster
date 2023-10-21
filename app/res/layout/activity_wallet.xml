@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/mm_default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/wallet_title_ll" android:background="@drawable/mm_header_bg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <Button android:id="@id/wallet_title_backBt" android:background="@drawable/back_btn_select" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="5.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/wallet_title_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="@string/mm_wallet_title" android:layout_toRightOf="@id/wallet_title_backBt" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/mm_wallet_userrl" android:background="@drawable/mm_recharge_bg" android:layout_width="fill_parent" android:layout_height="110.0dip" android:layout_below="@id/wallet_title_ll">
+        <TextView android:textSize="15.0sp" android:textColor="@color/mm_wallet_my_coin" android:id="@id/mm_wallet_coin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:layout_marginTop="16.0dip" android:text="@string/mm_wallet_my_coin" />
+        <TextView android:textSize="35.0sp" android:textColor="@color/mm_wallet_money" android:id="@id/mm_wallet_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:text="0" android:drawableLeft="@drawable/mm_wallet_money_icon" android:drawablePadding="8.0dip" android:layout_below="@id/mm_wallet_coin" />
+        <View android:background="@color/mm_wallet_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="28.0dip" android:layout_marginRight="13.0dip" android:layout_toRightOf="@id/mm_wallet_coin" />
+        <Button android:textSize="16.0sp" android:textColor="@color/mm_wallet_recharge_text" android:id="@id/mm_wallet_btn" android:background="@drawable/mm_wallet_recharge_select" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="13.0dip" android:text="@string/mm_wallet_recharge" android:layout_below="@id/mm_wallet_coin" android:layout_alignParentRight="true" android:textAllCaps="false" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/mm_wallet_userrl">
+        <RelativeLayout android:id="@id/mm_wallet_record_rl" android:background="@color/mm_wallet_item_bg" android:layout_width="fill_parent" android:layout_height="52.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="@color/mm_wallet_item_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:text="@string/mm_wallet_record" android:drawableLeft="@drawable/mm_wallet_record_icon" android:drawablePadding="13.0dip" android:layout_centerVertical="true" />
+            <ImageView android:background="@drawable/mm_wallet_arrow" android:layout_width="10.0dip" android:layout_height="15.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="@color/mm_wallet_item_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:id="@id/mm_wallet_order_rl" android:background="@color/mm_wallet_item_bg" android:layout_width="fill_parent" android:layout_height="52.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="@color/mm_wallet_item_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:text="@string/mm_wallet_order" android:drawableLeft="@drawable/mm_wallet_order_icon" android:drawablePadding="13.0dip" android:layout_centerVertical="true" />
+            <ImageView android:background="@drawable/mm_wallet_arrow" android:layout_width="10.0dip" android:layout_height="15.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="@color/mm_wallet_item_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:id="@id/mm_wallet_help_rl" android:background="@color/mm_wallet_item_bg" android:layout_width="fill_parent" android:layout_height="52.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="@color/mm_wallet_item_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:text="@string/mm_wallet_help" android:drawableLeft="@drawable/mm_wallet_help_icon" android:drawablePadding="13.0dip" android:layout_centerVertical="true" />
+            <ImageView android:background="@drawable/mm_wallet_arrow" android:layout_width="10.0dip" android:layout_height="15.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="13.0sp" android:textColor="#ffb7e0e3" android:layout_gravity="center" android:id="@id/show_4d_skin_sals" android:paddingTop="25.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Top UP 500 Coins or more and get a free 4D Skin Shadow Blade" android:drawableLeft="@drawable/skin_4d_sales_icon" android:drawablePadding="8.0dip" android:layout_centerVertical="true" />
+    </LinearLayout>
+</RelativeLayout>

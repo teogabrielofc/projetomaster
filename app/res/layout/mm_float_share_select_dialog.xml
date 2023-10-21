@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bg_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/layer" android:background="@drawable/bg" android:layout_width="300.0dip" android:layout_height="150.0dip" android:layout_centerInParent="true">
+            <TextView android:textSize="16.0sp" android:textColor="#ffeaeaea" android:gravity="center" android:id="@id/title_view" android:layout_width="fill_parent" android:layout_height="34.0dip" android:text="@string/mm_float_screen_shot_share_float_title" android:singleLine="true" />
+            <View android:id="@id/line" android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/title_view" />
+            <Button android:id="@id/mm_float_share_close_btn" android:background="@drawable/mm_float_share_dialog_close_n" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_alignParentRight="true" />
+            <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/line">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_alignParentLeft="true">
+                    <Button android:id="@id/mm_float_share_fb_btn" android:background="@drawable/mm_float_window_share_facebook" android:layout_width="57.0dip" android:layout_height="57.0dip" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/mm_float_screen_shot_fb_text" android:layout_below="@id/mm_float_share_fb_btn" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:layout_alignParentRight="true">
+                    <Button android:id="@id/mm_float_share_tw_btn" android:background="@drawable/mm_float_window_share_twitter" android:layout_width="57.0dip" android:layout_height="57.0dip" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/mm_float_screen_shot_tw_text" android:layout_below="@id/mm_float_share_tw_btn" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

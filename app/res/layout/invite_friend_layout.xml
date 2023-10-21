@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/invite_friend_layout" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/fb_invite_btn" android:background="@drawable/mm_rect_gray" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="48.0dip">
+        <ImageView android:id="@id/fb_img" android:background="@drawable/mm_float_fb_icon" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/mm_share_fb_friends" android:layout_toRightOf="@id/fb_img" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/tw_invite_btn" android:background="@drawable/mm_rect_gray" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="32.0dip">
+        <ImageView android:id="@id/tw_img" android:background="@drawable/mm_float_tw_icon" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/mm_share_tw_friends" android:layout_toRightOf="@id/tw_img" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/other_invite_btn" android:background="@drawable/mm_rect_gray" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="32.0dip">
+        <ImageView android:id="@id/share_img" android:background="@drawable/mm_share_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/mm_share_other_friends" android:layout_toRightOf="@id/share_img" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

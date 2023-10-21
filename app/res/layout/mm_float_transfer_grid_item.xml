@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mm_float_transfer_grid_item_image" android:background="@drawable/float_go_default" android:layout_width="fill_parent" android:layout_height="60.0dip" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/mm_float_transfer_grid_item_rl_cb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/mm_float_transfer_grid_item_image" android:layout_centerHorizontal="true">
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/mm_float_transfer_grid_item_tv" android:background="@drawable/toumeng" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="18.0dip" android:text="@string/mm_float_transfer_grid_item_text" android:singleLine="true" android:layout_alignLeft="@id/icon" android:layout_alignRight="@id/icon" android:layout_alignBottom="@id/icon" />
+        <CheckBox android:id="@id/mm_float_transfer_grid_item_cb" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_alignRight="@id/mm_float_transfer_grid_item_tv" style="@style/CustomChecked" />
+    </RelativeLayout>
+</RelativeLayout>

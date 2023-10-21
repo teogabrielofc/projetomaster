@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="235.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip">
+        <io.rong.imkit.widget.AsyncImageView android:id="@id/rc_msg_iv_file_type_image" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginRight="12.0dip" app:RCCornerRadius="5.0dip" />
+        <RelativeLayout android:layout_width="147.0dip" android:layout_height="52.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#ff343434" android:ellipsize="middle" android:gravity="top" android:layout_gravity="top" android:id="@id/rc_msg_tv_file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffa8a8a8" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/rc_msg_tv_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ProgressBar android:id="@id/rc_msg_pb_file_upload_progress" android:visibility="invisible" android:layout_width="211.0dip" android:layout_height="2.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="5.0dip" style="@style/rc_pb_file_download_progress" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/small_score_view" android:visibility="gone" android:layout_width="52.0dip" android:layout_height="82.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/game_small_view_bg" android:layout_width="46.0dip" android:layout_height="70.0dip">
+        <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/red_score_stv" android:layout_width="37.0dip" android:layout_height="34.0dip" android:text="0" android:layout_alignParentRight="true" />
+        <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/blue_score_stv" android:layout_width="37.0dip" android:layout_height="34.0dip" android:text="0" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/sm_red_group_img" android:background="@drawable/group_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/sm_blue_group_img" android:background="@drawable/group_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

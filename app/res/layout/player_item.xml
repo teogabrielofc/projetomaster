@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="54.0dip">
+        <com.groundhog.multiplayermaster.floatwindow.view.McTextView android:textSize="11.0sp" android:textColor="@color/float_player_member_name" android:ellipsize="end" android:gravity="center" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.0dip" android:text="lianzhihui" android:singleLine="true" android:maxLength="20" />
+        <ImageView android:id="@id/host_tip" android:background="@drawable/float_avarta_default" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_toRightOf="@id/name" />
+        <ImageView android:id="@id/vip_tip" android:background="@drawable/float_v_room_icon" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="18.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="7.0dip" android:layout_toRightOf="@id/host_tip" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/float_player_tab_normal" android:id="@id/nick_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:text="22222222" android:singleLine="true" android:layout_below="@id/name" />
+        <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <RelativeLayout android:id="@id/float_player_member_add_rl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/friend_req_btn" android:background="@drawable/green_btn_select" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="24.0dip" android:text="@string/add_friend__text" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/float_player_tab_normal" android:gravity="center" android:id="@id/float_player_member_add_tip" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="24.0dip" android:text="@string/float_player_member_add" />
+            </RelativeLayout>
+            <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/kick_btn" android:background="@drawable/float_player_kick_bg" android:padding="0.0dip" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="24.0dip" android:layout_marginRight="58.0dip" android:text="@string/kick_text" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

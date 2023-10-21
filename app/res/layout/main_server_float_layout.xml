@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/main_layer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/left_layer" android:background="@drawable/bg" android:layout_width="128.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+            <com.groundhog.multiplayermaster.floatwindow.view.serverfloat.ServerFloatLeftView android:id="@id/server_main_left_menu" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/mm_server_right_layer" android:background="@drawable/bg" android:layout_width="250.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <com.groundhog.multiplayermaster.floatwindow.ui.rightLayer.serverView.ServerRightToolsLayout android:id="@id/mm_server_float_itemlayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.groundhog.multiplayermaster.floatwindow.ui.rightLayer.serverView.ServerRightMemberLayout android:id="@id/mm_server_float_memberlayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/mm_float_server_voice_show" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:name="io.rong.imkit.tools.PhotoFragment" android:id="@id/photo_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <Button android:id="@id/back_btn" android:background="@drawable/photo_back_btn_select" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_alignParentLeft="true" />
+</RelativeLayout>

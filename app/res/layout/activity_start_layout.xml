@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ad_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="105.0dip" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/default_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="105.0dip" android:src="@drawable/logo_default" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+    <com.groundhog.multiplayermaster.view.CircleProgress android:id="@id/skip_btn" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" app:circle_unfinished_color="#ff3ab958" app:circle_finished_color="#ff585858" app:circle_finished_stroke_width="4.0dip" app:circle_unfinished_stroke_width="4.0dip" app:circle_text_size="14.0sp" app:circle_text_color="#ffffffff" app:circle_background_color="#4c000000" />
+    <RelativeLayout android:id="@id/bottom_layer" android:layout_width="fill_parent" android:layout_height="105.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/start_view_word_id" android:background="@drawable/start_layout_word" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="5.0dip" />
+            <ImageView android:id="@id/start_view_icon_id" android:background="@drawable/start_layout_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/start_view_word_id" />
+            <com.groundhog.multiplayermaster.view.McTextView android:textSize="12.0dip" android:textColor="#ffa29898" android:id="@id/version_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="5.0dip" android:text="VISION:1.2.45" android:layout_toLeftOf="@id/start_view_icon_id" android:layout_below="@id/start_view_word_id" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

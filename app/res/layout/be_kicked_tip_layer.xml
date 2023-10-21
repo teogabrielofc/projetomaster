@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/bg" android:layout_width="240.0dip" android:layout_height="160.0dip" android:layout_centerInParent="true">
+        <TextView android:textSize="15.0sp" android:textColor="#7fffffff" android:id="@id/rebirth_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/tip_text" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#7fffffff" android:gravity="center" android:id="@id/rebirth_msg" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/mm_be_kicked_tip_layer" android:layout_below="@id/rebirth_title" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/layer_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textSize="12.0sp" android:textColor="@drawable/float_kick_dialog_text_btn_select" android:gravity="center" android:id="@id/cancel_text_btn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="@string/cancel_text" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textColor="@drawable/float_kick_dialog_text_btn_select" android:gravity="center" android:id="@id/confirm_text_btn" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="@string/mm_be_kicked_tip_layer_ok" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/layer_id" />
+    </RelativeLayout>
+</RelativeLayout>

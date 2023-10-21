@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/tip_main_layout" android:background="@color/mm_create_game_dialog_bg" android:layout_width="332.0dip" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/title" android:background="@color/mm_create_game_dialog_bg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/title_tip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mm_create_game_title" android:singleLine="true" android:drawablePadding="10.0dip" android:layout_centerInParent="true" />
+            <View android:background="@color/mm_create_game_dialog_line" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <ListView android:id="@id/item_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@color/transparent" android:divider="@null" />
+    </LinearLayout>
+</RelativeLayout>

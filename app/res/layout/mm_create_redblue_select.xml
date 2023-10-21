@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mm_create_full_view" android:background="#70000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mm_create_game_layer" android:layout_width="fill_parent" android:layout_height="140.0dip" android:layout_marginBottom="7.0dip" android:layout_alignParentBottom="true">
+        <View android:id="@id/line" android:layout_width="1.0px" android:layout_height="70.0dip" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/mm_create_game_rb_button1" android:background="@drawable/home_add_press" android:layout_width="60.0dip" android:layout_height="70.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/mm_create_game_rb_iv1" android:background="@drawable/mm_create_normal_normal" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginRight="-25.0dip" android:layout_toLeftOf="@id/mm_create_game_rb_button1" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/mm_create_game_rb_iv2" android:background="@drawable/mm_create_tiny_normal" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginLeft="-25.0dip" android:layout_toRightOf="@id/mm_create_game_rb_button1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/mm_create_minigame_tip" android:background="@drawable/mm_tiny_unlock_tip" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="15.0dip" android:layout_marginLeft="-30.0dip" android:layout_marginBottom="-25.0dip" android:layout_toRightOf="@id/mm_create_game_rb_iv2" android:layout_above="@id/mm_create_game_rb_iv2" />
+        <ImageView android:id="@id/mm_create_game_rb_button" android:background="@drawable/home_add_press" android:layout_width="60.0dip" android:layout_height="70.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/mm_create_game_battle_button" android:background="@drawable/mm_main_battle" android:layout_width="wrap_content" android:layout_height="65.0dip" android:layout_marginBottom="-18.0dip" android:layout_above="@id/mm_create_game_rb_button" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

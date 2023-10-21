@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/icon" android:background="@drawable/die" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/icon" android:layout_centerHorizontal="true" />
+        <View android:id="@id/line" android:background="@color/white" android:layout_width="300.0dip" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/time_tv" android:layout_centerHorizontal="true" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_below="@id/line" android:layout_centerHorizontal="true">
+            <Button android:textSize="14.0sp" android:textColor="#ff51ac36" android:gravity="center" android:id="@id/revive_btn" android:background="@drawable/vgame_result_btn_select" android:layout_width="160.0dip" android:layout_height="48.0dip" android:layout_marginRight="20.0dip" android:text="@string/game_vocation_resurrect_now" />
+            <Button android:textSize="14.0sp" android:textColor="#ff51ac36" android:gravity="center" android:id="@id/role_btn" android:background="@drawable/vgame_result_btn_select" android:layout_width="160.0dip" android:layout_height="48.0dip" android:layout_marginLeft="20.0dip" android:text="@string/game_vocation_change_occupation" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

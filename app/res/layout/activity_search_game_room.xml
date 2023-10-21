@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_view" android:background="@color/mm_default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/main_layout" android:background="@color/mm_default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/tile_top_layer" android:background="@drawable/mm_header_bg" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <Button android:textSize="16.0sp" android:textColor="#ffdedede" android:id="@id/close_btn" android:background="@drawable/back_btn_select" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="5.0dip" android:layout_centerVertical="true" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_marginLeft="5.0dip" android:text="@string/search_game_room_text" android:layout_toRightOf="@id/close_btn" />
+        </RelativeLayout>
+        <EditText android:textSize="15.0sp" android:textColor="@color/mm_pop_search_room_edit_text" android:textColorHint="@color/mm_pop_search_room_edit_hint" android:id="@id/room_id_edit_text" android:background="@color/mm_pop_search_room_edit_bg" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:hint="@string/search_mobile_game_room_tip" android:singleLine="true" android:maxLength="10" android:layout_below="@id/tile_top_layer" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/search_btn" android:background="@color/mm_pop_search_room_submit" android:layout_width="60.0dip" android:layout_height="50.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="16.0dip" android:text="@string/mm_pop_guide_searchroom_submit" android:layout_below="@id/tile_top_layer" android:layout_alignParentRight="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/list_layer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/room_id_edit_text">
+            <View android:background="#ffc8ccc6" android:layout_width="fill_parent" android:layout_height="0.0px" />
+            <com.groundhog.multiplayermaster.view.XListView android:id="@id/game_room_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@color/transparent" android:divider="@null" />
+            <View android:background="#ffc8ccc6" android:layout_width="fill_parent" android:layout_height="0.0px" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/recent_joined_rect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/room_id_edit_text">
+            <TextView android:textSize="15.0sp" android:textColor="@color/mm_pop_search_room_tips" android:gravity="center|left" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/mm_search_room_lasted_join" />
+            <View android:background="@color/mm_pop_search_room_tips" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="0.0px" />
+            <fragment android:name="com.groundhog.multiplayermaster.ui.slideMenu.MyLatestJoinedFragment" android:background="@color/mm_default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ListView android:id="@id/my_recent_joined_lv" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:divider="@null" android:footerDividersEnabled="false" />
+            <View android:background="@color/mm_pop_search_room_tips" android:layout_width="fill_parent" android:layout_height="0.0px" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/red" android:id="@id/no_room_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:text="@string/mm_room_not_exit_tip" android:layout_below="@id/room_id_edit_text" />
+    </RelativeLayout>
+</RelativeLayout>

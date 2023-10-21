@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/mm_default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:addfriend="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/mm_friend_friendlist_newfriend_rl" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="5.0dip">
+        <com.groundhog.multiplayermaster.view.HexagonRightFrameView android:id="@id/mm_friend_friendlist_hexagon_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" addfriend:rightFrameViewGap="2.0dip" addfriend:rightFrameBackGrounp="@color/mm_friends_list_new_friend_gb" addfriend:lineColor="@color/mm_friends_list_new_friend_gb" addfriend:startColor="@color/mm_friends_list_new_friend_gb" addfriend:endColor="@color/mm_friends_list_new_friend_gb">
+            <com.groundhog.multiplayermaster.view.HexagonIconView android:layout_gravity="center_vertical" android:id="@id/mm_friend_addfriend_list_item_hexagon" android:layout_width="45.0dip" android:layout_height="45.0dip" addfriend:hexagonLineWith="1.0dip" addfriend:hexagonLineColor="@color/mm_friends_list_new_friend_hexagon_line" addfriend:hexagonImage="@drawable/avarta_default_big" />
+            <RelativeLayout android:id="@id/mm_friend_head_vip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:id="@id/mm_friend_head_vip_img" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_centerVertical="true" />
+                <RelativeLayout android:gravity="bottom|center|right" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="55.0dip">
+                    <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/mm_vip_icon" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </com.groundhog.multiplayermaster.view.HexagonRightFrameView>
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/mm_friend_addfriend_list_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="65.0dip" android:text="@string/mm_friends_list_content_new_friends" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

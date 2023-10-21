@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.groundhog.multiplayermaster.floatwindow.view.DraggableRootView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/main_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:id="@id/open_list_btn" android:background="@drawable/assassin_room_bg" android:layout_width="160.0dip" android:layout_height="40.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="15.0sp" android:textColor="#ff6bd7ef" android:id="@id/room_id_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="12" android:drawableLeft="@drawable/assassin_room_id_cover" android:drawablePadding="3.0dip" />
+            <com.groundhog.multiplayermaster.floatwindow.view.AntixTextView android:textSize="15.0sp" android:textColor="#ff6bd7ef" android:id="@id/room_peoples" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="2/10" android:drawableLeft="@drawable/assasin_room" android:drawablePadding="3.0dip" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/fl_player_list_panel" android:background="@drawable/assassin_player_list_bg" android:visibility="gone" android:layout_width="165.0dip" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:layout_below="@id/open_list_btn">
+            <ListView android:id="@id/player_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="7.0dip" android:listSelector="@color/transparent" android:cacheColorHint="@color/transparent" android:divider="#23ffffff" android:dividerHeight="1.0px" />
+        </FrameLayout>
+        <Button android:id="@id/begin_btn" android:background="@drawable/assassin_start_game" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_below="@id/open_list_btn" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</com.groundhog.multiplayermaster.floatwindow.view.DraggableRootView>

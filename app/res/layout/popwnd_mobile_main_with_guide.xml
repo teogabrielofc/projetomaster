@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_layer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bg_layer" android:background="#b2000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/i_know_btn" android:layout_width="180.0dip" android:layout_height="40.0dip" android:layout_marginBottom="100.0dip" android:text="@string/i_konw_text" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/mm_main_right_top_bg" android:layout_width="150.0dip" android:layout_height="205.0dip" android:layout_alignParentRight="true">
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/search_mobile_room_btn" android:background="@drawable/top_menu_select" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mm_pop_guide_searchroom" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/recent_joined_btn" android:background="@drawable/top_menu_select" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mm_pop_guide_lastedjoin" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/recent_create_btn" android:background="@drawable/top_menu_select" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mm_pop_guide_lastedopen" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/quick_join_game_btn" android:background="@drawable/top_menu_select" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mm_pop_guide_quickjoin" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:id="@id/guide_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="130.0dip" android:layout_alignParentRight="true" />
+</RelativeLayout>

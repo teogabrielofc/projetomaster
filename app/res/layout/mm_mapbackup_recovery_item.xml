@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/mm_about_item" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="70.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="#ffebfcfc" android:gravity="center_vertical" android:id="@id/mm_mapBackup_recovery_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="my wolrd" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/mm_mapBackup_recovery_ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="3.0dip" android:layout_below="@id/mm_mapBackup_recovery_name_tv">
+            <ImageView android:background="@drawable/mapbackup_file_size_ic" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginRight="4.0sp" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff828690" android:id="@id/mm_mapBackup_recovery_size_tv" android:layout_width="65.0dip" android:layout_height="wrap_content" android:text="300k" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/mm_mapBackup_recovery_time_ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="3.0dip" android:layout_below="@id/mm_mapBackup_recovery_ly">
+            <ImageView android:background="@drawable/mapbackup_file_time_ic" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginRight="5.0sp" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff828690" android:id="@id/mm_mapBackup_recovery_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="300k" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <Button android:textSize="13.0dip" android:textColor="#ffebf0fc" android:id="@id/mm_mapBackup_recovery_btn" android:background="@drawable/mapbackup_item_btn_ic" android:layout_width="75.0dip" android:layout_height="32.0dip" android:text="@string/mm_backup_recovery_item_recover" />
+        <Button android:textSize="13.0dip" android:textColor="#ffebf0fc" android:id="@id/mm_mapBackup_del_btn" android:background="@drawable/mapbackup_item_btn_ic" android:layout_width="75.0dip" android:layout_height="32.0dip" android:layout_marginLeft="5.0dip" android:text="@string/myLatestJoinedFragment_delete" />
+    </LinearLayout>
+</RelativeLayout>

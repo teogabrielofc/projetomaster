@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#fff0f0f0" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="#ff484848" android:ellipsize="end" android:id="@id/item_map_recovery_title_tv" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="15.0dip" android:text="" android:singleLine="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffa6a6a6" android:layout_gravity="center_vertical" android:id="@id/item_map_recovery_time_tv" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="10.0dip" android:text="@string/backup_map_time" android:singleLine="true" android:layout_below="@id/item_map_recovery_title_tv" />
+        <Button android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/item_map_recovery_btn_recovery" android:background="@drawable/ok_button_recovery_selector" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginRight="16.0dip" android:text="@string/backup_map_recovery" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</FrameLayout>

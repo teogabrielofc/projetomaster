@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/mm_float_voice_open_rl" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <TextView android:id="@id/mm_float_voice_open_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mm_float_voice_open" android:layout_centerVertical="true" />
+            <CheckBox android:id="@id/mm_float_voice_open_cb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CustomProtectCheckboxTheme" />
+            <View android:id="@id/mm_float_voice_open_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/mm_float_voice_close_rl" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/mm_float_voice_open_rl">
+            <TextView android:id="@id/mm_float_voice_close_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mm_float_voice_close" android:layout_centerVertical="true" />
+            <CheckBox android:id="@id/mm_float_voice_close_cb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CustomProtectCheckboxTheme" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="229.0dip" android:layout_height="78.0dip">
+        <View android:id="@id/space_view" android:layout_width="10.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+        <RelativeLayout android:id="@id/main_bg" android:background="@drawable/vgame_role_select" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_toLeftOf="@id/space_view" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/ren_img" android:background="@drawable/select_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/icon_img" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="17.0dip" android:layout_marginTop="8.0dip" />
+        <TextView android:textSize="11.0sp" android:textColor="#ff51ac36" android:id="@id/name_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="6.0dip" android:text="ffd" android:layout_toRightOf="@id/icon_img" />
+        <RelativeLayout android:id="@id/role_lock_img" android:background="#7c000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textColor="#ffabadb3" android:gravity="center" android:id="@id/pay_game_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginBottom="10.0dip" android:text="@string/game_unlock" android:drawableLeft="@drawable/role_lock" android:drawablePadding="11.0dip" android:layout_alignParentBottom="true" />
+            <ImageView android:id="@id/vip_tip" android:background="@drawable/war_vip_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

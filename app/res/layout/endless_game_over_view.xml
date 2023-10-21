@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#80000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_success" android:background="@drawable/el_game_over_win_bg" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_success_time" android:background="@drawable/el_game_over_success_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="45.0dip" android:text="用时28分15秒" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Heroes, you are awesome!" />
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_failed" android:background="@drawable/el_game_over_failed_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:background="@drawable/el_game_over_failed_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="45.0dip">
+                <TextView android:textColor="#ffffffff" android:id="@id/tv_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="第14关" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_failed_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="5.0dip" android:text="用时28分15秒" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/tv_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Too bad, you failed:(" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip">
+            <ImageView android:id="@id/btn_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/el_selector_share" />
+            <ImageView android:id="@id/btn_continue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:src="@drawable/el_selector_continue_game" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

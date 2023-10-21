@@ -1,0 +1,2358 @@
+﻿{
+    "code": 200,
+    "data": {
+        "heroTypes": [
+            {
+                "heros": [
+                    {
+                        "buffers": [
+                            {
+                                "name": "slowness",
+                                "effectName": "MOVEMENT_SLOWDOWN",
+                                "id": 2,
+                                "amplifier": 0,
+                                "duration": 1000000
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "wooden axe",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 271,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "upgrade": 5,
+                        "level": 0
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "diamond helmet",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 310,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "buffers": [
+                            {
+                                "name": "slowness",
+                                "effectName": "MOVEMENT_SLOWDOWN",
+                                "id": 2,
+                                "amplifier": 0,
+                                "duration": 1000000
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "stone axe",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 1,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 275,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "野蛮防御LV.1"
+                        ],
+                        "upgrade": 60,
+                        "level": 1
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "diamond helmet",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 310,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 3,
+                                "customName": "diamond boots",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 313,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "buffers": [
+                            {
+                                "name": "slowness",
+                                "effectName": "MOVEMENT_SLOWDOWN",
+                                "id": 2,
+                                "amplifier": 0,
+                                "duration": 1000000
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "iron axe",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 3,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 258,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "野蛮防御LV.1"
+                        ],
+                        "upgrade": 150,
+                        "level": 2
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "diamond helmet",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 310,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "diamond leggings",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 312,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 3,
+                                "customName": "diamond boots",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 313,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "buffers": [
+                            {
+                                "name": "slowness",
+                                "effectName": "MOVEMENT_SLOWDOWN",
+                                "id": 2,
+                                "amplifier": 0,
+                                "duration": 1000000
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "iron axe",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 4,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 258,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "野蛮防御Lv.2"
+                        ],
+                        "upgrade": 800,
+                        "level": 3
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "diamond helmet",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 310,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "diamond chestplate",
+                                "enchants": [
+                                    {
+                                        "name": "protection",
+                                        "level": 1,
+                                        "id": 0
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 311,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "diamond leggings",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 312,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 3,
+                                "customName": "diamond boots",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 313,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "buffers": [
+                            {
+                                "name": "slowness",
+                                "effectName": "MOVEMENT_SLOWDOWN",
+                                "id": 2,
+                                "amplifier": 0,
+                                "duration": 1000000
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "diamond axe",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 5,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 279,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "野蛮防御Lv.2"
+                        ],
+                        "upgrade": 4000,
+                        "level": 4
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "diamond helmet",
+                                "enchants": [
+                                    {
+                                        "name": "protection",
+                                        "level": 1,
+                                        "id": 0
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 310,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "diamond chestplate",
+                                "enchants": [
+                                    {
+                                        "name": "protection",
+                                        "level": 1,
+                                        "id": 0
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 311,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "diamond leggings",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 312,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 3,
+                                "customName": "diamond boots",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 313,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "buffers": [
+                            {
+                                "name": "slowness",
+                                "effectName": "MOVEMENT_SLOWDOWN",
+                                "id": 2,
+                                "amplifier": 0,
+                                "duration": 1000000
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "diamond axe",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 6,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "bane of arthropods",
+                                        "level": 1,
+                                        "id": 11
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 279,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "集结呐喊Lv.3"
+                        ],
+                        "upgrade": 20000,
+                        "level": 5
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "diamond helmet",
+                                "enchants": [
+                                    {
+                                        "name": "protection",
+                                        "level": 1,
+                                        "id": 0
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 310,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "diamond chestplate",
+                                "enchants": [
+                                    {
+                                        "name": "protection",
+                                        "level": 1,
+                                        "id": 0
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 311,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "diamond leggings",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 312,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 3,
+                                "customName": "diamond boots",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 313,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "buffers": [
+                            {
+                                "name": "slowness",
+                                "effectName": "MOVEMENT_SLOWDOWN",
+                                "id": 2,
+                                "amplifier": 0,
+                                "duration": 1000000
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "diamond axe",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 7,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "bane of arthropods",
+                                        "level": 1,
+                                        "id": 11
+                                    },
+                                    {
+                                        "name": "fire aspect",
+                                        "level": 1,
+                                        "id": 13
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 279,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "集结呐喊Lv.3"
+                        ],
+                        "upgrade": 0,
+                        "level": 6
+                    }
+                ],
+                "skin": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx1.PNG",
+                "acDes": "",
+                "des": "defense，melee",
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx2.PNG",
+                "name": "warrior",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 0,
+                "ver": 0
+            },
+            {
+                "heros": [
+                    {
+                        "armors": [
+                            {
+                                "slot": 1,
+                                "customName": "diamond chestplate",
+                                "id": 311,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "wooden sword",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 2,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 268,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "upgrade": 5,
+                        "level": 0
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "diamond helmet",
+                                "id": 310,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "diamond chestplate",
+                                "id": 311,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "stone sword",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 5,
+                                        "id": 9
+                                    }
+                                ],
+                                "id": 272,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "圣光审判1"
+                        ],
+                        "upgrade": 60,
+                        "level": 1
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "diamond helmet",
+                                "id": 310,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "diamond chestplate",
+                                "id": 311,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "diamond leggings",
+                                "id": 312,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "iron sword",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 7,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 267,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "圣光审判1"
+                        ],
+                        "upgrade": 150,
+                        "level": 2
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "diamond helmet",
+                                "id": 310,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "diamond chestplate",
+                                "id": 311,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "diamond leggings",
+                                "id": 312,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 3,
+                                "customName": "diamond boots",
+                                "id": 313,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "iron sword",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 8,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 267,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "圣光审判2"
+                        ],
+                        "upgrade": 800,
+                        "level": 3
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "diamond helmet",
+                                "id": 310,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "diamond chestplate",
+                                "id": 311,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "diamond leggings",
+                                "id": 312,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 3,
+                                "customName": "diamond boots",
+                                "id": 313,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "diamond sword",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 8,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 276,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "圣光审判2"
+                        ],
+                        "upgrade": 4000,
+                        "level": 4
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "diamond helmet",
+                                "id": 310,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "diamond chestplate",
+                                "id": 311,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "diamond leggings",
+                                "id": 312,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 3,
+                                "customName": "diamond boots",
+                                "id": 313,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "diamond sword",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 9,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "smite",
+                                        "level": 1,
+                                        "id": 10
+                                    }
+                                ],
+                                "id": 276,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "圣殿裁决3"
+                        ],
+                        "upgrade": 20000,
+                        "level": 5
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "diamond helmet",
+                                "id": 310,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "diamond chestplate",
+                                "id": 311,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "diamond leggings",
+                                "id": 312,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 3,
+                                "customName": "diamond boots",
+                                "id": 313,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "diamond sword",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 11,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "smite",
+                                        "level": 1,
+                                        "id": 10
+                                    },
+                                    {
+                                        "name": "fire aspect",
+                                        "level": 1,
+                                        "id": 13
+                                    }
+                                ],
+                                "id": 276,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "圣殿裁决3"
+                        ],
+                        "upgrade": 0,
+                        "level": 6
+                    }
+                ],
+                "skin": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx3.PNG",
+                "acDes": "",
+                "des": "melee，damage",
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx4.PNG",
+                "name": "knight",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 3,
+                "ver": 0
+            },
+            {
+                "heros": [
+                    {
+                        "weapons": [
+                            {
+                                "customName": "feather",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 3,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "konckback",
+                                        "level": 1,
+                                        "id": 12
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 288,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "upgrade": 5,
+                        "level": 0
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "chain helmet",
+                                "id": 302,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "feather",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 4,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "konckback",
+                                        "level": 1,
+                                        "id": 12
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 288,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "制药术1"
+                        ],
+                        "upgrade": 60,
+                        "level": 1
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "chain helmet",
+                                "id": 302,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "chain chestplate",
+                                "id": 303,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "feather",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 5,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "konckback",
+                                        "level": 1,
+                                        "id": 12
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 288,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "制药术1"
+                        ],
+                        "upgrade": 150,
+                        "level": 2
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "chain helmet",
+                                "id": 302,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "chain chestplate",
+                                "id": 303,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "chain leggings",
+                                "id": 304,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "feather",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 6,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "konckback",
+                                        "level": 1,
+                                        "id": 12
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 288,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "制药术2",
+                            "回春术1"
+                        ],
+                        "upgrade": 800,
+                        "level": 3
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "chain helmet",
+                                "id": 302,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "chain chestplate",
+                                "id": 303,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "chain leggings",
+                                "id": 304,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 3,
+                                "customName": "chain boots",
+                                "id": 305,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "feather",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 7,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "konckback",
+                                        "level": 2,
+                                        "id": 12
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 288,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "制药术2",
+                            "回春术1"
+                        ],
+                        "upgrade": 4000,
+                        "level": 4
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "chain helmet",
+                                "id": 302,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "chain chestplate",
+                                "id": 303,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "chain leggings",
+                                "id": 304,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 3,
+                                "customName": "chain boots",
+                                "id": 305,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "feather",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 8,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "konckback",
+                                        "level": 2,
+                                        "id": 12
+                                    },
+                                    {
+                                        "name": "fire aspect",
+                                        "level": 1,
+                                        "id": 13
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 288,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "制药术2",
+                            "群体回春术3"
+                        ],
+                        "upgrade": 20000,
+                        "level": 5
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "chain helmet",
+                                "id": 302,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "chain chestplate",
+                                "id": 303,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "chain leggings",
+                                "id": 304,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 3,
+                                "customName": "chain boots",
+                                "id": 305,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "feather",
+                                "enchants": [
+                                    {
+                                        "name": "sharp",
+                                        "level": 8,
+                                        "id": 9
+                                    },
+                                    {
+                                        "name": "konckback",
+                                        "level": 2,
+                                        "id": 12
+                                    },
+                                    {
+                                        "name": "fire aspect",
+                                        "level": 1,
+                                        "id": 13
+                                    },
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    }
+                                ],
+                                "id": 288,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "群体回春术3",
+                            "制药术2"
+                        ],
+                        "upgrade": 0,
+                        "level": 6
+                    }
+                ],
+                "skin": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx5.PNG",
+                "des": "ranged，support",
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx6.PNG",
+                "name": "mage",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 0,
+                "ver": 0
+            },
+            {
+                "heros": [
+                    {
+                        "weapons": [
+                            {
+                                "customName": "bow",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    },
+                                    {
+                                        "name": "infinity",
+                                        "level": 1,
+                                        "id": 22
+                                    }
+                                ],
+                                "id": 261,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "customName": "arrow",
+                                "id": 262,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "upgrade": 5,
+                        "level": 0
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "leather cap",
+                                "id": 298,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "bow",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    },
+                                    {
+                                        "name": "strength",
+                                        "level": 1,
+                                        "id": 19
+                                    },
+                                    {
+                                        "name": "infinity",
+                                        "level": 1,
+                                        "id": 22
+                                    }
+                                ],
+                                "id": 261,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "customName": "arrow",
+                                "id": 262,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "狂奔术1\r"
+                        ],
+                        "upgrade": 60,
+                        "level": 1
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "leather cap",
+                                "id": 298,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "leather tunic",
+                                "id": 299,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "bow",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    },
+                                    {
+                                        "name": "strength",
+                                        "level": 2,
+                                        "id": 19
+                                    },
+                                    {
+                                        "name": "infinity",
+                                        "level": 1,
+                                        "id": 22
+                                    }
+                                ],
+                                "id": 261,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "customName": "arrow",
+                                "id": 262,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "狂奔术1\r"
+                        ],
+                        "upgrade": 150,
+                        "level": 2
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "leather cap",
+                                "id": 298,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "leather tunic",
+                                "id": 299,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "leather pants",
+                                "id": 300,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "bow",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    },
+                                    {
+                                        "name": "strength",
+                                        "level": 3,
+                                        "id": 19
+                                    },
+                                    {
+                                        "name": "infinity",
+                                        "level": 1,
+                                        "id": 22
+                                    }
+                                ],
+                                "id": 261,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "customName": "arrow",
+                                "id": 262,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "狂奔术2"
+                        ],
+                        "upgrade": 800,
+                        "level": 3
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "leather cap",
+                                "id": 298,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "leather tunic",
+                                "id": 299,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "leather pants",
+                                "id": 300,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 3,
+                                "customName": "leather boots",
+                                "id": 301,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "bow",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    },
+                                    {
+                                        "name": "strength",
+                                        "level": 4,
+                                        "id": 19
+                                    },
+                                    {
+                                        "name": "infinity",
+                                        "level": 1,
+                                        "id": 22
+                                    }
+                                ],
+                                "id": 261,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "customName": "arrow",
+                                "id": 262,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "狂奔术2"
+                        ],
+                        "upgrade": 4000,
+                        "level": 4
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "leather cap",
+                                "id": 298,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "leather tunic",
+                                "id": 299,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "leather pants",
+                                "id": 300,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 3,
+                                "customName": "leather boots",
+                                "id": 301,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "bow",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    },
+                                    {
+                                        "name": "strength",
+                                        "level": 5,
+                                        "id": 19
+                                    },
+                                    {
+                                        "name": "infinity",
+                                        "level": 1,
+                                        "id": 22
+                                    }
+                                ],
+                                "id": 261,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "customName": "arrow",
+                                "id": 262,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "狂奔怒吼3\r"
+                        ],
+                        "upgrade": 20000,
+                        "level": 5
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "diamond helmet",
+                                "id": 310,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 1,
+                                "customName": "leather tunic",
+                                "id": 299,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 2,
+                                "customName": "leather pants",
+                                "id": 300,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "slot": 3,
+                                "customName": "leather boots",
+                                "id": 301,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "weapons": [
+                            {
+                                "customName": "bow",
+                                "enchants": [
+                                    {
+                                        "name": "unbreaking",
+                                        "level": 3,
+                                        "id": 17
+                                    },
+                                    {
+                                        "name": "strength",
+                                        "level": 5,
+                                        "id": 19
+                                    },
+                                    {
+                                        "name": "flame",
+                                        "level": 1,
+                                        "id": 21
+                                    },
+                                    {
+                                        "name": "infinity",
+                                        "level": 1,
+                                        "id": 22
+                                    }
+                                ],
+                                "id": 261,
+                                "count": 1,
+                                "damage": 0
+                            },
+                            {
+                                "customName": "arrow",
+                                "id": 262,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "skills": [
+                            "狂奔怒吼3\r"
+                        ],
+                        "upgrade": 0,
+                        "level": 6
+                    }
+                ],
+                "skin": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx7.PNG",
+                "des": "ranged，swiftness",
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx8.PNG",
+                "name": "ranger",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 0,
+                "ver": 0
+            }
+        ],
+        "monsterGroupLevel": [
+            {
+                "boss": [],
+                "monsters": [
+                    {
+                        "name": "silverfish",
+                        "id": 39
+                    },
+                    {
+                        "name": "endermite",
+                        "id": 55
+                    },
+                    {
+                        "name": "zombie",
+                        "id": 32
+                    },
+                    {
+                        "name": "cave spider",
+                        "id": 40
+                    }
+                ],
+                "level": 1
+            },
+            {
+                "monsters": [
+                    {
+                        "name": "silverfish",
+                        "id": 39
+                    },
+                    {
+                        "name": "endermite",
+                        "id": 55
+                    },
+                    {
+                        "armors": [
+                            {
+                                "slot": 0,
+                                "customName": "iron helmet",
+                                "id": 306,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "buffers": [
+                            {
+                                "name": "speed",
+                                "effectName": "MOVEMENT_SPEED",
+                                "id": 1,
+                                "amplifier": 1,
+                                "duration": 1000000
+                            }
+                        ],
+                        "name": "zombie",
+                        "id": 32
+                    },
+                    {
+                        "name": "skeleton",
+                        "id": 34
+                    },
+                    {
+                        "name": "cave spider",
+                        "id": 40
+                    }
+                ],
+                "level": 2
+            },
+            {
+                "monsters": [
+                    {
+                        "name": "silverfish",
+                        "id": 39
+                    },
+                    {
+                        "name": "endermite",
+                        "id": 55
+                    },
+                    {
+                        "weapons": [
+                            {
+                                "customName": "stone sword",
+                                "id": 272,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "name": "zombie pigman",
+                        "id": 36
+                    },
+                    {
+                        "name": "skeleton",
+                        "id": 34
+                    },
+                    {
+                        "name": "stray",
+                        "id": 46
+                    },
+                    {
+                        "name": "husk",
+                        "id": 47
+                    }
+                ],
+                "level": 3
+            },
+            {
+                "monsters": [
+                    {
+                        "name": "silverfish",
+                        "id": 39
+                    },
+                    {
+                        "name": "endermite",
+                        "id": 55
+                    },
+                    {
+                        "weapons": [
+                            {
+                                "customName": "diamond sword",
+                                "id": 276,
+                                "count": 1,
+                                "damage": 0
+                            }
+                        ],
+                        "name": "zombie pigman",
+                        "id": 36
+                    },
+                    {
+                        "name": "skeleton",
+                        "id": 34
+                    },
+                    {
+                        "name": "stray",
+                        "id": 46
+                    },
+                    {
+                        "name": "husk",
+                        "id": 47
+                    }
+                ],
+                "level": 4
+            },
+            {
+                "boss": [],
+                "monsters": [
+                    {
+                        "buffers": [
+                            {
+                                "name": "speed",
+                                "effectName": "MOVEMENT_SPEED",
+                                "id": 1,
+                                "amplifier": 4,
+                                "duration": 1000000
+                            }
+                        ],
+                        "name": "guardian",
+                        "id": 49
+                    },
+                    {
+                        "buffers": [
+                            {
+                                "name": "speed",
+                                "effectName": "MOVEMENT_SPEED",
+                                "id": 1,
+                                "amplifier": 4,
+                                "duration": 1000000
+                            }
+                        ],
+                        "name": "blaze",
+                        "id": 43
+                    },
+                    {
+                        "buffers": [
+                            {
+                                "name": "speed",
+                                "effectName": "MOVEMENT_SPEED",
+                                "id": 1,
+                                "amplifier": 4,
+                                "duration": 1000000
+                            }
+                        ],
+                        "name": "stray",
+                        "id": 46
+                    },
+                    {
+                        "buffers": [
+                            {
+                                "name": "speed",
+                                "effectName": "MOVEMENT_SPEED",
+                                "id": 1,
+                                "amplifier": 4,
+                                "duration": 1000000
+                            }
+                        ],
+                        "name": "husk",
+                        "id": 47
+                    },
+                    {
+                        "buffers": [
+                            {
+                                "name": "speed",
+                                "effectName": "MOVEMENT_SPEED",
+                                "id": 1,
+                                "amplifier": 4,
+                                "duration": 1000000
+                            }
+                        ],
+                        "name": "magma cube",
+                        "id": 42
+                    },
+                    {
+                        "buffers": [
+                            {
+                                "name": "speed",
+                                "effectName": "MOVEMENT_SPEED",
+                                "id": 1,
+                                "amplifier": 4,
+                                "duration": 1000000
+                            }
+                        ],
+                        "name": "slime",
+                        "id": 37
+                    }
+                ],
+                "level": 5
+            },
+            {
+                "monsters": [
+                    {
+                        "name": "guardian",
+                        "id": 49
+                    },
+                    {
+                        "name": "blaze",
+                        "id": 43
+                    },
+                    {
+                        "name": "stray",
+                        "id": 46
+                    },
+                    {
+                        "name": "husk",
+                        "id": 47
+                    },
+                    {
+                        "name": "magma cube",
+                        "id": 42
+                    },
+                    {
+                        "name": "slime",
+                        "id": 37
+                    }
+                ],
+                "level": 6
+            },
+            {
+                "monsters": [
+                    {
+                        "name": "creeper",
+                        "id": 33
+                    },
+                    {
+                        "name": "wither skeleton",
+                        "id": 48
+                    },
+                    {
+                        "name": "witch",
+                        "id": 45
+                    }
+                ],
+                "level": 7
+            },
+            {
+                "boss": [
+                    {
+                        "name": "creeper",
+                        "id": 33
+                    },
+                    {
+                        "name": "elder guardian",
+                        "id": 50
+                    },
+                    {
+                        "name": "blaze",
+                        "id": 43
+                    }
+                ],
+                "monsters": [],
+                "level": 8
+            },
+            {
+                "boss": [
+                    {
+                        "name": "elder guardian",
+                        "id": 50
+                    },
+                    {
+                        "name": "blaze",
+                        "id": 43
+                    },
+                    {
+                        "name": "creeper",
+                        "id": 33
+                    }
+                ],
+                "level": 9
+            },
+            {
+                "boss": [
+                    {
+                        "name": "wither",
+                        "id": 52
+                    }
+                ],
+                "level": 10
+            }
+        ],
+        "skills": {
+            "野蛮防御LV.1": {
+                "buffers": [
+                    {
+                        "name": "absorption",
+                        "effectName": "ABSORPTION",
+                        "id": 22,
+                        "amplifier": 0,
+                        "duration": 1000000
+                    }
+                ],
+                "skill_cd": 25,
+                "skill_time": 5,
+                "for_who": 0,
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx9.png",
+                "name": "野蛮防御LV.1",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 0,
+                "ver": 0
+            },
+            "野蛮防御Lv.2": {
+                "buffers": [
+                    {
+                        "name": "absorption",
+                        "effectName": "ABSORPTION",
+                        "id": 22,
+                        "amplifier": 0,
+                        "duration": 1000000
+                    }
+                ],
+                "skill_cd": 20,
+                "skill_time": 10,
+                "for_who": 0,
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx10.png",
+                "name": "野蛮防御Lv.2",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 0,
+                "ver": 0
+            },
+            "集结呐喊Lv.3": {
+                "buffers": [
+                    {
+                        "name": "absorption",
+                        "effectName": "ABSORPTION",
+                        "id": 22,
+                        "amplifier": 0,
+                        "duration": 1000000
+                    }
+                ],
+                "skill_cd": 20,
+                "skill_time": 8,
+                "for_who": 2,
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx11.png",
+                "name": "集结呐喊Lv.3",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 0,
+                "ver": 0
+            },
+            "圣光审判1": {
+                "buffers": [
+                    {
+                        "name": "strength",
+                        "effectName": "DAMAGE_BOOST",
+                        "id": 5,
+                        "amplifier": 0,
+                        "duration": 1000000
+                    }
+                ],
+                "skill_cd": 25,
+                "skill_time": 8,
+                "for_who": 0,
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx12.png",
+                "name": "圣光审判1",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 0,
+                "ver": 0
+            },
+            "圣光审判2": {
+                "buffers": [
+                    {
+                        "name": "strength",
+                        "effectName": "DAMAGE_BOOST",
+                        "id": 5,
+                        "amplifier": 1,
+                        "duration": 1000000
+                    }
+                ],
+                "skill_cd": 20,
+                "skill_time": 10,
+                "for_who": 0,
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx13.png",
+                "name": "圣光审判2",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 0,
+                "ver": 0
+            },
+            "圣殿裁决3": {
+                "buffers": [
+                    {
+                        "name": "strength",
+                        "effectName": "DAMAGE_BOOST",
+                        "id": 5,
+                        "amplifier": 1,
+                        "duration": 1000000
+                    }
+                ],
+                "skill_cd": 20,
+                "skill_time": 8,
+                "for_who": 2,
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx14.png",
+                "name": "圣殿裁决3",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 0,
+                "ver": 0
+            },
+            "狂奔术1\r": {
+                "buffers": [
+                    {
+                        "name": "speed",
+                        "effectName": "MOVEMENT_SPEED",
+                        "id": 1,
+                        "amplifier": 1,
+                        "duration": 1000000
+                    }
+                ],
+                "skill_cd": 25,
+                "skill_time": 5,
+                "for_who": 0,
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx15.png",
+                "name": "狂奔术1\r",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 0,
+                "ver": 0
+            },
+            "狂奔术2": {
+                "buffers": [
+                    {
+                        "name": "speed",
+                        "effectName": "MOVEMENT_SPEED",
+                        "id": 1,
+                        "amplifier": 2,
+                        "duration": 1000000
+                    }
+                ],
+                "skill_cd": 20,
+                "skill_time": 10,
+                "for_who": 0,
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx16.png",
+                "name": "狂奔术2",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 0,
+                "ver": 0
+            },
+            "狂奔怒吼3\r": {
+                "buffers": [
+                    {
+                        "name": "speed",
+                        "effectName": "MOVEMENT_SPEED",
+                        "id": 1,
+                        "amplifier": 2,
+                        "duration": 1000000
+                    }
+                ],
+                "skill_cd": 20,
+                "skill_time": 8,
+                "for_who": 2,
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx17.png",
+                "name": "狂奔怒吼3\r",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 0,
+                "ver": 0
+            },
+            "制药术1": {
+                "items": [
+                    {
+                        "customName": "potion of harming",
+                        "id": 438,
+                        "count": 1,
+                        "damage": 23
+                    }
+                ],
+                "skill_cd": 25,
+                "skill_time": 0,
+                "for_who": 0,
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx18.png",
+                "name": "制药术1",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 0,
+                "ver": 0
+            },
+            "制药术2": {
+                "items": [
+                    {
+                        "customName": "poison(0:33)",
+                        "id": 438,
+                        "count": 1,
+                        "damage": 25
+                    },
+                    {
+                        "customName": "poison(0:33)",
+                        "id": 438,
+                        "count": 1,
+                        "damage": 25
+                    },
+                    {
+                        "customName": "poison(0:33)",
+                        "id": 438,
+                        "count": 1,
+                        "damage": 25
+                    },
+                    {
+                        "customName": "poison(0:33)",
+                        "id": 438,
+                        "count": 1,
+                        "damage": 25
+                    },
+                    {
+                        "customName": "poison(0:33)",
+                        "id": 438,
+                        "count": 1,
+                        "damage": 25
+                    },
+                    {
+                        "customName": "poison(0:33)",
+                        "id": 438,
+                        "count": 1,
+                        "damage": 25
+                    },
+                    {
+                        "customName": "poison(0:33)",
+                        "id": 438,
+                        "count": 1,
+                        "damage": 25
+                    },
+                    {
+                        "customName": "instant demage",
+                        "id": 438,
+                        "count": 1,
+                        "damage": 23
+                    },
+                    {
+                        "customName": "instant demage Ⅱ",
+                        "id": 438,
+                        "count": 2,
+                        "damage": 24
+                    }
+                ],
+                "skill_cd": 20,
+                "skill_time": 0,
+                "for_who": 0,
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx19.png",
+                "name": "制药术2",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 0,
+                "ver": 0
+            },
+            "回春术1": {
+                "buffers": [
+                    {
+                        "name": "instant health",
+                        "effectName": "HEAL",
+                        "id": 6,
+                        "amplifier": 1,
+                        "duration": 1000000
+                    }
+                ],
+                "skill_cd": 35,
+                "skill_time": 1,
+                "for_who": 0,
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx20.png",
+                "name": "回春术1",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 0,
+                "ver": 0
+            },
+            "群体回春术3": {
+                "buffers": [
+                    {
+                        "name": "regeneration",
+                        "effectName": "REGENERATION",
+                        "id": 10,
+                        "amplifier": 1,
+                        "duration": 1000000
+                    }
+                ],
+                "skill_cd": 30,
+                "skill_time": 8,
+                "for_who": 2,
+                "icon": "https://servermasterconfig.s3-external-1.amazonaws.com/yxsl/yx21.png",
+                "name": "群体回春术3",
+                "productId": 0,
+                "gold": 0,
+                "unlockType": 0,
+                "ver": 0
+            }
+        },
+        "death_time": 0,
+        "game_time": 0
+    }
+}

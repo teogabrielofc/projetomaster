@@ -1,0 +1,74 @@
+[
+    {
+        "id": 3320,
+        "name": "knife",
+        "count": 1,
+        "tag": "匕首",
+        "damage": 5,
+        "texture": "knife"
+    },
+    {
+        "id": 3323,
+        "name": "riotshield",
+        "count": 1,
+        "tag": "防暴盾牌",
+        "damage": 5,
+        "texture": "riotshield"
+    },
+    {
+        "id": 3327,
+        "name": "baseballbat",
+        "count": 1,
+        "tag": "棒球棒",
+        "damage": 5,
+        "texture": "baseballbat"
+    },
+    {
+        "id": 3328,
+        "name": "chainsaw",
+        "count": 1,
+        "tag": "电锯",
+        "damage": 5,
+        "texture": "chainsaw"
+    },
+    {
+        "id": 3329,
+        "name": "cleaver",
+        "count": 1,
+        "tag": "切肉刀",
+        "damage": 5,
+        "texture": "cleaver"
+    },
+    {
+        "id": 3330,
+        "name": "crowbar",
+        "count": 1,
+        "tag": "撬棍",
+        "damage": 5,
+        "texture": "crowbar"
+    },
+    {
+        "id": 3331,
+        "name": "golfclub",
+        "count": 1,
+        "tag": "高尔夫球杆",
+        "damage": 5,
+        "texture": "golfclub"
+    },
+    {
+        "id": 3332,
+        "name": "hammer",
+        "count": 1,
+        "tag": "锤子",
+        "damage": 5,
+        "texture": "hammer"
+    },
+    {
+        "id": 3333,
+        "name": "machete",
+        "count": 1,
+        "tag": "弯刀",
+        "damage": 5,
+        "texture": "machete"
+    }
+]

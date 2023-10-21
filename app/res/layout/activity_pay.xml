@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/mm_get_button" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="余额支付" />
+    <Button android:id="@id/mm_charge_button" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="直接差额充值" android:layout_below="@id/mm_get_button" />
+    <Button android:id="@id/mm_balance_button" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="获取余额" android:layout_below="@id/mm_charge_button" />
+    <Button android:id="@id/mm_pay_button" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="轮询" android:layout_below="@id/mm_balance_button" />
+</RelativeLayout>

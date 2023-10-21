@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="#ff888685" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mm_float_screen_shot_hide_gui" android:layout_centerVertical="true" />
+            <CheckBox android:id="@id/gui_switch" android:background="@drawable/switch_btn_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="#ff888685" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mm_float_screen_shot_hide_floatwin" android:layout_centerVertical="true" />
+            <CheckBox android:id="@id/float_switch" android:background="@drawable/switch_btn_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="#19ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+    </LinearLayout>
+    <Button android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/screen_shot_btn" android:background="@drawable/green_btn_select" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/onkey_screen_shot_text" android:layout_alignParentBottom="true" />
+</RelativeLayout>

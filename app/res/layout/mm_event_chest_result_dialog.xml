@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:background="@color/mm_shop_buy_dialog_bg" android:layout_width="320.0dip" android:layout_height="465.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mm_event_result_title_rl" android:background="@drawable/mm_recharge_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/mm_event_result_item_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mm_event_result_success" android:singleLine="true" android:drawablePadding="10.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/mm_event_result_skin" android:layout_width="200.0dip" android:layout_height="300.0dip" android:layout_marginTop="20.0dip" android:layout_below="@id/mm_event_result_title_rl" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/mm_event_result_skin_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:text="123" android:layout_below="@id/mm_event_result_skin" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_below="@id/mm_event_result_skin_text">
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/mm_event_result_share_btn" android:background="@drawable/mm_create_game_button" android:layout_width="130.0dip" android:layout_height="35.0dip" android:text="@string/mm_event_result_share" android:textAllCaps="false" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:textSize="15.0sp" android:textColor="@color/mm_open_vip_pop_plan_select" android:id="@id/mm_event_result_more_btn" android:background="@drawable/mm_btn_open_vip_bg" android:layout_width="130.0dip" android:layout_height="35.0dip" android:text="@string/mm_event_result_try_again" android:textAllCaps="false" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout" android:background="@color/mm_main_right_pop_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/mm_main_gameList_popupWindows_bg" android:layout_width="fill_parent" android:layout_height="240.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:background="@color/mm_main_gameList_popupWindows_listline" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <GridView android:gravity="center" android:layout_gravity="center" android:id="@id/grid_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:verticalSpacing="20.0dip" android:numColumns="4" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

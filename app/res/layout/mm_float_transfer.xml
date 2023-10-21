@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_centerHorizontal="true">
+        <com.groundhog.multiplayermaster.floatwindow.view.CustomGridView android:id="@id/mm_float_transfer_gv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:listSelector="@color/transparent" android:horizontalSpacing="5.0dip" android:verticalSpacing="15.0dip" android:numColumns="2" />
+    </RelativeLayout>
+    <TextView android:textSize="15.0sp" android:textColor="@color/mm_float_transfer_dialog_edittext" android:id="@id/mm_float_transfer_no_transfer_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="25.0dip" android:text="@string/mm_float_transfer_dialog_has_not_transfer" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:background="@color/line_setting" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="16.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/mm_float_transfer_button_add" android:background="@drawable/green_btn_select" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip" android:text="@string/mm_float_transfer_add" />
+                <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/mm_float_transfer_button_delete" android:background="@drawable/green_btn_select" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip" android:text="@string/mm_float_transfer_delete" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/mm_float_transfer_button_edit" android:background="@drawable/green_btn_select" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip" android:text="@string/mm_float_transfer_edit" />
+                <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/mm_float_transfer_button_cancel" android:background="@drawable/green_btn_select" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip" android:text="@string/mm_float_transfer_dialog_cancel" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

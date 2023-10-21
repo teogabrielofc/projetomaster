@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:background="@color/mm_shop_buy_dialog_bg" android:layout_width="300.0dip" android:layout_height="480.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/mm_recharge_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/mm_event_item_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/mm_shop_buy_item" android:singleLine="true" android:drawablePadding="10.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/mm_event_item_dialog_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/mm_shop_buy_dialog_text1" android:gravity="center" android:id="@id/mm_event_item_dialog_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/mm_event_item_dialog_icon" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/mm_shop_buy_dialog_text2" android:gravity="center|left" android:id="@id/mm_event_item_dialog_content2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="" android:layout_below="@id/mm_event_item_dialog_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_marginTop="-20.0dip" android:layout_below="@id/mm_event_item_dialog_content2">
+        <RelativeLayout android:id="@id/mm_event_img_rl1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/mm_event_img_1" android:background="@drawable/mm_event_img_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/mm_event_img_text" android:gravity="center" android:id="@id/mm_event_img_text_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="123" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/mm_event_img_rl2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/mm_event_img_2" android:background="@drawable/mm_event_img_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/mm_event_img_text" android:gravity="center" android:id="@id/mm_event_img_text_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="123" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/mm_event_item_dialog_buyrl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="16.0sp" android:textColor="@color/mm_open_vip_pop_plan_select" android:id="@id/mm_event_item_dialog_btn" android:background="@drawable/mm_btn_open_vip_bg" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="@string/mm_shop_item_buy_btn" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+    </RelativeLayout>
+</RelativeLayout>

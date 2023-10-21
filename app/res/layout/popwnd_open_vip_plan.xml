@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/mm_open_vip_pop_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:gravity="top" android:orientation="horizontal" android:id="@id/mm_open_vip_viewpager" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="5.0dip" />
+    <com.viewpagerindicator.CirclePageIndicator android:layout_gravity="center" android:id="@id/mm_open_vip_progress" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" />
+    <View android:background="@color/mm_open_vip_pop_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:src="@drawable/mm_open_vip_id_icon" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff727782" android:id="@id/tv_open_vip_people_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <View android:background="@color/mm_open_vip_pop_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="17.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:src="@drawable/mm_open_vip_pop_plan_icon" />
+        <Button android:textSize="10.0dip" android:textColor="#ff404040" android:id="@id/btn_vip_one_year" android:background="@drawable/mm_open_vip_plan_selected_false" android:layout_width="66.0dip" android:layout_height="28.0dip" android:layout_marginLeft="10.0dip" />
+        <Button android:textSize="10.0dip" android:textColor="#ff404040" android:id="@id/btn_vip_six_month" android:background="@drawable/mm_open_vip_plan_selected_false" android:layout_width="66.0dip" android:layout_height="28.0dip" android:layout_marginLeft="10.0dip" />
+        <Button android:textSize="10.0dip" android:textColor="#ff404040" android:id="@id/btn_vip_three_months" android:background="@drawable/mm_open_vip_plan_selected_false" android:layout_width="66.0dip" android:layout_height="28.0dip" android:layout_marginLeft="10.0dip" />
+        <Button android:textSize="10.0dip" android:textColor="#ff404040" android:id="@id/btn_vip_one_month" android:background="@drawable/mm_open_vip_plan_selected_false" android:layout_width="66.0dip" android:layout_height="28.0dip" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <View android:background="@color/mm_open_vip_pop_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="17.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="22.0dip" android:src="@drawable/mm_recharge_money_icon" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff404040" android:id="@id/tv_current_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff747782" android:id="@id/tv_original_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <Button android:textSize="16.0sp" android:textColor="#ffa85512" android:id="@id/btn_immediately" android:background="@drawable/mm_btn_open_vip_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/mm_vip_open_vip_immediately_open" />
+</LinearLayout>

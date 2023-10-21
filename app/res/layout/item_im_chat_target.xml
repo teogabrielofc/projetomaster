@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/chat_msg_size" android:textColor="@color/chat_target_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/target_name_tv" android:paddingLeft="6.0dip" android:layout_width="fill_parent" android:layout_height="34.0dip" android:text="" android:maxLines="1" />
+    <View android:background="@color/chat_target_segment_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

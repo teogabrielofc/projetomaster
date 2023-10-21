@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="#80000000" android:focusable="true" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_content_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv_result" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/basewar_winner" />
+        <FrameLayout android:layout_width="434.0dip" android:layout_height="250.0dip" android:layout_marginLeft="-36.0dip" android:layout_marginTop="12.0dip">
+            <LinearLayout android:gravity="center_vertical" android:background="#c0000000" android:paddingLeft="90.0dip" android:layout_width="fill_parent" android:layout_height="21.0dip" android:layout_marginLeft="72.0dip">
+                <TextView android:textSize="10.0sp" android:textColor="#ff666666" android:layout_width="30.0dip" android:layout_height="wrap_content" android:text="@string/assassin_point_rank" />
+                <TextView android:textSize="10.0sp" android:textColor="#ff666666" android:layout_width="85.0dip" android:layout_height="wrap_content" android:text="@string/assassin_point_player" android:singleLine="true" />
+                <TextView android:textSize="10.0sp" android:textColor="#ff666666" android:layout_width="48.0dip" android:layout_height="wrap_content" android:text="@string/assassin_point_kill" />
+                <TextView android:textSize="10.0sp" android:textColor="#ff666666" android:layout_width="48.0dip" android:layout_height="wrap_content" android:text="@string/assassin_point_combo" />
+                <TextView android:textSize="10.0sp" android:textColor="#ff666666" android:layout_width="48.0dip" android:layout_height="wrap_content" android:text="@string/assassin_point_gold" />
+            </LinearLayout>
+            <ListView android:id="@id/lv_data" android:background="#80000000" android:paddingLeft="90.0dip" android:layout_width="362.0dip" android:layout_height="fill_parent" android:layout_marginLeft="72.0dip" android:layout_marginTop="21.0dip" android:listSelector="@null" android:divider="@null" android:dividerHeight="0.0px" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:src="@drawable/assasin_result_icon" />
+        </FrameLayout>
+        <LinearLayout android:id="@id/ll_button_panel" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <Button android:textColor="#fffbb801" android:id="@id/btn_share" android:background="@drawable/assassin_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/assassin_point_share" />
+            <Button android:textColor="#ff797979" android:id="@id/btn_exit" android:background="@drawable/assassin_btn_exit_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:text="@string/assassin_point_quit" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
