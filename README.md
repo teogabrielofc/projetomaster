@@ -9,7 +9,7 @@ O Projeto Master é uma tentativa de recriar o servidor do aplicativo Multiplaye
 ## Status
 
 O projeto está em desenvolvimento. Ainda não há uma versão funcional do servidor. mas tenho uma lista do que vou fazer.
-[Feito] Decompilar o aplicativo Multiplayer Master usando o apktool
+- [Feito] Decompilar o aplicativo Multiplayer Master usando o apktool
 - [ ] Estudar o código do aplicativo e entender como ele se comunica com o servidor
 - [ ] Recriar o servidor e testar
 - [ ] Lançar para o publico
