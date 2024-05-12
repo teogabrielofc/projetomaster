@@ -8,34 +8,13 @@ O Projeto Master é uma tentativa de recriar o servidor do aplicativo Multiplaye
 
 ## Status
 
-O projeto está em desenvolvimento. Ainda não há uma versão funcional do servidor. mas tenho uma lista do que vou fazer.
-- [Feito] Decompilar o aplicativo Multiplayer Master usando o apktool
-- [ ] Estudar o código do aplicativo e entender como ele se comunica com o servidor
-- [ ] Recriar o servidor e testar
-- [ ] Lançar para o publico
+Atualmente, o projeto está decompilando o Multiplayer Master para estudar ele e em seguida fazer o servidor, vou mudar esses status quando atualizar
 
-## Demonstração
+## Creditos
 
-Ainda não há uma demonstração do projeto.
-
-## Instalação e uso
-
-Ainda não há instruções de instalação e uso do projeto.
-
-## Tecnologias
-
-A única tecnologia(até agora) usada no projeto é:
-
-- apktool: Uma ferramenta para decompilar e recompilar aplicativos Android
-
-## Autores
-
-O projeto foi criado por:
-
-- Teo Gabriel: Desenvolvedor e idealizador do projeto
-- MCPE MASTER: pelo Multiplayer Master
-- Mojang: pelo Minecraft
-
+Esse projeto foi criado por Teo Gabriel
+Esse projeto usa o apktool para decompilar o Multiplayer Master
+Se não fosse isso, não ia existir esse projeto.
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fteogabrielofc%2Fprojetomaster.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fteogabrielofc%2Fprojetomaster?ref=badge_large)
