@@ -14,7 +14,7 @@ Atualmente, o projeto está decompilando o Multiplayer Master para estudar ele e
 Copyright © 2023 Gabriel Oliveira da Silva (mais conhecido como: Teo Gabriel)
 
 Este programa(Projeto Master) é um software livre; você pode redistribuí-lo e/ou
-modificá-lo sob os termos da Licença Pública Geral GNU Affero como publicada
+modificá-lo sob os termos da Licença Pública Affero GNU como publicada
 pela Free Software Foundation; na versão 3 da Licença, ou
 (a seu critério) qualquer versão posterior.
 
@@ -23,5 +23,5 @@ mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
 a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
 GNU Affero General Public License para mais detalhes.
 
-Você deve ter recebido uma cópia da Licença Pública Geral GNU Affero junto
+Você deve ter recebido uma cópia da Licença Pública Affero GNU junto
 com este programa. Se não, veja <http://www.gnu.org/licenses/>.
