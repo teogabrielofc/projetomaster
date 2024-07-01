@@ -1,7 +1,6 @@
 # Projeto Master
-https://img.shields.io/badge/Aplicativo-Em_desenvolvimento-yellow
+![Static Badge](https://img.shields.io/badge/Aplicativo-Em_desenvolvimento-yellow)
 ![Static Badge](https://img.shields.io/badge/Servidor-Sem_Funcionalidades-red)
-
 
 
 ## Descrição
