@@ -26,6 +26,17 @@ O Projeto Master é uma tentativa de recriar o servidor do aplicativo Multiplaye
       - ❌ Vip
       - ❌ Discover
       - ❌ Amigos
+
+## Compilar app
+
+Abre o código do app, vai em assets, vai em ServerAreaConfig.json, Mude X.X.X.X para o ip e porta. Isso é obrigatorio já que esse é o ip do servidor.
+Compile o App com o apktool com o seguinte comando: apktool b (pasta) -o projetomaster.apk
+Pronto.
+
+## Creditos
+
+ApkTool (App que foi utilizado para decompilar o Multiplayer Master)
+
 ## Licença
 
 Copyright © 2023 Gabriel Oliveira da Silva (mais conhecido como: Teo Gabriel)
