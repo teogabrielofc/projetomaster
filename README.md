@@ -39,7 +39,7 @@ ApkTool (App que foi utilizado para decompilar o Multiplayer Master)
 
 ## Licença
 
-Copyright © 2023 Gabriel Oliveira da Silva (mais conhecido como: Teo Gabriel)
+Copyright © 2023 Teo Gabriel
 
 Projeto Master é um software livre; você pode redistribuí-lo e/ou
 modificá-lo sob os termos da Licença Pública Affero GNU como publicada
