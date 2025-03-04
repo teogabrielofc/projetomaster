@@ -11,7 +11,7 @@ O Projeto Master é uma tentativa de recriar o servidor do aplicativo Multiplaye
 ### ⚠️ Aplicativo:
 - **Conexão do Servidor**
     - ✅ Listas de jogos disponíveis e outras funcionalidades que se comunicam com os servidores selecionados quando você abre o aplicativo.
-    - ⚠️ Contas, lista de atualizações e outras funcionalidades que não se comunicam diretamente com os servidores selecionados.
+    - ❌ Contas, lista de atualizações e outras funcionalidades que não se comunicam diretamente com os servidores selecionados.
 
 ### ❌ Servidor:
 - ❌ Servidores (aqueles em que você joga no Minecraft e também os que você escolhe no início)
